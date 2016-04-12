@@ -1,0 +1,690 @@
+{\rtf1\ansi\ansicpg1252{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil\fcharset0 Times New Roman;}{\f2\fnil\fcharset0 Times New Roman;}{\f3\fnil\fcharset0 Times New Roman;}{\f4\fnil\fcharset0 Times New Roman;}}{\colortbl ;\red0 \green0 \blue0;\red51 \green51 \blue51;\red102 \green102 \blue102;\red153 \green153 \blue153;\red0 \green0 \blue255;}{\info{\doccomm DocumentCreationInfo}}\jexpand\dntblnsbdb\viewkind1\paperw12240\paperh15840\margl620\margr620\margt600\margb280\sectd\sbkpage\pgnrestart\pgnstarts1\headery0\footery524
+{\footer 
+{\shp{\*\shpinst\shpleft11011\shpright11560\shptop15096\shpbottom15336\shpbxpage\shpbypage\shpwr3\shpfblwtxt1\shpz0\shplid19{\sp{\sn fBehindDocument}{\sv 1}}{\sp{\sn shapeType}{\sv 202}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn txflTextFlow}{\sv 0}}{\sp{\sn fFilled}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn dxTextLeft}{\sv 0}}{\sp{\sn dxTextRight}{\sv 0}}{\sp{\sn dyTextTop}{\sv 0}}{\sp{\sn dyTextBottom}{\sv 0}}{\shptxt\pard\li20\sl-224\f3\fs20\b0\expnd0\expndtw0\charscalex100 Page{\field {\*\fldinst { PAGE }}}\par}}}
+\pard\sl-200\fs20\par}\pard\li100\sl240\slmult1\sb57\f4\fs40\b1\expnd0\expndtw0\charscalex100\cf2 Manish\expnd0\expndtw0  \expnd0\expndtw0 Rawat\b0\cf1\par
+{\shp{\*\shpinst
+\shpleft720\shptop717\shpright11520\shpbottom717
+\shpfhdr0\shpwr3\shpwrk0\shpfblwtxt1\shplid63\shpz0
+\shpbxpage\shpbypara{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 10800}}
+{\sp{\sn geoBottom}{\sv 0}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;2;(0,0);(10800,0)}}
+{\sp{\sn pSegmentInfo}{\sv 2;5;16384;45824;1;45824;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 12700}}
+{\sp{\sn lineColor}{\sv 8355711}}
+{\sp{\sn fLine}{\sv 1}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+\pard\li100\sl-294\sb76\f3\fs26\b0\expnd0\expndtw0\dn1\charscalex100\cf2 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator\expnd0\expndtw0  \expnd0\expndtw0 at\expnd0\expndtw0  \expnd0\expndtw0 Ericsson\up0\cf1\par\pard\sl-110\sb5\fs11\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\li100\sl240\slmult1\sb18\f3\fs32\b0\expnd0\expndtw0\charscalex100\cf4 Summary\cf1\par\pard\sl-150\sb2\fs15\par\pard\li100\sl240\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Working\expnd0\expndtw0  \expnd0\expndtw0 as\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 Ericsson.\expnd0\expndtw0  \expnd0\expndtw0 Previously\expnd0\expndtw0  \expnd0\expndtw0 worked\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Aircel\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 Enhance\expnd0\expndtw0  \expnd0\expndtw0 System\expnd0\expndtw0  \expnd0\expndtw0 Pvt.\expnd0\expndtw0  \expnd0\expndtw0 Ltd.\par\pard\sl-190\sb6\fs19\par\pard\sl-200\fs20\par\pard\li100\ri907\sl292\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Experiance\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 managing\expnd0\expndtw0  \expnd0\expndtw0 entire\expnd0\expndtw0  \expnd0\expndtw0 functionality\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 like\expnd0\expndtw0  \expnd0\expndtw0 manging\expnd0\expndtw0  \expnd0\expndtw0 content\expnd0\expndtw0  \expnd0\expndtw0 resourses,\expnd0\expndtw0  \expnd0\expndtw0 creation\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 online,\f3  classroom\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 blended\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 LMS.\par\pard\sl-130\sb8\fs13\par\pard\sl-200\fs20\par\pard\li100\ri307\sl292\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Currently\expnd0\expndtw0  \expnd0\expndtw0 working\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 Plateau\expnd0\expndtw0  \expnd0\expndtw0 LMS.\expnd0\expndtw0  \expnd0\expndtw0 Having\expnd0\expndtw0  \expnd0\expndtw0 experiance\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 work\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 Learning\expnd0\expndtw0  \expnd0\expndtw0 Management\expnd0\expndtw0  \expnd0\expndtw0 System\expnd0\expndtw0  \expnd0\expndtw0 like\expnd0\expndtw0  \expnd0\expndtw0 SABA\f3  (Version\expnd0\expndtw0  \expnd0\expndtw0 5.4\expnd0\expndtw0  \expnd0\expndtw0 SP3),\expnd0\expndtw0  \expnd0\expndtw0 Upside\expnd0\expndtw0  \expnd0\expndtw0 (Version\expnd0\expndtw0  \expnd0\expndtw0 4.6.0),\expnd0\expndtw0  \expnd0\expndtw0 Enhance.\par\pard\sl-130\sb8\fs13\par\pard\sl-200\fs20\par\pard\li100\ri3113\sl584\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Knowledge\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 eLearning\expnd0\expndtw0  \expnd0\expndtw0 domain\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 eLearning\expnd0\expndtw0  \expnd0\expndtw0 standards\expnd0\expndtw0  \expnd0\expndtw0 (AICC\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 SCORM).\f3  Handling\expnd0\expndtw0  \expnd0\expndtw0 Tier\expnd0\expndtw0  \expnd0\expndtw0 2\expnd0\expndtw0  \expnd0\expndtw0 tickets/issues.\par\pard\li100\sl240\slmult1\sb14\f3\fs24\b0\expnd0\expndtw0\charscalex100 Knowledge\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 Adhoc\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 Certification\expnd0\expndtw0  \expnd0\expndtw0 (Internal/External)\expnd0\expndtw0  \expnd0\expndtw0 related\expnd0\expndtw0  \expnd0\expndtw0 queries\expnd0\expndtw0  \expnd0\expndtw0 resolution.\par\pard\li100\ri87\sl670\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100 Knowledge\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 project\expnd0\expndtw0  \expnd0\expndtw0 life\expnd0\expndtw0  \expnd0\expndtw0 cycles,\expnd0\expndtw0  \expnd0\expndtw0 part\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 team\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 customization,\expnd0\expndtw0  \expnd0\expndtw0 implementation\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 deployment\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS.\f3  Work\expnd0\expndtw0  \expnd0\expndtw0 closely\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Content\expnd0\expndtw0  \expnd0\expndtw0 vendors\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 publishing,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 management\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 content.\expnd0\expndtw0  \expnd0\expndtw0 Upload\expnd0\expndtw0  \expnd0\expndtw0 or\par\pard\li100\sl240\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100 set\expnd0\expndtw0  \expnd0\expndtw0 up\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 system\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 uploading\expnd0\expndtw0  \expnd0\expndtw0 various\expnd0\expndtw0  \expnd0\expndtw0 resources\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 eLearning\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS.\par\pard\sl-190\sb6\fs19\par\pard\sl-200\fs20\par\pard\li100\sl240\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Constructs\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 reports\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 satisfy\expnd0\expndtw0  \expnd0\expndtw0 specific\expnd0\expndtw0  \expnd0\expndtw0 training,\expnd0\expndtw0  \expnd0\expndtw0 business,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 audit\expnd0\expndtw0  \expnd0\expndtw0 requirements.\par\pard\sl-190\sb6\fs19\par\pard\sl-200\fs20\par\pard\li100\ri279\sl292\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Provides\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 Circle\expnd0\expndtw0  \expnd0\expndtw0 Training\expnd0\expndtw0  \expnd0\expndtw0 Managers,\expnd0\expndtw0  \expnd0\expndtw0 Trainers\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 apply\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 functionality\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 support\f3  of\expnd0\expndtw0  \expnd0\expndtw0 their\expnd0\expndtw0  \expnd0\expndtw0 individual\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 business\expnd0\expndtw0  \expnd0\expndtw0 needs.\par\pard\sl-130\sb8\fs13\par\pard\sl-200\fs20\par\pard\li100\ri201\sl292\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100 Performing\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 creating\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 executing\expnd0\expndtw0  \expnd0\expndtw0 test\expnd0\expndtw0  \expnd0\expndtw0 plan\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 UAT\expnd0\expndtw0  \expnd0\expndtw0 before\expnd0\expndtw0  \expnd0\expndtw0 new\expnd0\expndtw0  \expnd0\expndtw0 phase\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 release.\f3  Raise\expnd0\expndtw0  \expnd0\expndtw0 issues\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 project\expnd0\expndtw0  \expnd0\expndtw0 team\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 ensure\expnd0\expndtw0  \expnd0\expndtw0 their\expnd0\expndtw0  \expnd0\expndtw0 resolution\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 time\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 go-live\par
+{\shp{\*\shpinst
+\shpleft720\shptop1543\shpright11520\shpbottom1543
+\shpfhdr0\shpwr3\shpwrk0\shpfblwtxt1\shplid64\shpz1
+\shpbxpage\shpbypara{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 10800}}
+{\sp{\sn geoBottom}{\sv 0}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;2;(0,0);(10800,0)}}
+{\sp{\sn pSegmentInfo}{\sv 2;5;16384;45824;1;45824;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 12700}}
+{\sp{\sn lineColor}{\sv 8355711}}
+{\sp{\sn fLine}{\sv 1}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+\pard\li100\ri3199\sl-672\sb25\f3\fs24\b0\expnd0\expndtw0\charscalex100 Knowledge\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 integration\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 other\expnd0\expndtw0  \expnd0\expndtw0 system\expnd0\expndtw0  \expnd0\expndtw0 like\expnd0\expndtw0  \expnd0\expndtw0 SAP,\expnd0\expndtw0  \expnd0\expndtw0 LDAP\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 HRMS.\f3  Accessing\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 working\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 live\expnd0\expndtw0  \expnd0\expndtw0 database\expnd0\expndtw0  \expnd0\expndtw0 server\expnd0\expndtw0  \expnd0\expndtw0 if\expnd0\expndtw0  \expnd0\expndtw0 required.\par\pard\sl-140\sb1\fs14\par\pard\sl-200\fs20\par\pard\li100\sl240\slmult1\sb18\f3\fs32\b0\expnd0\expndtw0\charscalex100\cf4 Experience\cf1\par\pard\sl-110\sb4\fs11\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 at\expnd0\expndtw0   \expnd0\expndtw0  \expnd0\expndtw0 Ericsson\b0\par\pard\li100\sl240\slmult1\sb25\f3\fs24\b0\expnd0\expndtw0\charscalex100 September\expnd0\expndtw0  \expnd0\expndtw0 2013\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 -\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 Present\expnd0\expndtw0  \expnd0\expndtw0\cf4 (10\expnd0\expndtw0  \expnd0\expndtw0 months)\cf1\par\pard\sl-100\sb4\fs10\par\pard\li316\sl240\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Manage\expnd0\expndtw0  \expnd0\expndtw0 Plateau\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 support/process\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 Regions.\cf1\par\sect\sectd\sbkpage\headery0\footery524\margtsxn700\pard\li316\sl240\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Responsible\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 timely\expnd0\expndtw0  \expnd0\expndtw0 resolution\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 issues.\cf1\par\pard\li316\ri1897\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Responsible\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 creating\expnd0\expndtw0  \expnd0\expndtw0 Web\expnd0\expndtw0  \expnd0\expndtw0 based\expnd0\expndtw0  \expnd0\expndtw0 training,\expnd0\expndtw0  \expnd0\expndtw0 classroom\expnd0\expndtw0  \expnd0\expndtw0 training,\expnd0\expndtw0  \expnd0\expndtw0 blanded\expnd0\expndtw0  \expnd0\expndtw0 courses\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 LMS.\f3  Upload\expnd0\expndtw0  \expnd0\expndtw0 or\expnd0\expndtw0  \expnd0\expndtw0 set\expnd0\expndtw0  \expnd0\expndtw0 up\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 system\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 uploading\expnd0\expndtw0  \expnd0\expndtw0 various\expnd0\expndtw0  \expnd0\expndtw0 resources\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 content\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS.\f3  Constructs\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 reports\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 satisfy\expnd0\expndtw0  \expnd0\expndtw0 specific\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 business\expnd0\expndtw0  \expnd0\expndtw0 requirements.\f3  Supporting\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 Adhoc\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 certification\expnd0\expndtw0  \expnd0\expndtw0 (Internal/External)\expnd0\expndtw0  \expnd0\expndtw0 related\expnd0\expndtw0  \expnd0\expndtw0 issues.\cf1\par\pard\li316\ri1284\sl292\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Performing\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 executing\expnd0\expndtw0  \expnd0\expndtw0 test\expnd0\expndtw0  \expnd0\expndtw0 plan\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 UAT\expnd0\expndtw0  \expnd0\expndtw0 before\expnd0\expndtw0  \expnd0\expndtw0 new\expnd0\expndtw0  \expnd0\expndtw0 phase\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 release\f3  coordinating\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Global\expnd0\expndtw0  \expnd0\expndtw0 Support\expnd0\expndtw0  \expnd0\expndtw0 Team\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 resolving\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 related\expnd0\expndtw0  \expnd0\expndtw0 issues.\cf1\par\pard\li316\sl240\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Manging\expnd0\expndtw0  \expnd0\expndtw0 entire\expnd0\expndtw0  \expnd0\expndtw0 work\expnd0\expndtw0  \expnd0\expndtw0 tracker\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 regions.\cf1\par\pard\sl-100\sb2\fs10\par\pard\sl-200\fs20\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 at\expnd0\expndtw0   \expnd0\expndtw0  \expnd0\expndtw0 Aircel\b0\par\pard\li100\sl240\slmult1\sb25\f3\fs24\b0\expnd0\expndtw0\charscalex100 November\expnd0\expndtw0  \expnd0\expndtw0 2011\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 -\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 September\expnd0\expndtw0  \expnd0\expndtw0 2013\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0\cf4 (1\expnd0\expndtw0  \expnd0\expndtw0 year\expnd0\expndtw0  \expnd0\expndtw0 11\expnd0\expndtw0  \expnd0\expndtw0 months)\cf1\par\pard\sl-100\sb4\fs10\par\pard\li316\ri1084\sl292\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Working\expnd0\expndtw0  \expnd0\expndtw0 as\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator.\expnd0\expndtw0  \expnd0\expndtw0 Managing\expnd0\expndtw0  \expnd0\expndtw0 online\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 offline\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 Aircel,\expnd0\expndtw0  \expnd0\expndtw0 Handling\expnd0\expndtw0  \expnd0\expndtw0 Tier\expnd0\expndtw0  \expnd0\expndtw0 2\f3  tickets/issues.\cf1\par\pard\li316\ri123\sl292\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Work\expnd0\expndtw0  \expnd0\expndtw0 closely\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Content\expnd0\expndtw0  \expnd0\expndtw0 vendors\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 publishing,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 management\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 content.\expnd0\expndtw0  \expnd0\expndtw0 Upload\expnd0\expndtw0  \expnd0\expndtw0 or\f3  set\expnd0\expndtw0  \expnd0\expndtw0 up\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 system\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 uploading\expnd0\expndtw0  \expnd0\expndtw0 various\expnd0\expndtw0  \expnd0\expndtw0 resources\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 content\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS.\cf1\par\pard\li316\sl240\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Constructs\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 reports\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 satisfy\expnd0\expndtw0  \expnd0\expndtw0 specific\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 business\expnd0\expndtw0  \expnd0\expndtw0 requirements.\cf1\par\pard\li316\ri63\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Provides\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 Circle\expnd0\expndtw0  \expnd0\expndtw0 Training\expnd0\expndtw0  \expnd0\expndtw0 Managers,\expnd0\expndtw0  \expnd0\expndtw0 Trainers\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 apply\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 functionality\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 support\f3  of\expnd0\expndtw0  \expnd0\expndtw0 their\expnd0\expndtw0  \expnd0\expndtw0 individual\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 business\expnd0\expndtw0  \expnd0\expndtw0 needs.\cf1\par\pard\li316\ri771\sl292\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Gap\expnd0\expndtw0  \expnd0\expndtw0 analysis\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 business\expnd0\expndtw0  \expnd0\expndtw0 requirement\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 features\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 current\expnd0\expndtw0  \expnd0\expndtw0 product\expnd0\expndtw0  \expnd0\expndtw0 suite\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 proposing\expnd0\expndtw0  \expnd0\expndtw0 optimal\f3  solutions\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 writing\expnd0\expndtw0  \expnd0\expndtw0 specification\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 same\cf1\par\pard\li316\sl240\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Performing\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 creating\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 executing\expnd0\expndtw0  \expnd0\expndtw0 test\expnd0\expndtw0  \expnd0\expndtw0 plan\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 UAT\expnd0\expndtw0  \expnd0\expndtw0 before\expnd0\expndtw0  \expnd0\expndtw0 new\expnd0\expndtw0  \expnd0\expndtw0 phase\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 LMS\cf1\par\pard\li316\sl240\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 release\cf1\par\pard\li316\ri1103\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Part\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 team\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 Customization,\expnd0\expndtw0  \expnd0\expndtw0 Implementation\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 deployment\expnd0\expndtw0  \expnd0\expndtw0 Upside\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 Aircel.\f3  coordinating\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Application\expnd0\expndtw0  \expnd0\expndtw0 vendor\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 resolving\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 issues.\cf1\par\pard\li316\sl240\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Managing\expnd0\expndtw0  \expnd0\expndtw0 virtual\expnd0\expndtw0  \expnd0\expndtw0 classroom\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 session\expnd0\expndtw0  \expnd0\expndtw0 data.\cf1\par\pard\li316\sl240\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Accessing\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 working\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 live\expnd0\expndtw0  \expnd0\expndtw0 database\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 servers\expnd0\expndtw0  \expnd0\expndtw0 when\expnd0\expndtw0  \expnd0\expndtw0 require\cf1\par\pard\sl-100\sb2\fs10\par\pard\sl-200\fs20\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 at\expnd0\expndtw0   \expnd0\expndtw0  \expnd0\expndtw0 Enhance\expnd0\expndtw0  \expnd0\expndtw0 System\expnd0\expndtw0  \expnd0\expndtw0 Pvt.\expnd0\expndtw0  \expnd0\expndtw0 Ltd\b0\par\pard\li316\fi-216\ri5853\sl330\slmult1\sb25\f3\fs24\b0\expnd0\expndtw0\charscalex100 October\expnd0\expndtw0  \expnd0\expndtw0 2010\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 -\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 November\expnd0\expndtw0  \expnd0\expndtw0 2011\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0\cf4 (1\expnd0\expndtw0  \expnd0\expndtw0 year\expnd0\expndtw0  \expnd0\expndtw0 2\expnd0\expndtw0  \expnd0\expndtw0 months)\f3  \cf3 Projects:\cf1\par\pard\li316\sl-236\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Saba\expnd0\expndtw0  \expnd0\expndtw0 Learning\expnd0\expndtw0  \expnd0\expndtw0 Management\expnd0\expndtw0  \expnd0\expndtw0 System:\cf1\par\pard\sl-190\sb6\fs19\par\pard\sl-200\fs20\par\pard\li316\sl240\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Key\expnd0\expndtw0  \expnd0\expndtw0 responsibilities-\cf1\par\pard\sl-190\sb6\fs19\par\pard\sl-200\fs20\par\pard\li316\ri5577\sl292\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Worked\expnd0\expndtw0  \expnd0\expndtw0 as\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 LMS;\expnd0\expndtw0  \expnd0\expndtw0 .\expnd0\expndtw0  \expnd0\expndtw0 Managed\expnd0\expndtw0  \expnd0\expndtw0 e-Learning\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 Aircel.\f3  Handled\expnd0\expndtw0  \expnd0\expndtw0 Tier\expnd0\expndtw0  \expnd0\expndtw0 1/2\expnd0\expndtw0  \expnd0\expndtw0 tickets/issues.\cf1\par\pard\li316\ri123\sl292\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Work\expnd0\expndtw0  \expnd0\expndtw0 closely\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Content\expnd0\expndtw0  \expnd0\expndtw0 vendors\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 publishing,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 management\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 content.\expnd0\expndtw0  \expnd0\expndtw0 Upload\expnd0\expndtw0  \expnd0\expndtw0 or\f3  set\expnd0\expndtw0  \expnd0\expndtw0 up\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 system\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 uploading\expnd0\expndtw0  \expnd0\expndtw0 various\expnd0\expndtw0  \expnd0\expndtw0 resources\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 content\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS\cf1\par\pard\li316\sl240\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Constructs\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 reports\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 satisfy\expnd0\expndtw0  \expnd0\expndtw0 specific\expnd0\expndtw0  \expnd0\expndtw0 training,\expnd0\expndtw0  \expnd0\expndtw0 business,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 audit\expnd0\expndtw0  \expnd0\expndtw0 requirements\cf1\par\pard\li316\ri65\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Managed\expnd0\expndtw0  \expnd0\expndtw0 major\expnd0\expndtw0  \expnd0\expndtw0 functionality\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 like\expnd0\expndtw0  \expnd0\expndtw0 People\expnd0\expndtw0  \expnd0\expndtw0 Administration,\expnd0\expndtw0  \expnd0\expndtw0 Content\expnd0\expndtw0  \expnd0\expndtw0 Administration,\expnd0\expndtw0  \expnd0\expndtw0 Catalog\f3  Administration,\expnd0\expndtw0  \expnd0\expndtw0 Business\expnd0\expndtw0  \expnd0\expndtw0 Rules(configuration\expnd0\expndtw0  \expnd0\expndtw0 options\expnd0\expndtw0  \expnd0\expndtw0 that\expnd0\expndtw0  \expnd0\expndtw0 determine\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 behavior\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 system.),reporting.\f3  Performed\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 creating\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 executing\expnd0\expndtw0  \expnd0\expndtw0 test\expnd0\expndtw0  \expnd0\expndtw0 plan\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 UAT\expnd0\expndtw0  \expnd0\expndtw0 before\expnd0\expndtw0  \expnd0\expndtw0 new\expnd0\expndtw0  \expnd0\expndtw0 phase\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 release\cf1\par\sect\sectd\sbkpage\headery0\footery524\margtsxn700\pard\li316\ri2531\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Participated\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 technical\expnd0\expndtw0  \expnd0\expndtw0 meetings\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 members\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 project,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 IT\expnd0\expndtw0  \expnd0\expndtw0 management.\f3  Understand\expnd0\expndtw0  \expnd0\expndtw0 requirement\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 suggest\expnd0\expndtw0  \expnd0\expndtw0 solutions\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 support\expnd0\expndtw0  \expnd0\expndtw0 those\expnd0\expndtw0  \expnd0\expndtw0 within\expnd0\expndtw0  \expnd0\expndtw0 SABA\cf1\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-260\sb14\fs26\par\pard\li316\ri6743\sl584\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Enhance\expnd0\expndtw0  \expnd0\expndtw0 Learning\expnd0\expndtw0  \expnd0\expndtw0 Management\expnd0\expndtw0  \expnd0\expndtw0 System:\f3  Key\expnd0\expndtw0  \expnd0\expndtw0 responsibilities-\cf1\par\pard\li316\sl240\slmult1\sb14\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Worked\expnd0\expndtw0  \expnd0\expndtw0 as\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator.\expnd0\expndtw0  \expnd0\expndtw0 Managed\expnd0\expndtw0  \expnd0\expndtw0 e-Learning\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 ICICI.\cf1\par\pard\li316\ri90\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Work\expnd0\expndtw0  \expnd0\expndtw0 closely\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 Content\expnd0\expndtw0  \expnd0\expndtw0 team\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 publishing,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 management\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 content.\expnd0\expndtw0  \expnd0\expndtw0 Upload\expnd0\expndtw0  \expnd0\expndtw0 or\expnd0\expndtw0  \expnd0\expndtw0 set\f3  up\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 system\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 uploading\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 e-learning\expnd0\expndtw0  \expnd0\expndtw0 content\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 LMS.\cf1\par\pard\li316\sl240\slmult1\sb2\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Constructs\expnd0\expndtw0  \expnd0\expndtw0 training\expnd0\expndtw0  \expnd0\expndtw0 reports\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 satisfy\expnd0\expndtw0  \expnd0\expndtw0 specific\expnd0\expndtw0  \expnd0\expndtw0 training,\expnd0\expndtw0  \expnd0\expndtw0 business,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 audit\expnd0\expndtw0  \expnd0\expndtw0 requirements\cf1\par\pard\li316\sl240\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Part\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 team\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 Customization,\expnd0\expndtw0  \expnd0\expndtw0 Implementation,\expnd0\expndtw0  \expnd0\expndtw0 deploying\expnd0\expndtw0  \expnd0\expndtw0 Enhance\expnd0\expndtw0  \expnd0\expndtw0 LMS.\cf1\par\pard\li316\sl240\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Performed\expnd0\expndtw0  \expnd0\expndtw0 application\expnd0\expndtw0  \expnd0\expndtw0 testing,\expnd0\expndtw0  \expnd0\expndtw0 creating\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 executing\expnd0\expndtw0  \expnd0\expndtw0 test\expnd0\expndtw0  \expnd0\expndtw0 plan\expnd0\expndtw0  \expnd0\expndtw0 during\expnd0\expndtw0  \expnd0\expndtw0 UAT\expnd0\expndtw0  \expnd0\expndtw0 before\expnd0\expndtw0  \expnd0\expndtw0 new\expnd0\expndtw0  \expnd0\expndtw0 phase\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 LMS\expnd0\expndtw0  \expnd0\expndtw0 release\cf1\par\pard\li316\ri2531\sl292\slmult1\sb60\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Participated\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 technical\expnd0\expndtw0  \expnd0\expndtw0 meetings\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 members\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 project,\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 IT\expnd0\expndtw0  \expnd0\expndtw0 management.\f3  Raise\expnd0\expndtw0  \expnd0\expndtw0 issues\expnd0\expndtw0  \expnd0\expndtw0 with\expnd0\expndtw0  \expnd0\expndtw0 project\expnd0\expndtw0  \expnd0\expndtw0 team\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 ensure\expnd0\expndtw0  \expnd0\expndtw0 their\expnd0\expndtw0  \expnd0\expndtw0 resolution\expnd0\expndtw0  \expnd0\expndtw0 in\expnd0\expndtw0  \expnd0\expndtw0 time\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 go-live.\cf1\par\pard\sl-240\sb5\fs24\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 Software\expnd0\expndtw0  \expnd0\expndtw0 Trainee\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 at\expnd0\expndtw0   \expnd0\expndtw0  \expnd0\expndtw0 Estel\expnd0\expndtw0  \expnd0\expndtw0 Technologies\b0\par\pard\li100\sl240\slmult1\sb25\f3\fs24\b0\expnd0\expndtw0\charscalex100 March\expnd0\expndtw0  \expnd0\expndtw0 2010\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 -\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 June\expnd0\expndtw0  \expnd0\expndtw0 2010\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0\cf4 (4\expnd0\expndtw0  \expnd0\expndtw0 months)\cf1\par\pard\sl-100\sb4\fs10\par\pard\li316\sl240\slmult1\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Worked\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 project\expnd0\expndtw0  \expnd0\expndtw0 named\expnd0\expndtw0  \expnd0\expndtw0 \'94Complaint\expnd0\expndtw0  \expnd0\expndtw0 Locking\expnd0\expndtw0  \expnd0\expndtw0 System\'94\expnd0\expndtw0  \expnd0\expndtw0 using\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 jsp,\expnd0\expndtw0  \expnd0\expndtw0 Servlet,\expnd0\expndtw0  \expnd0\expndtw0 JavaScript,\expnd0\expndtw0  \expnd0\expndtw0 AJAX\expnd0\expndtw0  \expnd0\expndtw0  \expnd0\expndtw0 etc\cf1\par\pard\sl-150\sb1\fs15\par\pard\sl-200\fs20\par
+{\shp{\*\shpinst
+\shpleft720\shptop1865\shpright11520\shpbottom1865
+\shpfhdr0\shpwr3\shpwrk0\shpfblwtxt1\shplid140\shpz2
+\shpbxpage\shpbypara{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 10800}}
+{\sp{\sn geoBottom}{\sv 0}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;2;(0,0);(10800,0)}}
+{\sp{\sn pSegmentInfo}{\sv 2;5;16384;45824;1;45824;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 12700}}
+{\sp{\sn lineColor}{\sv 8355711}}
+{\sp{\sn fLine}{\sv 1}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+\pard\li316\ri217\sl-336\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf3 Brief\expnd0\expndtw0  \expnd0\expndtw0 Detail:\expnd0\expndtw0  \expnd0\expndtw0 The\expnd0\expndtw0  \expnd0\expndtw0 Complaint\expnd0\expndtw0  \expnd0\expndtw0 Locking\expnd0\expndtw0  \expnd0\expndtw0 System\expnd0\expndtw0  \expnd0\expndtw0 provides\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 secure\expnd0\expndtw0  \expnd0\expndtw0 platform\expnd0\expndtw0  \expnd0\expndtw0 for\expnd0\expndtw0  \expnd0\expndtw0 receiving\expnd0\expndtw0  \expnd0\expndtw0 customer\expnd0\expndtw0  \expnd0\expndtw0 complaints\f3  and\expnd0\expndtw0  \expnd0\expndtw0 storing\expnd0\expndtw0  \expnd0\expndtw0 all\expnd0\expndtw0  \expnd0\expndtw0 subsequent\expnd0\expndtw0  \expnd0\expndtw0 documentation\expnd0\expndtw0  \expnd0\expndtw0 pertaining\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 investigation\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 correction\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 problem.\expnd0\expndtw0  \expnd0\expndtw0 The\f3  solution\expnd0\expndtw0  \expnd0\expndtw0 offers\expnd0\expndtw0  \expnd0\expndtw0 the\expnd0\expndtw0  \expnd0\expndtw0 capability\expnd0\expndtw0  \expnd0\expndtw0 to\expnd0\expndtw0  \expnd0\expndtw0 formalize\expnd0\expndtw0  \expnd0\expndtw0 and\expnd0\expndtw0  \expnd0\expndtw0 standardize\expnd0\expndtw0  \expnd0\expndtw0 complaint\expnd0\expndtw0  \expnd0\expndtw0 handling\expnd0\expndtw0  \expnd0\expndtw0 through\expnd0\expndtw0  \expnd0\expndtw0 a\expnd0\expndtw0  \expnd0\expndtw0 simple\expnd0\expndtw0  \expnd0\expndtw0 well\expnd0\expndtw0  \expnd0\expndtw0 planned\f3  approach.\cf1\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-280\sb8\fs28\par\pard\li100\sl240\slmult1\sb18\f3\fs32\b0\expnd0\expndtw0\charscalex100\cf4 Skills\expnd0\expndtw0  \expnd0\expndtw0 &\expnd0\expndtw0  \expnd0\expndtw0 Expertise\cf1\par\pard\sl-110\sb4\fs11\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 Learning\expnd0\expndtw0  \expnd0\expndtw0 Management\expnd0\expndtw0  \expnd0\expndtw0 Systems\b0\par\pard\li100\sl240\slmult1\sb3\f4\fs24\b1\expnd0\expndtw0\charscalex100 Java\b0\par\pard\li100\sl240\slmult1\sb3\f4\fs24\b1\expnd0\expndtw0\charscalex100 Microsoft\expnd0\expndtw0  \expnd0\expndtw0 SQL\expnd0\expndtw0  \expnd0\expndtw0 Server\b0\par
+{\shp{\*\shpinst
+\shpleft720\shptop796\shpright11520\shpbottom796
+\shpfhdr0\shpwr3\shpwrk0\shpfblwtxt1\shplid141\shpz3
+\shpbxpage\shpbypara{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 10800}}
+{\sp{\sn geoBottom}{\sv 0}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;2;(0,0);(10800,0)}}
+{\sp{\sn pSegmentInfo}{\sv 2;5;16384;45824;1;45824;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 12700}}
+{\sp{\sn lineColor}{\sv 8355711}}
+{\sp{\sn fLine}{\sv 1}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+\pard\li100\ri10125\sl243\slmult1\sb3\f4\fs24\b1\expnd0\expndtw0\charscalex100 HTML\f4  AJAX\b0\par\pard\sl-200\fs20\par\pard\sl-200\sb1\fs20\par\pard\li100\sl240\slmult1\sb18\f3\fs32\b0\expnd0\expndtw0\charscalex100\cf4 Education\cf1\par\pard\sl-110\sb4\fs11\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 I.M.S\expnd0\expndtw0  \expnd0\expndtw0 Engineering\expnd0\expndtw0  \expnd0\expndtw0 College,Ghaziabad\b0\par\pard\li100\sl240\slmult1\sb21\f3\fs24\b0\expnd0\expndtw0\charscalex100 M.C.A,\expnd0\expndtw0  \expnd0\expndtw0 Computer\expnd0\expndtw0  \expnd0\expndtw0 Science,\expnd0\expndtw0  \expnd0\expndtw0 2007\expnd0\expndtw0  \expnd0\expndtw0 -\expnd0\expndtw0  \expnd0\expndtw0 2010\par\pard\sl-100\sb2\fs10\par\pard\sl-200\fs20\par\pard\li100\sl240\slmult1\f4\fs24\b1\expnd0\expndtw0\charscalex100 Bundelkhand\expnd0\expndtw0  \expnd0\expndtw0 University\b0\par
+{\shp{\*\shpinst
+\shpleft720\shptop833\shpright11520\shpbottom833
+\shpfhdr0\shpwr3\shpwrk0\shpfblwtxt1\shplid142\shpz4
+\shpbxpage\shpbypara{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 10800}}
+{\sp{\sn geoBottom}{\sv 0}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;2;(0,0);(10800,0)}}
+{\sp{\sn pSegmentInfo}{\sv 2;5;16384;45824;1;45824;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 12700}}
+{\sp{\sn lineColor}{\sv 8355711}}
+{\sp{\sn fLine}{\sv 1}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+\pard\li100\sl240\slmult1\sb21\f3\fs24\b0\expnd0\expndtw0\charscalex100 Bachelor\expnd0\expndtw0  \expnd0\expndtw0 of\expnd0\expndtw0  \expnd0\expndtw0 Science\expnd0\expndtw0  \expnd0\expndtw0 (BSc),\expnd0\expndtw0  \expnd0\expndtw0 2004\expnd0\expndtw0  \expnd0\expndtw0 -\expnd0\expndtw0  \expnd0\expndtw0 2007\par\sect\sectd\sbkpage\headery0\footery524
+{\shpgrp{\*\shpinst\shplid158
+\shpleft2372\shptop1442\shpright3087\shpbottom2060\shpfhdr0
+\shpbxpage\shpbypara\shpwr3\shpwrk0\shpfblwtxt1\shpz6
+{\sp{\sn groupLeft}{\sv 2372}}
+{\sp{\sn groupTop}{\sv 1442}}
+{\sp{\sn groupRight}{\sv 3087}}
+{\sp{\sn groupBottom}{\sv 2060}}
+{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid159
+{\sp{\sn relLeft}{\sv 2382}}
+{\sp{\sn relTop}{\sv 1452}}
+{\sp{\sn relRight}{\sv 2976}}
+{\sp{\sn relBottom}{\sv 2050}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 594}}
+{\sp{\sn geoBottom}{\sv 598}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;17;(0,42);(5,21);(20,6);(42,0);(550,0);(571,5);(587,20);(593,41);(593,554);(588,576);(573,591);(551,597);(43,597);(22,592);(6,577);(0,556);(0,42)}}
+{\sp{\sn pSegmentInfo}{\sv 2;36;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 12237498}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shpgrp{\*\shpinst\shplid160
+{\sp{\sn groupLeft}{\sv 2467}}
+{\sp{\sn groupTop}{\sv 1552}}
+{\sp{\sn groupRight}{\sv 2568}}
+{\sp{\sn groupBottom}{\sv 1952}}
+{\sp{\sn relLeft}{\sv 2467}}
+{\sp{\sn relTop}{\sv 1552}}
+{\sp{\sn relRight}{\sv 2568}}
+{\sp{\sn relBottom}{\sv 1952}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid160
+{\sp{\sn relLeft}{\sv 2467}}
+{\sp{\sn relTop}{\sv 1552}}
+{\sp{\sn relRight}{\sv 2568}}
+{\sp{\sn relBottom}{\sv 1952}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 101}}
+{\sp{\sn geoBottom}{\sv 400}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;18;(0,46);(1,36);(9,17);(27,4);(50,0);(61,0);(82,9);(95,25);(100,46);(99,56);(91,75);(74,88);(50,93);(49,93);(39,92);(18,84);(4,68);(0,46)}}
+{\sp{\sn pSegmentInfo}{\sv 2;38;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid160
+{\sp{\sn relLeft}{\sv 2472}}
+{\sp{\sn relTop}{\sv 1682}}
+{\sp{\sn relRight}{\sv 2561}}
+{\sp{\sn relBottom}{\sv 1951}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 1}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+
+{\shpgrp{\*\shpinst\shplid161
+{\sp{\sn groupLeft}{\sv 2612}}
+{\sp{\sn groupTop}{\sv 1676}}
+{\sp{\sn groupRight}{\sv 2886}}
+{\sp{\sn groupBottom}{\sv 1952}}
+{\sp{\sn relLeft}{\sv 2612}}
+{\sp{\sn relTop}{\sv 1676}}
+{\sp{\sn relRight}{\sv 2886}}
+{\sp{\sn relBottom}{\sv 1952}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid161
+{\sp{\sn relLeft}{\sv 2612}}
+{\sp{\sn relTop}{\sv 1676}}
+{\sp{\sn relRight}{\sv 2886}}
+{\sp{\sn relBottom}{\sv 1952}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 274}}
+{\sp{\sn geoBottom}{\sv 276}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;27;(92,103);(90,109);(89,117);(89,44);(94,37);(106,24);(121,12);(143,3);(170,0);(191,1);(211,7);(228,16);(244,29);(256,46);(265,67);(271,92);(273,121);(273,275);(184,275);(184,131);(182,110);(174,89);(160,75);(138,70);(119,74);(102,87);(92,103)}}
+{\sp{\sn pSegmentInfo}{\sv 2;56;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid161
+{\sp{\sn relLeft}{\sv 2612}}
+{\sp{\sn relTop}{\sv 1676}}
+{\sp{\sn relRight}{\sv 2886}}
+{\sp{\sn relBottom}{\sv 1952}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 274}}
+{\sp{\sn geoBottom}{\sv 276}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;11;(89,6);(89,44);(89,45);(89,45);(89,275);(0,275);(0,211);(0,129);(0,15);(0,6);(89,6)}}
+{\sp{\sn pSegmentInfo}{\sv 2;24;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 16777215}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+
+{\shpgrp{\*\shpinst\shplid162
+{\sp{\sn groupLeft}{\sv 3011}}
+{\sp{\sn groupTop}{\sv 1894}}
+{\sp{\sn groupRight}{\sv 3077}}
+{\sp{\sn groupBottom}{\sv 1960}}
+{\sp{\sn relLeft}{\sv 3011}}
+{\sp{\sn relTop}{\sv 1894}}
+{\sp{\sn relRight}{\sv 3077}}
+{\sp{\sn relBottom}{\sv 1960}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid162
+{\sp{\sn relLeft}{\sv 3011}}
+{\sp{\sn relTop}{\sv 1894}}
+{\sp{\sn relRight}{\sv 3077}}
+{\sp{\sn relBottom}{\sv 1960}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 66}}
+{\sp{\sn geoBottom}{\sv 66}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;10;(59,47);(59,17);(48,5);(17,5);(12,7);(32,0);(40,0);(58,12);(65,32);(59,47)}}
+{\sp{\sn pSegmentInfo}{\sv 2;22;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid162
+{\sp{\sn relLeft}{\sv 3011}}
+{\sp{\sn relTop}{\sv 1894}}
+{\sp{\sn relRight}{\sv 3077}}
+{\sp{\sn relBottom}{\sv 1960}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 66}}
+{\sp{\sn geoBottom}{\sv 66}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;20;(48,25);(48,31);(44,34);(39,35);(48,51);(41,51);(32,36);(28,36);(28,51);(20,51);(20,13);(34,13);(28,19);(28,30);(36,30);(41,29);(41,24);(43,13);(48,17);(48,25)}}
+{\sp{\sn pSegmentInfo}{\sv 2;42;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid162
+{\sp{\sn relLeft}{\sv 3011}}
+{\sp{\sn relTop}{\sv 1894}}
+{\sp{\sn relRight}{\sv 3077}}
+{\sp{\sn relBottom}{\sv 1960}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 66}}
+{\sp{\sn geoBottom}{\sv 66}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;7;(41,24);(41,19);(36,19);(28,19);(34,13);(43,13);(41,24)}}
+{\sp{\sn pSegmentInfo}{\sv 2;16;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid162
+{\sp{\sn relLeft}{\sv 3011}}
+{\sp{\sn relTop}{\sv 1894}}
+{\sp{\sn relRight}{\sv 3077}}
+{\sp{\sn relBottom}{\sv 1960}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 66}}
+{\sp{\sn geoBottom}{\sv 66}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;16;(65,32);(64,40);(53,58);(32,65);(25,64);(7,53);(0,32);(0,25);(12,7);(17,5);(5,17);(5,47);(17,59);(48,59);(59,47);(65,32)}}
+{\sp{\sn pSegmentInfo}{\sv 2;34;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+}}
+\pard\li100\sl240\slmult1\sb57\f4\fs40\b1\expnd0\expndtw0\charscalex100\cf2 Manish\expnd0\expndtw0  \expnd0\expndtw0 Rawat\b0\cf1\par
+{\shp{\*\shpinst
+\shpleft720\shptop717\shpright11520\shpbottom717
+\shpfhdr0\shpwr3\shpwrk0\shpfblwtxt1\shplid157\shpz5
+\shpbxpage\shpbypara{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 10800}}
+{\sp{\sn geoBottom}{\sv 0}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;2;(0,0);(10800,0)}}
+{\sp{\sn pSegmentInfo}{\sv 2;5;16384;45824;1;45824;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 0}}
+{\sp{\sn lineWidth}{\sv 12700}}
+{\sp{\sn lineColor}{\sv 8355711}}
+{\sp{\sn fLine}{\sv 1}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shpgrp{\*\shpinst\shplid163
+\shpleft710\shptop1025\shpright2304\shpbottom1452\shpfhdr0
+\shpbxpage\shpbypara\shpwr3\shpwrk0\shpfblwtxt1\shpz7
+{\sp{\sn groupLeft}{\sv 710}}
+{\sp{\sn groupTop}{\sv 1025}}
+{\sp{\sn groupRight}{\sv 2304}}
+{\sp{\sn groupBottom}{\sv 1452}}
+{\sp{\sn fFlipH}{\sv 0}}
+{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid164
+{\sp{\sn relLeft}{\sv 720}}
+{\sp{\sn relTop}{\sv 1043}}
+{\sp{\sn relRight}{\sv 967}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 247}}
+{\sp{\sn geoBottom}{\sv 392}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;7;(0,391);(0,0);(89,0);(89,311);(247,311);(247,391);(0,391)}}
+{\sp{\sn pSegmentInfo}{\sv 2;16;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shpgrp{\*\shpinst\shplid165
+{\sp{\sn groupLeft}{\sv 998}}
+{\sp{\sn groupTop}{\sv 1035}}
+{\sp{\sn groupRight}{\sv 1100}}
+{\sp{\sn groupBottom}{\sv 1435}}
+{\sp{\sn relLeft}{\sv 998}}
+{\sp{\sn relTop}{\sv 1035}}
+{\sp{\sn relRight}{\sv 1100}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid165
+{\sp{\sn relLeft}{\sv 998}}
+{\sp{\sn relTop}{\sv 1035}}
+{\sp{\sn relRight}{\sv 1100}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 102}}
+{\sp{\sn geoBottom}{\sv 400}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;18;(0,47);(1,36);(10,17);(27,4);(50,0);(62,1);(83,9);(96,25);(101,47);(100,57);(91,76);(74,89);(50,93);(49,93);(39,93);(18,84);(4,68);(0,47)}}
+{\sp{\sn pSegmentInfo}{\sv 2;38;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid165
+{\sp{\sn relLeft}{\sv 1003}}
+{\sp{\sn relTop}{\sv 1165}}
+{\sp{\sn relRight}{\sv 1092}}
+{\sp{\sn relBottom}{\sv 1434}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 1}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+
+{\shpgrp{\*\shpinst\shplid166
+{\sp{\sn groupLeft}{\sv 1135}}
+{\sp{\sn groupTop}{\sv 1159}}
+{\sp{\sn groupRight}{\sv 1408}}
+{\sp{\sn groupBottom}{\sv 1435}}
+{\sp{\sn relLeft}{\sv 1135}}
+{\sp{\sn relTop}{\sv 1159}}
+{\sp{\sn relRight}{\sv 1408}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid166
+{\sp{\sn relLeft}{\sv 1135}}
+{\sp{\sn relTop}{\sv 1159}}
+{\sp{\sn relRight}{\sv 1408}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 273}}
+{\sp{\sn geoBottom}{\sv 276}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;27;(92,103);(90,109);(89,117);(89,44);(94,37);(106,24);(121,12);(143,3);(170,0);(191,1);(211,7);(228,16);(244,29);(256,46);(265,67);(271,92);(273,121);(273,275);(184,275);(184,131);(182,110);(174,89);(160,75);(138,70);(119,74);(102,87);(92,103)}}
+{\sp{\sn pSegmentInfo}{\sv 2;56;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid166
+{\sp{\sn relLeft}{\sv 1135}}
+{\sp{\sn relTop}{\sv 1159}}
+{\sp{\sn relRight}{\sv 1408}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 273}}
+{\sp{\sn geoBottom}{\sv 276}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;11;(89,6);(89,44);(89,45);(89,45);(89,275);(0,275);(0,212);(0,129);(0,15);(0,6);(89,6)}}
+{\sp{\sn pSegmentInfo}{\sv 2;24;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+
+{\shp{\*\shpinst\shplid167
+{\sp{\sn relLeft}{\sv 1445}}
+{\sp{\sn relTop}{\sv 1043}}
+{\sp{\sn relRight}{\sv 1738}}
+{\sp{\sn relBottom}{\sv 1435}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 293}}
+{\sp{\sn geoBottom}{\sv 392}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;19;(174,224);(292,391);(182,391);(112,276);(89,304);(89,391);(0,391);(0,0);(89,0);(89,224);(95,215);(107,197);(123,175);(140,152);(154,131);(165,116);(169,111);(277,111);(174,224)}}
+{\sp{\sn pSegmentInfo}{\sv 2;40;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shpgrp{\*\shpinst\shplid168
+{\sp{\sn groupLeft}{\sv 1706}}
+{\sp{\sn groupTop}{\sv 1147}}
+{\sp{\sn groupRight}{\sv 1981}}
+{\sp{\sn groupBottom}{\sv 1441}}
+{\sp{\sn relLeft}{\sv 1706}}
+{\sp{\sn relTop}{\sv 1147}}
+{\sp{\sn relRight}{\sv 1981}}
+{\sp{\sn relBottom}{\sv 1441}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid168
+{\sp{\sn relLeft}{\sv 1706}}
+{\sp{\sn relTop}{\sv 1147}}
+{\sp{\sn relRight}{\sv 1981}}
+{\sp{\sn relBottom}{\sv 1441}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 275}}
+{\sp{\sn geoBottom}{\sv 294}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;43;(73,17);(94,8);(99,78);(89,96);(84,115);(191,115);(85,175);(90,193);(102,209);(120,220);(142,226);(167,229);(167,229);(189,228);(209,226);(228,222);(246,217);(258,276);(252,278);(235,284);(216,288);(196,291);(175,293);(153,294);(139,293);(114,290);(90,285);(70,276);(52,265);(36,251);(23,235);(13,217);(5,197);(1,174);(0,150);(0,140);(2,120);(7,99);(15,79);(25,61);(38,44);(54,29);(73,17)}}
+{\sp{\sn pSegmentInfo}{\sv 2;88;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid168
+{\sp{\sn relLeft}{\sv 1706}}
+{\sp{\sn relTop}{\sv 1147}}
+{\sp{\sn relRight}{\sv 1981}}
+{\sp{\sn relBottom}{\sv 1441}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 275}}
+{\sp{\sn geoBottom}{\sv 294}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;25;(118,2);(145,0);(160,0);(186,5);(208,13);(226,25);(241,40);(254,57);(263,76);(269,97);(273,118);(274,140);(274,155);(273,168);(271,175);(85,175);(191,115);(189,100);(182,80);(167,64);(141,58);(116,63);(99,78);(94,8);(118,2)}}
+{\sp{\sn pSegmentInfo}{\sv 2;52;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+
+{\shpgrp{\*\shpinst\shplid169
+{\sp{\sn groupLeft}{\sv 1996}}
+{\sp{\sn groupTop}{\sv 1043}}
+{\sp{\sn groupRight}{\sv 2294}}
+{\sp{\sn groupBottom}{\sv 1442}}
+{\sp{\sn relLeft}{\sv 1996}}
+{\sp{\sn relTop}{\sv 1043}}
+{\sp{\sn relRight}{\sv 2294}}
+{\sp{\sn relBottom}{\sv 1442}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+
+{\shp{\*\shpinst\shplid169
+{\sp{\sn relLeft}{\sv 1996}}
+{\sp{\sn relTop}{\sv 1043}}
+{\sp{\sn relRight}{\sv 2294}}
+{\sp{\sn relBottom}{\sv 1442}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 298}}
+{\sp{\sn geoBottom}{\sv 399}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;50;(108,105);(129,103);(132,104);(156,106);(177,113);(193,123);(205,135);(206,135);(206,0);(296,0);(206,266);(206,219);(205,213);(203,206);(192,188);(175,175);(152,171);(151,171);(129,175);(112,187);(100,204);(93,226);(90,251);(93,276);(101,298);(114,314);(131,324);(152,328);(165,390);(145,396);(123,398);(112,397);(92,393);(72,386);(55,376);(39,362);(26,345);(15,326);(6,304);(1,280);(0,253);(1,228);(6,203);(14,180);(24,161);(37,144);(53,129);(70,118);(88,110);(108,105)}}
+{\sp{\sn pSegmentInfo}{\sv 2;102;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+
+{\shp{\*\shpinst\shplid169
+{\sp{\sn relLeft}{\sv 1996}}
+{\sp{\sn relTop}{\sv 1043}}
+{\sp{\sn relRight}{\sv 2294}}
+{\sp{\sn relBottom}{\sv 1442}}
+{\sp{\sn fRelFlipH}{\sv 0}}
+{\sp{\sn fRelFlipV}{\sv 0}}
+{\sp{\sn shapeType}{\sv 0}}
+{\sp{\sn rotation}{\sv 0}}
+{\sp{\sn geoRight}{\sv 298}}
+{\sp{\sn geoBottom}{\sv 399}}
+{\sp{\sn shapePath}{\sv 4}}
+{\sp{\sn pVerticies}{\sv 8;21;(212,352);(200,368);(184,381);(165,390);(152,328);(160,327);(180,320);(196,306);(204,286);(205,280);(206,273);(206,266);(296,0);(296,311);(296,334);(297,356);(297,375);(298,391);(218,391);(215,351);(212,352)}}
+{\sp{\sn pSegmentInfo}{\sv 2;44;16384;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;1;45824;24577;32768}}
+{\sp{\sn fFillOK}{\sv 1}}
+{\sp{\sn fFilled}{\sv 1}}
+{\sp{\sn fillColor}{\sv 10066329}}
+{\sp{\sn fLine}{\sv 0}}{\sp{\sn lineType}{\sv 0}}
+{\sp{\sn posrelh}{\sv 1}}
+{\sp{\sn posrelv}{\sv 1}}
+{\sp{\sn fArrowheadsOK}{\sv 1}}
+{\sp{\sn fBehindDocument}{\sv 1}}
+}}
+}}
+}}
+\pard\li100\sl-294\sb76\f3\fs26\b0\expnd0\expndtw0\dn1\charscalex100\cf2 LMS\expnd0\expndtw0  \expnd0\expndtw0 Administrator\expnd0\expndtw0  \expnd0\expndtw0 at\expnd0\expndtw0  \expnd0\expndtw0 Ericsson\up0\cf1\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-200\fs20\par\pard\sl-220\sb4\fs22\par\pard\li100\sl240\slmult1\sb29\f3\fs24\b0\expnd0\expndtw0\charscalex100\cf5 Contact\expnd0\expndtw0  \expnd0\expndtw0 Manish\expnd0\expndtw0  \expnd0\expndtw0 on\expnd0\expndtw0  \expnd0\expndtw0 LinkedIn\cf1\par}

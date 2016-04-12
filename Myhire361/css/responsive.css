@@ -1,0 +1,106 @@
+@media (min-width: 768px) and (max-width: 1025px) {
+.Headright {
+    margin-top: 60px;
+}
+.Headleft {
+    text-align: center;
+}
+.Headleft img {
+    margin: 0;
+}
+.midleft {
+    width: 100%;
+	margin-bottom: 20px;
+}
+.midright {
+    text-align: center;
+    width: 100%;
+}
+.foot1 {
+    width: 100%;
+}
+.catchamagingvideo {
+    display: none;
+}
+.foot2 {
+    width: 80%;
+}
+.foot2 img {
+    margin: 8px 0;
+    width: auto !important;
+}
+.V1 {
+    float: left;
+    width: 33%;
+}
+}
+@media (max-width: 768px) {
+	
+.midleft {
+    width: 100%;
+	margin-bottom: 20px;
+}
+.midright {
+    text-align: center;
+    width: 100%;
+}
+.foot1 {
+    width: 100%;
+}
+.catchamagingvideo {
+    display: none;
+}
+.foot2 {
+    width: 80%;
+}
+.foot2 img {
+    margin: 8px 0;
+    width: auto !important;
+}
+}
+
+@media (max-width: 767px) {
+.Headright > ul {
+    display: none;
+}
+nav.navbar{ display:Block; margin-top:70px;}
+}
+@media (max-width: 482px) {
+.midleft > h1 {
+    font-size: 31px;
+    padding: 0;
+}
+.midleft > h2 {
+    padding: 0;
+}
+
+.referm img {
+    width: 100%;
+}
+.midright > img {
+    width: 100%;
+}
+.foot2 img {
+    width: 100% !important;
+}
+.PrivacyPolicy p br {
+    margin-bottom: 20px;
+}
+.col-lg-3.Categories > h1 {
+    border: 1px solid;
+    margin-bottom: 10px;
+    padding: 6px 11px;
+}
+.col-lg-7.col-sm-12.midleft {
+    display: none;
+}
+.social_work img {
+    width: 25px;
+}
+.nav-tabs li {
+    width: 100%;
+}
+.col-lg-4.SimmilerJobs > ul#links {
+    margin-top: 15px;
+}
+}

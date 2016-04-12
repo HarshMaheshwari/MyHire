@@ -1,0 +1,571 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8, IE=9, chrome=1" />
+    <title>myhire361.com</title>
+    <link rel="icon" type="text/ico" href="LogoFavIcon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/Customize.css" />
+    <link href="css/site.css" rel="stylesheet" type="text/css" />
+
+    <%-- <script src="js/MyJsDemo.js" language="javascript" type="text/javascript" /> --%>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+    <script type="text/javascript">
+        function ChangePassword() {
+
+            var oldpswrd = document.getElementById('<%=txtOldPassword.ClientID %>').value
+            var Newpswrd = document.getElementById('<%=txtNewPassword.ClientID %>').value
+            var Cnfrmpswrd = document.getElementById('<%=txtConfirmPassword.ClientID %>').value
+
+
+            if (oldpswrd != null && oldpswrd != "") {
+
+
+                if (Newpswrd != null && Newpswrd != "") {
+
+                    if (Cnfrmpswrd == Newpswrd) {
+
+                        $.ajax({
+                            type: "POST",
+                            url: "http://www.indiahiring.org/Websrvcs/Misc.asmx/ChangePswrd",
+                            data: '{Old: "' + $("#<%=txtOldPassword.ClientID%>")[0].value + '",New: "' + $("#<%=txtNewPassword.ClientID%>")[0].value + '"}',
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            success: OnPaswordSuccess,
+                            failure: function (response) {
+                                alert("Password  did not changed.Try again!!");
+                            }
+                        });
+                    }
+                    else {
+                        alert("Pasword does not Match.");
+                        document.getElementById('<%=txtConfirmPassword.ClientID %>').focus();
+                    }
+                }
+                else {
+                    alert("Please enter your New Password.");
+                    document.getElementById('<%=txtNewPassword.ClientID %>').focus();
+                }
+            }
+            else {
+                alert("Please enter your Current Password.");
+                document.getElementById('<%=txtOldPassword.ClientID %>').focus();
+            }
+        }
+        function OnPaswordSuccess(response) {
+
+            alert(response.d);
+            if (response.d == "Password Changed Sucessfully.")
+            {
+                window.location.href = "http://www.indiahiring.org/LogOut.aspx";
+            }
+
+
+           
+        }
+    </script>
+    <script type="text/javascript">
+        function IU_My_PrefencesDetails() {
+
+            GetMyPrefenceDetails();
+
+            $.ajax({
+                type: "POST",
+                url: "http://www.indiahiring.org/Websrvcs/Misc.asmx/InsertMyPrefences",
+                data: '{IndustryId: "' + $("#<%=ddlIndustry.ClientID%>")[0].value + '",FunctionAreaId: "' + $("#<%=ddlFunctionalArea.ClientID%>")[0].value + '"}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: OnPrefrenceSuccess,
+                failure: function (response) {
+                    alert("Prefence not Saved Successfully.Try again!!");
+                }
+            });
+        }
+        function OnPrefrenceSuccess(response) {
+            GetMyPrefenceDetails();
+            alert(response.d);
+
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        function GetMyPrefenceDetails() {
+            try {
+                $.ajax({
+                    type: "POST",                    
+                    url: "http://www.indiahiring.org/Websrvcs/Misc.asmx/GetMyPrefenceDetails",
+                    data: '{}',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        try {
+                            var aar = JSON.parse(data.d);
+                        }
+                        catch (error) {
+                            alert(error);
+                        }
+
+                        var tbl = "<table width='100%'>";
+                        tbl = tbl + "<tr style='font-weight:bold'><td style='width:10%';>#</td><td style='width:20%';> Industry</td><td style='width:20%';>Functional Area</td></tr>";
+
+                        for (var i = 0; i <= aar.length - 1; i++) {
+                            tbl = tbl + "<tr>";
+                            tbl = tbl + "<td>" + (i + 1) + "</td>";
+                            tbl = tbl + "<td>" + aar[i].IndustryName + "</td>";
+                            tbl = tbl + "<td>" + aar[i].FunctAreaName + "</td>";
+                            tbl = tbl + "</tr>";
+                        }
+                        tbl = tbl + "</table>";
+                        document.getElementById("MyTable").innerHTML = tbl;
+                    }
+                });
+            }
+            catch (error) {
+                alert(error);
+            }
+        }
+
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#popupChangePswrd').click(function () {
+                $('#ChangePasswordpopup').fadeIn();
+
+            });
+            $('#mdpswrd-Close').click(function () {
+                $('#ChangePasswordpopup').fadeOut();
+
+            });
+            $('#MyPrefer').click(function () {
+                $('#AddMyPrefences').fadeIn();
+                GetMyPrefenceDetails();
+            });
+            $('#AddMyPrefences-Close').click(function () {
+                $('#AddMyPrefences').fadeOut();
+
+            });
+        });
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".OnClickShow").hide();
+            $(".OnClickHide").click(function () {
+                var isVisible = $(this).parent().next('.OnClickShow').css("display");
+                $(".OnClickShow").hide();
+                $(this).parent().next('.OnClickShow').css("display", isVisible);
+                $(this).parent().next('.OnClickShow').slideToggle();
+            });
+        });
+    </script>
+
+
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="social_work">
+        <ul>
+            <li><a href="https://www.facebook.com/indiahiring" target="_blank">
+                <img src="Image/fb.png" alt="fb" /></a></li>
+            <li><a href="https://twitter.com/IndiaHiring" target="_blank">
+                <img src="Image/tw.png" alt="tw" /></a></li>
+            <li><a href="https://www.linkedin.com/company/india-hiring" target="_blank">
+                <img src="Image/lin.png" alt="ln" /></a></li>
+            <li><a href="https://plus.google.com/+IndiahiringOrg_Discover/posts" target="_blank">
+                <img src="Image/gplus.png" alt="g+" /></a></li>
+            <li><a href="https://www.youtube.com/channel/UCoeuTfdnWiZe4p72xwX2H-A" target="_blank">
+                <img src="Image/ytd.png" alt="ytd" /></a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="HeaderUp">
+            <div class="container"  style="width:1322px;">
+                <div class="row">
+                    <div class="col-lg-12" style="padding-top:0px; height:42px;">
+                        <div class="col-lg-2 col-sm-12 col-xs-12 Headleft">
+                            <a href="Default.aspx">
+                                <img src="images/logo.png" alt="Home" /></a>
+                        </div>
+                        <div class="col-lg-10 col-sm-12 col-xs-12 Headright">
+                            <ul>
+                                <li><a href="Reffered.aspx">Referral Rewards</a></li>
+                                <li><a href="HowitWork.aspx">How it Works</a></li>
+                                <li><a href="AllJobs.aspx">All Jobs</a></li>
+                                <li><a href="Faqs.aspx">Faqs</a></li>
+                                <li id="SignIn" runat="server"><a href="login.aspx">Sign In</a></li>
+                                <!-- After login panel added remove this div and place specifc-->
+
+                                 <%-- <li class="dropdown" id="MyJobs" runat="server"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Jobs
+                                        <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Saved Jobs</a></li>
+                                            <li><a href="#">Applied Jobs</a></li>
+                                            <li><a href="#">Jobs Alerts</a></li>
+                                        </ul>
+                                    </li>--%>
+                                    <li class="dropdown" id="MyAccount" runat="server"><a href="Dashboard.aspx" class="dropdown-toggle" data-toggle="dropdown">My
+                                        Account <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                           <li><a href="Dashboard.aspx">Dashboard</a></li>
+                                            <li><a href="MyProfile.aspx">My Profile</a></li>
+                                            <li><a id="popupChangePswrd">Change Password</a></li>
+                                            <li><a id="MyPrefer" >My Preferences</a></li>
+                                            <li><a href="LogOut.aspx">Sign out</a></li>
+                                        </ul>
+                                    </li>
+<%--
+                                <div style="display: none">
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Jobs
+                                        <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Saved Jobs</a></li>
+                                            <li><a href="#">Applied Jobs</a></li>
+                                            <li><a href="#">Jobs Alerts</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">&nbsp;My
+                                        Account <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="MyProfile.aspx">My Profile</a></li>
+                                            <li><a href="#">Chnage Password</a></li>
+                                            <li><a href="#">Sign out</a></li>
+                                        </ul>
+                                    </li>
+                                </div>--%>
+                            </ul>
+                            <nav class="navbar navbar-default" role="navigation">
+                                <div class="container-fluid">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                                                class="icon-bar"></span><span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="#">Menu</a>
+                                    </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="Reffered.aspx">Referral Rewards</a></li>
+                                            <li><a href="HowitWork.aspx">How it Works</a></li>
+                                            <li><a href="AllJobs.aspx">All Jobs</a></li>
+                                            <li><a href="Faqs.aspx">Faqs</a></li>
+                                            <li><a href="login.aspx">Sign In</a></li>
+                                            <!-- After login panel added remove this div and place specifc-->
+                                            <div style="display: none">
+                                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">My Jobs
+                                                    <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Saved Jobs</a></li>
+                                                        <li><a href="#">Applied Jobs</a></li>
+                                                        <li><a href="#">Jobs Alerts</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">&nbsp;My
+                                                    Account <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="MyProfile.aspx">My Profile</a></li>
+                                                        <li><a href="#">Chnage Password</a></li>
+                                                        <li><a href="#">My Preferences</a></li>
+                                                        <li><a href="#">Sign out</a></li>
+                                                    </ul>
+                                                </li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                    <!-- /.navbar-collapse -->
+                                </div>
+                                <!-- /.container-fluid -->
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="ChangePasswordpopup" style="display: none;">
+            <div style="width: 100%; height: 100%; position: fixed; background: #000; opacity: .6; z-index: 99; top: 0px;"
+                id="popupover">
+            </div>
+            <div class="row" id="popbox" style="position: absolute; top: 15%; z-index: 9999; width: 100%;">
+                <div class="container">
+                    <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 col-lg-offset-1">
+                        <div id="modal">
+                            <header class="col-lg-12">
+             
+            <p>Change Password</p>
+            <div class="close_buttons" id="mdpswrd-Close">
+           <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+            
+            </div>
+             
+            </header>
+                            <div class="middle_sec">
+
+                                <div class="middle_inner" style="padding-right: 30px; padding-left: 189px; text-align: center">
+
+                                    <div class="col-lg-12 i-marginbottom5" style="text-align: center;">
+                                        <div style="width: 23%; float: left; text-align: right;">
+                                            <label for="txtOldPassword">
+                                                Old Password:
+                                            </label>
+
+                                        </div>
+                                        <div style="width: 3%; float: left;"></div>
+                                        <div style="width: 38%; float: left; text-align: left;">
+                                            <asp:TextBox runat="server" ID="txtOldPassword" TextMode="Password" ClientIDMode="Static"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 i-marginbottom5" style="text-align: center">
+                                        <div style="width: 23%; float: left; text-align: right;">
+                                            <label for="txtNewPassword">
+                                                New Password:</label>
+
+                                        </div>
+                                        <div style="width: 3%; float: left;"></div>
+                                        <div style="width: 38%; float: left; text-align: left;">
+                                            <asp:TextBox runat="server" ID="txtNewPassword" TextMode="Password" ClientIDMode="Static"></asp:TextBox>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 i-marginbottom5" style="text-align: center">
+                                        <div style="width: 23%; float: left; text-align: right;">
+                                            <label for="txtConfirmPassword">
+                                                Confirm Password:</label>
+                                        </div>
+                                        <div style="width: 3%; float: left;"></div>
+                                        <div style="width: 38%; float: left; text-align: left;">
+                                            <asp:TextBox runat="server" ID="txtConfirmPassword" TextMode="Password" ClientIDMode="Static"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 i-marginbottom5" align="center" style="margin-top: 10px; width: 32%; margin-left: 122px;">
+
+                                        <input type="button" id="btnsubmit" class="UpdatePassword" value="Update Password" validationgroup="UpdatePswrd" onclick="ChangePassword()" />
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+
+        <div id="AddMyPrefences" style="display: none;">
+            <div style="width: 100%; height: 100%; position: fixed; background: #000; opacity: .6; z-index: 99; top: 0px;"
+                id="popupover">
+            </div>
+            <div class="row" id="popbox" style="position: absolute; top: 15%; z-index: 9999; width: 100%;">
+                <div class="container">
+                    <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 col-lg-offset-1">
+                        <div id="modal">
+                            <header class="col-lg-12">
+             
+            <p> Set Your Preferences</p>
+            <div class="close_buttons" id="AddMyPrefences-Close">
+           <a href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+            
+            </div>
+             
+            </header>
+                            <div class="middle_sec">
+
+                                <div class="middle_inner" style="padding-right: 30px; padding-left: 189px; text-align: center">
+
+                                    <div class="col-lg-12 i-marginbottom5" style="text-align: center;">
+                                        <div style="width: 23%; float: left; text-align: right;">
+                                            <label for="ddlIndustry">
+                                                Industry:
+                                            </label>
+
+                                        </div>
+                                        <div style="width: 3%; float: left;"></div>
+                                        <div style="width: 38%; float: left; text-align: left;">
+                                            <asp:DropDownList runat="server" ID="ddlIndustry" class="form-control" AppendDataBoundItems="True" Width="150px" ClientIDMode="Static">
+                                            </asp:DropDownList>
+
+                                            <asp:RequiredFieldValidator ID="rfv101" runat="server" ErrorMessage="*" ForeColor="Red" ControlToValidate="ddlIndustry" ValidationGroup="AddPrefences"></asp:RequiredFieldValidator>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 i-marginbottom5" style="text-align: center">
+                                        <div style="width: 23%; float: left; text-align: right;">
+                                            <label for="ddlFunctionalArea">
+                                                Functional Area:</label>
+
+                                        </div>
+                                        <div style="width: 3%; float: left;"></div>
+                                        <div style="width: 38%; float: left; text-align: left;">
+                                            <asp:DropDownList runat="server" ID="ddlFunctionalArea" class="form-control" AppendDataBoundItems="True" Width="150px" ClientIDMode="Static">
+                                            </asp:DropDownList>
+                                            <asp:RequiredFieldValidator ID="rfv102" runat="server" ErrorMessage="*" ForeColor="Red" ControlToValidate="ddlFunctionalArea" ValidationGroup="AddPrefences"></asp:RequiredFieldValidator>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-9 i-marginbottom5" align="center" style="margin-top: 10px; width: 32%; margin-left: 122px;">
+
+                                        <input type="button" id="btnSaveExperience" class="UpdatePassword" value="Save Prefence" validationgroup="AddPrefences" onclick="IU_My_PrefencesDetails()" />
+
+
+                                    </div>
+
+
+                                </div>
+                                <div class="row profileInfo">
+                                    <div class="infoHeader">
+                                        Your Preferences
+                                    </div>
+                                    <div class="col-lg-12 contectContents">
+
+                                        <%--  //--------MyCode----------//--%>
+                                        <div id="dvIndustryContainer " class="i-font-size17">
+                                            <%--  <span>Insurance</span> <span>Banking</span> <span>Finance</span> <span>Media</span>--%>
+
+                                         <div id="MyTable" >
+                                             </div>
+
+                                            <asp:GridView ID="gdvReffer" Width="100%" runat="server" CssClass="mGrid" AutoGenerateColumns="false"
+                                                PageSize="4" EmptyDataText="No Details.">
+
+                                                <Columns>
+                                                    <asp:TemplateField HeaderText="Industry">
+                                                        <ItemTemplate>
+                                                            <div class="rowgrid">
+
+                                                                <div>
+                                                                    <asp:Label ID="lblreferrId" runat="server" Text='<%#Eval("MyPreference_Id")%>' Visible="false"></asp:Label>
+                                                                    <asp:Label ID="lblReffer" runat="server" Text='<%#Eval("IndustryName")%>'></asp:Label>
+
+                                                                </div>
+                                                            </div>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Functional Area">
+                                                        <ItemTemplate>
+                                                            <div class="rowgrid">
+                                                                <div>
+                                                                    <asp:Label ID="lblreferrId" runat="server" Text='<%#Eval("MyPreference_Id")%>' Visible="false"></asp:Label>
+                                                                    <asp:Label ID="lblReffer" runat="server" Text='<%#Eval("FunctAreaName")%>'></asp:Label>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+                                                </Columns>
+
+                                            </asp:GridView>
+
+
+                                        </div>
+
+                                        <%--       //------------MyCode-----------//--%>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer>
+        <div class="container">
+            <div class="col-lg-12 footer">
+                <div class="col-lg-2 foot1">
+                    <h3>
+                        Information</h3>
+                    <ul>
+                        <li><a href="AboutUs.aspx">About Us</a></li>
+                        <li><a href="Contact.aspx">Contact Us</a></li>
+                        <li><a href="HowitWork.aspx">How it works?</a></li>
+                        <li><a href="#">IndiaHiring Blog</a></li>
+                        <%--<li><a href="PrivacyPolicy.aspx">Terms & Conditions</a></li>--%>
+                        <li><a href="Terms.aspx">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 foot1">
+                    <h3>
+                        Top Cities</h3>
+                    <ul>
+                                <li><a href="#"><asp:LinkButton ID="lbNCR" runat="server" OnClick="lbNCR_Click">Jobs in Delhi</asp:LinkButton></a></li>
+                         <li><a href="#"><asp:LinkButton ID="lbMumbai" runat="server" OnClick="lbMumbai_Click" >Jobs in Mumbai</asp:LinkButton></a></li>
+                         <li><a href="#"><asp:LinkButton ID="lbBanglore" runat="server" OnClick="lbBanglore_Click" >Jobs in Bengaluru</asp:LinkButton></a></li>
+                         <li><a href="#"><asp:LinkButton ID="lbChennia" runat="server" OnClick="lbChennia_Click">Jobs in Chennai</asp:LinkButton></a></li>
+                           <li><a href="#"><asp:LinkButton ID="lbHyderabad" runat="server" OnClick="lbHyderabad_Click">Jobs in Hyderabad</asp:LinkButton></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 foot1">
+                    <h3>
+                        Top Categories</h3>
+                    <ul>
+
+                         <li><a href="#"><asp:LinkButton ID="lbSales" runat="server" OnClick="lbSales_Click" >Corporate Sales</asp:LinkButton></a></li>
+                         <li><a href="#"><asp:LinkButton ID="lbResourse" runat="server" OnClick="lbResourse_Click"  >Human Resource</asp:LinkButton></a></li>
+                         <li><a href="#"><asp:LinkButton ID="lbOperational" runat="server" OnClick="lbOperational_Click"  >Operational</asp:LinkButton></a></li>
+                         <li><a href="#"><asp:LinkButton ID="lbIT" runat="server" OnClick="lbIT_Click" >IT</asp:LinkButton></a></li>
+                           <li><a href="#"><asp:LinkButton ID="lbMarketing" runat="server" OnClick="lbMarketing_Click">Marketing</asp:LinkButton></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 foot1">
+                    <h3>
+                        User</h3>
+                    <ul>
+                        <li><a href="login.aspx">Login</a></li>
+                        <li><a href="AllJobs.aspx">Browse Jobs</a></li>
+                        <li><a href="Reffered.aspx">Referral Program</a></li>
+                        <li><a href="#"><asp:LinkButton ID="IbAlert" runat="server" OnClick="lbAlerts_Click">Create Alerts</asp:LinkButton></a></li>
+                        <li><a href="Faqs.aspx">Faqs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 foot2">
+                    <a href="#">
+                        <img src="images/referafrnd.png" /></a>
+                </div>
+            </div>
+            <div class="ppc">
+                <p>
+                    Copyright ©2014 IndiaHiring. All pages of this web site are subject to our<a href="Terms.aspx">
+                        <span>terms and conditions</span></a> and<a href="PrivacyPolicy.aspx"> <span>privacy
+                            policy.</span></a> You must not reproduce, duplicate, copy, sell, resell,
+                    or exploit any material on the web site for any commercial purposes</p>
+            </div>
+        </div>
+    </footer>
+
+    </form>
+</body>
+</html>

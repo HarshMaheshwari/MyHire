@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportDAL" targetNamespace="http://tempuri.org/ReportDAL.xsd" xmlns:mstns="http://tempuri.org/ReportDAL.xsd" xmlns="http://tempuri.org/ReportDAL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="AranyaProjectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AranyaProjectConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.AranyaProjectConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection ConnectionStringObject="Data Source=rreqdev.db.8839876.hostedresource.com;Initial Catalog=rreqdev;User ID=rreqdev;Password=Sector#031" IsAppSettingsProperty="false" Modifier="Assembly" Name="sg2nwgdshsql803.rreqdev.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RecruitmentReportTableAdapter" GeneratorDataComponentClassName="RecruitmentReportTableAdapter" Name="RecruitmentReport" UserDataComponentName="RecruitmentReportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetRecruitmentReport" GetMethodModifier="Public" GetMethodName="GetRecruitmentReport" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetRecruitmentReport" UserSourceName="GetRecruitmentReport">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cd.Client_Id, cd.Client_Name, rr.Designation, ud.USR_Name,  rr.Recieve_Date,
+ct.City_Name, rr.Min_Salary, rr.Max_Salary, rr.Min_Experience
+FROM            dbo.ClientDetail AS cd INNER JOIN
+                         dbo.RecruitmentRequest AS rr ON cd.Client_Id = rr.Client_Id INNER JOIN
+                         dbo.UserDetail AS ud ON rr.RRMngr_Id = ud.USR_ID INNER JOIN
+                         dbo.CityDetail AS ct ON rr.Location_Id = ct.City_Id
+
+order by cd.Client_Name asc,rr.Designation asc,rr.Recieve_Date desc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Client_Id" DataSetColumn="Client_Id" />
+              <Mapping SourceColumn="Client_Name" DataSetColumn="Client_Name" />
+              <Mapping SourceColumn="Designation" DataSetColumn="Designation" />
+              <Mapping SourceColumn="USR_Name" DataSetColumn="USR_Name" />
+              <Mapping SourceColumn="Recieve_Date" DataSetColumn="Recieve_Date" />
+              <Mapping SourceColumn="City_Name" DataSetColumn="City_Name" />
+              <Mapping SourceColumn="Min_Salary" DataSetColumn="Min_Salary" />
+              <Mapping SourceColumn="Max_Salary" DataSetColumn="Max_Salary" />
+              <Mapping SourceColumn="Min_Experience" DataSetColumn="Min_Experience" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetRecruitmentReportForManager" GetMethodModifier="Public" GetMethodName="GetRecruitmentReportForManager" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetRecruitmentReportForManager" UserSourceName="GetRecruitmentReportForManager">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cd.Client_Id, cd.Client_Name, rr.Designation, ud.USR_Name,  rr.Recieve_Date,
+ct.City_Name, rr.Min_Salary, rr.Max_Salary, rr.Min_Experience
+FROM            dbo.ClientDetail AS cd INNER JOIN
+                         dbo.RecruitmentRequest AS rr ON cd.Client_Id = rr.Client_Id INNER JOIN
+                         dbo.UserDetail AS ud ON rr.RRMngr_Id = ud.USR_ID INNER JOIN
+                         dbo.CityDetail AS ct ON rr.Location_Id = ct.City_Id
+where rr.RRMngr_Id=@USR_ID
+order by cd.Client_Name asc,rr.Designation asc,rr.Recieve_Date desc</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="USR_ID" ColumnName="RRMngr_Id" DataSourceName="HireExperiment.dbo.RecruitmentRequest" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="RRMngr_Id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ClientDetailTableAdapter" GeneratorDataComponentClassName="ClientDetailTableAdapter" Name="ClientDetail" UserDataComponentName="ClientDetailTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="rrtrackerprd.dbo.ClientDetail" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [ClientDetail] DEFAULT VALUES</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Client_Id
+FROM            ClientDetail</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Client_Id" DataSetColumn="Client_Id" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetCandidateStatusByClient" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetCandidateStatusByClient" GetMethodModifier="Public" GetMethodName="GetCandidateStatusByClient" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetCandidateStatusByClient" UserSourceName="GetCandidateStatusByClient">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetCandidateStatusByClient</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Client_Id" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@FromDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@ToDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetCandidateStatusByPosition" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetCandidateStatusByPosition" GetMethodModifier="Public" GetMethodName="GetCandidateStatusByPosition" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetCandidateStatusByPosition" UserSourceName="GetCandidateStatusByPosition">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetCandidateStatusByPosition</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Client_Id" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Request_Id" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@FromDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@ToDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetClientReport" GetMethodModifier="Public" GetMethodName="GetClientReport" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetClientReport" UserSourceName="GetClientReport">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cd.Client_Id, cd.Client_Name, ccp.Person_Name, ccp.Person_Contact, ud.USR_Name, COUNT(rr.Request_Id) AS Total_Position
+FROM            ClientDetail AS cd INNER JOIN
+                         ClientContactPerson AS ccp ON cd.Client_Id = ccp.Client_Id inner JOIN
+                         UserDetail AS ud ON cd.USR_ID = ud.USR_ID left JOIN
+                         RecruitmentRequest AS rr ON cd.Client_Id = rr.Client_Id
+WHERE        (ccp.IsAdmin = 1)
+GROUP BY cd.Client_Name, ccp.Person_Name, ccp.Person_Contact, ud.USR_Name, cd.Client_Id
+order by cd.Client_Name asc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetClientReportForManager" GetMethodModifier="Public" GetMethodName="GetClientReportForManager" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetClientReportForManager" UserSourceName="GetClientReportForManager">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cd.Client_Id, cd.Client_Name, ccp.Person_Name, ccp.Person_Contact, ud.USR_Name, COUNT(rr.Request_Id) AS Total_Position
+FROM            ClientDetail AS cd INNER JOIN
+                         ClientContactPerson AS ccp ON cd.Client_Id = ccp.Client_Id inner JOIN
+                         UserDetail AS ud ON cd.USR_ID = ud.USR_ID left JOIN
+                         RecruitmentRequest AS rr ON cd.Client_Id = rr.Client_Id
+WHERE       cd.USR_ID=@USR_ID and (ccp.IsAdmin = 1)
+GROUP BY cd.Client_Name, ccp.Person_Name, ccp.Person_Contact, ud.USR_Name, cd.Client_Id
+order by cd.Client_Name asc</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="USR_ID" ColumnName="USR_ID" DataSourceName="HireExperiment.dbo.ClientDetail" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="USR_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.ClientStatusReport" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetClientStatusReport" GetMethodModifier="Public" GetMethodName="GetClientStatusReport" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetClientStatusReport" UserSourceName="GetClientStatusReport">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ClientStatusReport</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetClientStatusReportForManager" GetMethodModifier="Public" GetMethodName="GetClientStatusReportForManager" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetClientStatusReportForManager" UserSourceName="GetClientStatusReportForManager">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select COunt(rr.Request_Id)as TotalRequest,cd.Client_Id, cd.Client_Name,ud.USR_Name
+From ClientDetail as cd inner join UserDetail as ud on cd.USR_ID=ud.USR_ID  
+left join RecruitmentRequest as rr on cd.Client_Id=rr.Client_Id
+where cd.Usr_id=@Usr_id
+Group by cd.Client_Name,ud.USR_Name	 ,cd.Client_Id
+</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="Usr_id" ColumnName="USR_ID" DataSourceName="HireExperiment.dbo.ClientDetail" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@Usr_id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="USR_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetOfferedCandidate" GetMethodModifier="Public" GetMethodName="GetOfferedCandidate" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetOfferedCandidate" UserSourceName="GetOfferedCandidate">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>Select cl.Client_Id,cl.Client_Name, rq.RRNumber,rq.Designation,cd.Candidate_Name,ud.USR_Name, fw.Candidate_Status,
+fw.FollowUp_Date,Convert(varchar,fw.CreationDate,106)   as CreationDate
+FRom FollowUp as fw inner join RRCandidateRelation as rr on fw.RRCandidate_Id=rr.RRCandidate_Id
+inner join CandidateDetail as cd on rr.Candidate_Id=cd.Candidate_Id
+		inner join RecruitmentRequest as rq on  rr.Request_Id=rq.Request_Id
+		inner join CLientDetail as cl on rq.Client_Id=cl.Client_Id
+		left join UserDetail as ud on rr.Consultant_Id=ud.USR_ID
+Where fw.Candidate_Status in ('Shortlisted','Offered','Offer Accepted','Joined','Selected not Joined')
+Order by fw.CreationDate desc</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.PositionStatusReport" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetPositionStatusReport" GetMethodModifier="Public" GetMethodName="GetPositionStatusReport" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetPositionStatusReport" UserSourceName="GetPositionStatusReport">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.PositionStatusReport</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetPositionStatusReportForManager" GetMethodModifier="Public" GetMethodName="GetPositionStatusReportForManager" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetPositionStatusReportForManager" UserSourceName="GetPositionStatusReportForManager">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>		Select cd.Client_Id,cd.Client_Name,rr.Designation, rr.Request_Id, ud.USR_Name,rr.Location_Id,City_Name
+from RecruitmentRequest as rr inner join ClientDetail as cd on rr.Client_Id=cd.Client_Id
+inner join UserDetail as ud  on rr.RRMngr_Id=ud.USR_ID
+left join CityDetail as ctd on ctd.City_Id= rr.Location_Id  
+where ud.USR_ID =@USR_ID</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="USR_ID" ColumnName="USR_ID" DataSourceName="HireExperiment.dbo.UserDetail" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="USR_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UserDetailTableAdapter" GeneratorDataComponentClassName="UserDetailTableAdapter" Name="UserDetail" UserDataComponentName="UserDetailTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="rrtrackerprd.dbo.UserDetail" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [UserDetail] DEFAULT VALUES</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        USR_ID
+FROM            UserDetail</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="USR_ID" DataSetColumn="USR_ID" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.UserDetail" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetallUser" GetMethodModifier="Public" GetMethodName="GetallUser" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetallUser" UserSourceName="GetallUser">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        USR_ID,USR_NAME, Usr_Role 
+FROM            UserDetail</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetCandidateStatusByConsultant" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetCandidateStatusByConsultant" GetMethodModifier="Public" GetMethodName="GetCandidateStatusByConsultant" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetCandidateStatusByConsultant" UserSourceName="GetCandidateStatusByConsultant">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetCandidateStatusByConsultant</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@FromDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@ToDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.ConsultantPerformance" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantPerformance" GetMethodModifier="Public" GetMethodName="GetConsultantPerformance" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantPerformance" UserSourceName="GetConsultantPerformance">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ConsultantPerformance</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@UserId" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.ConsultantPerformanceCurrentMnth" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantPerformanceCurrentMnth" GetMethodModifier="Public" GetMethodName="GetConsultantPerformanceCurrentMnth" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantPerformanceCurrentMnth" UserSourceName="GetConsultantPerformanceCurrentMnth">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ConsultantPerformanceCurrentMnth</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.ConsultantPerformanceOverAll" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantPerformanceOverAll" GetMethodModifier="Public" GetMethodName="GetConsultantPerformanceOverAll" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantPerformanceOverAll" UserSourceName="GetConsultantPerformanceOverAll">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ConsultantPerformanceOverAll</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantReport" GetMethodModifier="Public" GetMethodName="GetConsultantReport" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantReport" UserSourceName="GetConsultantReport">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ud.USR_Name, ur.Role_Name, COUNT(rr.Request_Id) AS Position_Assigned
+FROM            dbo.RecruitmentRequest AS rr left JOIN
+                         dbo.UserClientRelation AS ucr ON rr.Request_Id = ucr.Request_Id right JOIN
+                         dbo.UserDetail AS ud ON ucr.Consultant_Id = ud.USR_ID INNER JOIN
+                         dbo.UserRole AS ur ON ud.USR_Role = ur.Role_Id
+GROUP BY ud.USR_Name, ur.Role_Name
+ORDER BY ud.USR_Name</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantReportForConsultant" GetMethodModifier="Public" GetMethodName="GetConsultantReportForConsultant" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantReportForConsultant" UserSourceName="GetConsultantReportForConsultant">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ud.USR_Name, ur.Role_Name, COUNT(rr.Request_Id) AS Position_Assigned
+FROM            dbo.RecruitmentRequest AS rr left JOIN
+                         dbo.UserClientRelation AS ucr ON rr.Request_Id = ucr.Request_Id right JOIN
+                         dbo.UserDetail AS ud ON ucr.Consultant_Id = ud.USR_ID INNER JOIN
+                         dbo.UserRole AS ur ON ud.USR_Role = ur.Role_Id
+                         where ud.USR_Id=@USR_Id 
+GROUP BY ud.USR_Name, ur.Role_Name
+ORDER BY ud.USR_Name</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="USR_Id" ColumnName="USR_ID" DataSourceName="HireExperiment.dbo.UserDetail" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_Id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="USR_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantReportForManager" GetMethodModifier="Public" GetMethodName="GetConsultantReportForManager" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantReportForManager" UserSourceName="GetConsultantReportForManager">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        ud.USR_Name, ur.Role_Name, COUNT(rr.Request_Id) AS Position_Assigned
+FROM            dbo.RecruitmentRequest AS rr left JOIN
+                         dbo.UserClientRelation AS ucr ON rr.Request_Id = ucr.Request_Id right JOIN
+                         dbo.UserDetail AS ud ON ucr.Consultant_Id = ud.USR_ID INNER JOIN
+                         dbo.UserRole AS ur ON ud.USR_Role = ur.Role_Id
+                         where ud.USR_Id=@USR_Id or ur.Role_Id=3
+GROUP BY ud.USR_Name, ur.Role_Name
+ORDER BY ud.USR_Name</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="USR_Id" ColumnName="USR_ID" DataSourceName="HireExperiment.dbo.UserDetail" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_Id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="USR_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.ConsultantStatusReport" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantStatusReport" GetMethodModifier="Public" GetMethodName="GetConsultantStatusReport" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantStatusReport" UserSourceName="GetConsultantStatusReport">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.ConsultantStatusReport</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetConsultantWorksheet" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetConsultantWorksheet" GetMethodModifier="Public" GetMethodName="GetConsultantWorksheet" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetConsultantWorksheet" UserSourceName="GetConsultantWorksheet">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetConsultantWorksheet</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@FromDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@ToDate" Precision="0" ProviderType="VarChar" Scale="0" Size="15" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="myhire361.dbo.UserDetail" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetCounsltatName" GetMethodModifier="Public" GetMethodName="GetCounsltatName" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetCounsltatName" UserSourceName="GetCounsltatName">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select USR_ID,USR_Name,USR_Role
+ from UserDetail
+ where Status=1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetDailyWorksheetForMail" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDailyWorksheetForMail" GetMethodModifier="Public" GetMethodName="GetDailyWorksheetForMail" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDailyWorksheetForMail" UserSourceName="GetDailyWorksheetForMail">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetDailyWorksheetForMail</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetDetailWorksheetForDailyMail" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDetailWorksheetForDailyMail" GetMethodModifier="Public" GetMethodName="GetDetailWorksheetForDailyMail" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDetailWorksheetForDailyMail" UserSourceName="GetDetailWorksheetForDailyMail">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetDetailWorksheetForDailyMail</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetDetailWorksheetForQTDMail" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDetailWorksheetForQTDMail" GetMethodModifier="Public" GetMethodName="GetDetailWorksheetForQTDMail" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDetailWorksheetForQTDMail" UserSourceName="GetDetailWorksheetForQTDMail">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetDetailWorksheetForQTDMail</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetDetailWorksheetForYTDMail" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDetailWorksheetForYTDMail" GetMethodModifier="Public" GetMethodName="GetDetailWorksheetForYTDMail" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDetailWorksheetForYTDMail" UserSourceName="GetDetailWorksheetForYTDMail">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetDetailWorksheetForYTDMail</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="AranyaProjectConnectionString (Web.config)" DbObjectName="HireExperiment.dbo.GetWorksheetForQTDMail" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetWorksheetForQTDMail" GetMethodModifier="Public" GetMethodName="GetWorksheetForQTDMail" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetWorksheetForQTDMail" UserSourceName="GetWorksheetForQTDMail">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.GetWorksheetForQTDMail</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@USR_ID" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportDAL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ReportDAL" msprop:Generator_UserDSName="ReportDAL">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RecruitmentReport" msprop:Generator_TableClassName="RecruitmentReportDataTable" msprop:Generator_TableVarName="tableRecruitmentReport" msprop:Generator_TablePropName="RecruitmentReport" msprop:Generator_RowDeletingName="RecruitmentReportRowDeleting" msprop:Generator_RowChangingName="RecruitmentReportRowChanging" msprop:Generator_RowEvHandlerName="RecruitmentReportRowChangeEventHandler" msprop:Generator_RowDeletedName="RecruitmentReportRowDeleted" msprop:Generator_UserTableName="RecruitmentReport" msprop:Generator_RowChangedName="RecruitmentReportRowChanged" msprop:Generator_RowEvArgName="RecruitmentReportRowChangeEvent" msprop:Generator_RowClassName="RecruitmentReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Client_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnClient_Id" msprop:Generator_ColumnPropNameInRow="Client_Id" msprop:Generator_ColumnPropNameInTable="Client_IdColumn" msprop:Generator_UserColumnName="Client_Id" type="xs:int" />
+              <xs:element name="Client_Name" msprop:Generator_ColumnVarNameInTable="columnClient_Name" msprop:Generator_ColumnPropNameInRow="Client_Name" msprop:Generator_ColumnPropNameInTable="Client_NameColumn" msprop:Generator_UserColumnName="Client_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Designation" msprop:Generator_ColumnVarNameInTable="columnDesignation" msprop:Generator_ColumnPropNameInRow="Designation" msprop:Generator_ColumnPropNameInTable="DesignationColumn" msprop:Generator_UserColumnName="Designation" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USR_Name" msprop:Generator_ColumnVarNameInTable="columnUSR_Name" msprop:Generator_ColumnPropNameInRow="USR_Name" msprop:Generator_ColumnPropNameInTable="USR_NameColumn" msprop:Generator_UserColumnName="USR_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Recieve_Date" msprop:Generator_ColumnVarNameInTable="columnRecieve_Date" msprop:Generator_ColumnPropNameInRow="Recieve_Date" msprop:Generator_ColumnPropNameInTable="Recieve_DateColumn" msprop:Generator_UserColumnName="Recieve_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City_Name" msprop:Generator_ColumnVarNameInTable="columnCity_Name" msprop:Generator_ColumnPropNameInRow="City_Name" msprop:Generator_ColumnPropNameInTable="City_NameColumn" msprop:Generator_UserColumnName="City_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Min_Salary" msprop:Generator_ColumnVarNameInTable="columnMin_Salary" msprop:Generator_ColumnPropNameInRow="Min_Salary" msprop:Generator_ColumnPropNameInTable="Min_SalaryColumn" msprop:Generator_UserColumnName="Min_Salary" type="xs:double" minOccurs="0" />
+              <xs:element name="Max_Salary" msprop:Generator_ColumnVarNameInTable="columnMax_Salary" msprop:Generator_ColumnPropNameInRow="Max_Salary" msprop:Generator_ColumnPropNameInTable="Max_SalaryColumn" msprop:Generator_UserColumnName="Max_Salary" type="xs:double" minOccurs="0" />
+              <xs:element name="Min_Experience" msprop:Generator_ColumnVarNameInTable="columnMin_Experience" msprop:Generator_ColumnPropNameInRow="Min_Experience" msprop:Generator_ColumnPropNameInTable="Min_ExperienceColumn" msprop:Generator_UserColumnName="Min_Experience" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ClientDetail" msprop:Generator_TableClassName="ClientDetailDataTable" msprop:Generator_TableVarName="tableClientDetail" msprop:Generator_TablePropName="ClientDetail" msprop:Generator_RowDeletingName="ClientDetailRowDeleting" msprop:Generator_RowChangingName="ClientDetailRowChanging" msprop:Generator_RowEvHandlerName="ClientDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="ClientDetailRowDeleted" msprop:Generator_UserTableName="ClientDetail" msprop:Generator_RowChangedName="ClientDetailRowChanged" msprop:Generator_RowEvArgName="ClientDetailRowChangeEvent" msprop:Generator_RowClassName="ClientDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Client_Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnClient_Id" msprop:Generator_ColumnPropNameInRow="Client_Id" msprop:Generator_ColumnPropNameInTable="Client_IdColumn" msprop:Generator_UserColumnName="Client_Id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserDetail" msprop:Generator_TableClassName="UserDetailDataTable" msprop:Generator_TableVarName="tableUserDetail" msprop:Generator_TablePropName="UserDetail" msprop:Generator_RowDeletingName="UserDetailRowDeleting" msprop:Generator_RowChangingName="UserDetailRowChanging" msprop:Generator_RowEvHandlerName="UserDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="UserDetailRowDeleted" msprop:Generator_UserTableName="UserDetail" msprop:Generator_RowChangedName="UserDetailRowChanged" msprop:Generator_RowEvArgName="UserDetailRowChangeEvent" msprop:Generator_RowClassName="UserDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="USR_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnUSR_ID" msprop:Generator_ColumnPropNameInRow="USR_ID" msprop:Generator_ColumnPropNameInTable="USR_IDColumn" msprop:Generator_UserColumnName="USR_ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

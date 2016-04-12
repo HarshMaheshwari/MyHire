@@ -1,0 +1,48 @@
+.table th {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+.table td {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+.position {
+    color: #428fbc !important;
+	cursor: pointer;
+}
+.nav.nav-tabs a {
+	color: #000;
+	font-size: 20px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.nav-tabs .active > a {
+	background: none repeat scroll 0 0 #239cdf !important;
+	color: #fff !important;
+}
+.TabingJobs ul.nav-tabs li a {
+    font-size: 18px !important;
+	text-align:center;
+}
+.table.border0 td {
+    border: 0 none;
+}
+.table.border0 th {
+    border: 0 none;
+}
+.table.border0 {
+    background: url("../images/ApplyTable.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+}
+.activete{
+	background-color: #f5f5f5;
+}
+.PointStatus{
+	border: 1px solid rgb(204, 204, 204); 
+	background: url("../images/TableBG.jpg") no-repeat scroll 0% 0% / 100% 100% transparent;
+}
+.table.table-bordered > thead {
+    background: url("../images/Thead.jpg") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+}

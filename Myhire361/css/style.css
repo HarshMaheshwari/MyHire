@@ -1,0 +1,1703 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Calibri;
+    background: #f6f6f6;
+}
+ul, li, ol, div, span, h1, h2, h3, h4, h5, h6
+{
+ 
+    margin: 0px;
+    padding: 0 1px 1px;
+}
+p
+{
+    padding-left:0px;
+}
+img
+{
+    padding: 0;
+    margin: 0px;
+}
+.space10
+{
+    padding: 10px;
+}
+.space20
+{
+    padding: 20px;
+}
+.space30
+{
+    padding: 30px;
+}
+.space40
+{
+    padding: 40px;
+}
+.HeaderUp
+{
+    background: #2499dd;
+}
+.Headright a
+{
+    font-family: "DaunPenh";
+    font-size: 27px;
+    color: #fff;
+    text-decoration: none;
+}
+.Headright li
+{
+    display: inline;
+    list-style: outside none none;
+    padding: 0 11px;
+}
+.Headright ul
+{
+    padding: 9px 0 0;
+    text-align: right;
+}
+.Headleft img
+{
+    padding: 0px 0;
+    position: absolute;
+    margin-left: 30px;
+    width: auto;
+    z-index: 9999;
+}
+.Headright
+{
+    /*	text-align: right;*/
+}
+.social_work
+{
+    left: 8px;
+    position: fixed;
+    top: 155px;
+    z-index: 9999;
+}
+.social_work li
+{
+    list-style: outside none none;
+}
+.mid1
+{
+    margin-top: 45px;
+}
+.midleft
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 10px 43px;
+}
+.midleft h1
+{
+    color: #000;
+    font-family: Calibri;
+    font-size: 40px;
+    margin-left: 47px;
+    padding: 32px 15px 18px;
+    text-align: center;
+}
+.referm
+{
+    text-align: center;
+}
+.midleft h2
+{
+    color: #db251a;
+    text-align: center;
+    font-size: 40px;
+    padding: 35px 42px;
+}
+.midright
+{
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    padding: 17px 43px;
+    width: 100%;
+}
+.midright12
+{
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    padding: 17px 43px;
+    width: 100%;
+}
+.midright li
+{
+    display: inline;
+    list-style: outside none none;
+}
+.midright > h1
+{
+    color: #5d5c5c;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 0 0;
+}
+.midright > h2
+{
+    color: #5d5c5c;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 0 20px;
+}
+.social_work img
+{
+    padding: 3px 0;
+    width: 40px;
+}
+.FunctionalArea
+{
+    margin-bottom: 20px;
+    max-height: 1079px;
+    overflow-y: scroll;
+}
+.midright > ul
+{
+    margin-bottom: 6px;
+}
+.midright p
+{
+    color: #5d5c5c;
+    font-size: 22px;
+}
+.signupfree
+{
+    padding: 5px 1px;
+}
+.freesignup
+{
+    padding: 4px 3px;
+}
+.BttnSignUp
+{
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 7px;
+}
+.videosection > p
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.col-lg-12.videosection
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+.V1 img
+{
+    width: 100%;
+}
+.V1 > p
+{
+    color: #858484;
+    font-size: 24px;
+    text-align: left;
+}
+.V1 > p span
+{
+    float: right;
+}
+.catchamagingvideo
+{
+    position: absolute;
+    right: -117px;
+    top: -33px;
+    z-index: 9999;
+}
+footer
+{
+    background: #239cde;
+}
+.foot1 h3
+{
+    color: #fff;
+    font-size: 24px;
+    padding: 18px 0;
+}
+.foot1 a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.foot1 li
+{
+    list-style: none;
+}
+.foot1
+{
+    width: 19%;
+}
+.col-lg-4.foot2
+{
+    padding: 0;
+    width: 24%;
+}
+.col-lg-4.foot2 img
+{
+    margin: 8px 0;
+    width: 112%;
+}
+.ppc
+{
+    float: left;
+    width: 100%;
+}
+.ppc span
+{
+    color: #fff;
+}
+.ppc p
+{
+    color: black;
+    font-family: DaunPenh;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+}
+nav.navbar
+{
+    display: none;
+}
+/*Next*/
+.midright > h4
+{
+    color: #5d5c5c;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px 0 20px;
+}
+.checkboxes121
+{
+    padding: 0;
+}
+.ForgotPassword
+{
+    padding-right: 32px;
+    text-align: right;
+}
+.accountur
+{
+    color: #5d5c5c;
+    float: left;
+    font-size: 22px;
+    padding: 14px 0 6px;
+    text-align: center;
+    width: 100%;
+}
+.CreatingAcc > a
+{
+    color: #046699;
+    font-size: 18px;
+    text-decoration: underline;
+    float: left;
+    padding-bottom: 12px;
+    width: 100%;
+}
+.CreatingAcc
+{
+    text-align: center;
+}
+/*All-Jobs-Search-Page*/
+.AllJobs h1
+{
+    color: black;
+    font-size: 36px;
+    padding: 10px 0;
+}
+.Jobspartleft h5
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 17px;
+    margin-bottom: 5px;
+    padding: 4px 0;
+}
+.Location
+{
+    float: left;
+    margin-bottom: 15px;
+    max-height: 160px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.accordion-toggle
+{
+    color: #5d5c5c;
+    font-size: 18px;
+    text-decoration: none !important;
+}
+.accordion-heading
+{
+    border-bottom: 1px solid #5d5c5c;
+}
+.Location .checkbox
+{
+    color: #5d5c5c;
+    font-size: 18px;
+}
+.Jobspartleft
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 8px 9px;
+}
+.lastone
+{
+    border: none !important;
+}
+select.Howmuchjobs
+{
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin: 0 6px;
+}
+.FunctionalArea
+{
+ 
+    background: none repeat scroll 0 0 #fff;
+    padding: 0 30px;
+}
+.col-lg-3.col-xs-offset-9.showjobs
+{
+    padding: 0;
+    text-align: right;
+}
+/*Form Searching Keywords*/
+.selectkeyword
+{
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+}
+.form-control
+{
+    border-radius: 0;
+    }
+.selectkeyword1
+{
+    float: left;
+    width: 100px;
+    margin-right: 5px;
+}
+.selectkeyword2
+{
+    float: left;
+    width: 150px;
+    margin-right: 5px;
+}
+.selectkeyword3
+{
+    float: left;
+    width: 80px;
+    margin-right: 5px;
+}
+.selectkeyword4
+{
+    float: left;
+    width: 105px;
+    margin-right: 5px;
+}
+.bttns .btn.btn-primary.btn-sm.btn-block
+{
+    float:left;
+    margin-top: 20px;
+    width: 77px;
+}
+.SeachingWithKeyWords
+{
+  /*  border-bottom: 1px solid #000;*/
+    float: left;
+    margin-bottom: 10px;
+  /*  padding-bottom: 34px;*/
+    width: 100%;
+}
+/*JOb Discription*/
+.NameOfTheJob > h3
+{
+    padding-left:0px;
+    color: #0a60d5;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-align:left;
+}
+.NameOfTheJob li > a
+{
+    color: #0a60d5;
+    font-size: 15px;
+    text-decoration: none;
+}
+.NameOfTheJob li
+{
+    display: inline;
+    list-style: outside none none;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+#sms
+{
+    background: url("../images/sms.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#loc
+{
+    background: url("../images/loc.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.NameOfTheJob > p
+{
+    color: black;
+    font-size: 13px;
+}
+#readmore
+{
+    color: #7e7e7e;
+    float: right;
+}
+.right
+{
+    text-align: right;
+    top: 0px;
+    
+}
+.right.posted p
+{
+    color: #868484;
+    font-size: 12px;
+}
+.NameOfTheJob
+{
+    padding-left: 24px;
+    width:437px;
+}
+.socialreward > p
+{
+    font-size: 13px;
+    padding-left: 22px;
+}
+.socialreward li
+{
+    display: inline;
+    list-style: outside none none;
+    padding: 0 1px;
+}
+.socialreward > ul
+{
+   /*margin-top: 71px;*/
+    text-align: center;
+}
+.smalllogo
+{
+    width:100% important;
+    height:20%;
+    text-align:center;
+}
+#sharing
+{
+    float: left;
+    font-size: 12px;
+    margin-left: 32px;
+    margin-top: 2px;
+    text-decoration: none;
+}
+.applyBttn img
+{
+    margin-bottom: 5px;
+}
+.applyBttn li a
+{
+    border-right: 1px solid;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 0 2px;
+}
+.applyBttn li
+{
+    list-style: none;
+    display: inline;
+}
+#last
+{
+    border: none !important;
+}
+.col-lg-2.applyBttn
+{
+    padding-right: 0;
+    text-align: center;
+    padding-left: 0;
+}
+.Jobname
+{
+   /*border-bottom: 1px solid;*/
+    float: left;
+    margin: 3px 0 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.uniq li
+{
+    display: inline;
+    list-style: outside none none;
+    padding: 0 2px;
+}
+.uniq
+{
+    padding: 0px;
+}
+.uniq > ul
+{
+    text-align: right;
+}
+.uniq a
+{
+    color: black;
+    font-size: 16px;
+}
+.GoTo
+{
+    padding: 0px;
+}
+.GoTo > p
+{
+    color: black;
+    font-size: 16px;
+    text-align: right;
+}
+.GoTo p span
+{
+    border: 1px solid;
+    padding: 0 6px;
+}
+/*position*/
+.DBmanger
+{
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding-top: 14px;
+}
+.DBmanger h2
+{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+#Expriance
+{
+    margin: 5px 0;
+}
+#Expriance li
+{
+    display: inline;
+    font-size: 18px;
+    list-style: outside none none;
+    margin-right: 15px;
+}
+.Exp
+{
+    background: url(../images/Exp.png) no-repeat left;
+    padding-left: 33px;
+}
+.loc_B
+{
+    background: url(../images/loc_B.png) no-repeat left;
+    padding-left: 25px;
+}
+#BttnGrp > li
+{
+    display: inline;
+    list-style: outside none none;
+    padding: 0 10px 0 0;
+    font-size: 18px;
+}
+#BttnGrp
+{
+    margin: 9px 0;
+}
+.DBpoints
+{
+    padding-left: 0;
+}
+#Moneypoint li
+{
+    display: inline;
+    font-size: 16px;
+    list-style: outside none none;
+    margin-right: 15px;
+}
+/*.industry p {
+	background:url(../images/star.png) no-repeat left;
+	padding-left: 30px;
+}*/
+.rupees
+{
+    background: url(../images/Rs.png) no-repeat left;
+    padding-left: 14px;
+}
+#links a
+{
+    font-size: 14px;
+}
+#links > li
+{
+    border-right: 1px solid #1e5692;
+    color: #1e5692;
+    display: inline;
+    list-style: outside none none;
+    padding: 0 10px;
+}
+.SimmilerJobs
+{
+    text-align: right;
+}
+.SimmilerJobs > p
+{
+    color: #6a6a6a;
+    font-size: 14px;
+}
+.SimmilerJobs p span
+{
+    color: #000;
+    font-weight: 600;
+}
+#SocialGroup li
+{
+    display: inline;
+    list-style: outside none none;
+    padding: 0 1px;
+}
+#SocialGroup
+{
+    padding: 5px 0;
+}
+.share
+{
+    color: #4e4e4e;
+    font-size: 18px;
+    margin: 0 5px;
+}
+.Strategize h1
+{
+    border-bottom: 1px solid;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 2px 0 7px;
+}
+.JobDescription
+{
+    padding: 0;
+}
+.Strat
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 7px 20px;
+}
+.Strategize li
+{
+    color: #5a5959;
+    font-size: 15px;
+}
+.Strategize ul
+{
+    margin-bottom: 27px;
+    padding-left: 15px;
+}
+.Strategize p
+{
+    color: #373838;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.Strategize p span.col-lg-3
+{
+    padding-left: 0;
+}
+.DCP
+{
+    margin-top: 38px;
+}
+.DMMStrategize
+{
+    padding-right: 0px;
+}
+.DMMStrate
+{
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.DMMStrate > h2
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 20px;
+    padding: 9px 0;
+}
+.DMMStrate h4
+{
+    color: #1565b0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.DMMStrate > p
+{
+    font-size: 14px;
+}
+.ReferralPts
+{
+    border-bottom: 1px solid;
+    margin: 3px 0;
+    padding-bottom: 10px;
+}
+.Applynow li
+{
+    display: inline;
+    font-size: 18px;
+    list-style: outside none none;
+    padding: 0 7px;
+}
+.Applynow
+{
+    background: none repeat scroll 0 0 #fff;
+    margin: 20px 0;
+    padding: 30px 12px;
+}
+/*applyform*/
+.ApplyToRegister
+{
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+#steps li
+{
+    display: inline;
+    list-style: outside none none;
+    padding: 0 13px;
+}
+#steps li
+{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+#steps li a
+{
+    color: #fff;
+    font-size: 20px;
+}
+.ApplyToRegister > ul
+{
+    background: url("../images/Step1.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding: 8px 20px;
+}
+#step1 > h1
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 19px;
+    padding: 8px 0;
+    float: left;
+    width: 100%;
+}
+#step2 > h1
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 19px;
+    padding: 8px 0;
+    float: left;
+    width: 100%;
+}
+#step3 > h1
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 19px;
+    padding: 8px 0;
+    float: left;
+    width: 100%;
+}
+#step4 > h1
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 19px;
+    padding: 8px 0;
+    float: left;
+    width: 100%;
+}
+.ApplyToRegister > h1
+{
+    border-bottom: 1px solid;
+    color: black;
+    font-size: 19px;
+    padding: 8px 0;
+}
+.mailinfo
+{
+    margin-top: 25px;
+}
+.mailinfo p
+{
+    text-align: right;
+}
+.Loginbttn
+{
+    margin: 10px 0;
+    text-align: center;
+}
+.ApplyToRegister .col-lg-3
+{
+    border-right: 1px dotted #ccc;
+    margin: 13px 0 0;
+}
+.ApplySocial li
+{
+    list-style: outside none none;
+}
+.ApplySocial img
+{
+    margin: 2px 0;
+    padding: 0 28px;
+    width: 100%;
+}
+.ApplySocial > h1
+{
+    color: #5d5c5c;
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Signup > h1
+{
+    color: #5d5c5c;
+    font-size: 19px;
+    margin-bottom: 6px;
+    padding: 13px 0;
+}
+.FillUpload .control-label > span
+{
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 6px;
+}
+.FillUpload
+{
+    padding: 60px 41px 12px;
+}
+.submit
+{
+    text-align: right;
+    margin-top: 64px;
+}
+/*Refer*/
+.Referance li a
+{
+    color: #076698;
+    font-size: 18px;
+    padding-right: 25px;
+}
+.Referance
+{
+    padding-left: 0;
+}
+.Referance ol
+{
+    padding-left: 19px;
+    margin-bottom: 37px;
+}
+.Referance li a:hover
+{
+    background: url(../images/Edit.png) no-repeat right;
+}
+.TotalReferance > p
+{
+    font-size: 16px;
+    padding-bottom: 120px;
+    text-align: right;
+}
+.ReferencesTotal > p
+{
+    color: #000;
+    font-size: 18px;
+}
+.selectedkey > h4
+{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.SpokenCandidate
+{
+    border-right: 1px solid;
+}
+/*Home*/
+.Slider img
+{
+    width: 100%;
+}
+.WhiteBG
+{
+    background: #fff;
+}
+.GrayBG
+{
+    background: #f6f6f6;
+    border-top: 1px solid #c6c7c7;
+    padding-top: 35px;
+}
+.FunctionalArea.HomePage
+{
+    background: none repeat scroll 0 0 #f6f6f6;
+}
+.Categories li a
+{
+    color: #5c5c5c;
+    font-size: 14px;
+    text-decoration: none;
+}
+.ReferrenceSlider > h1
+{
+    color: black;
+    font-size: 30px;
+    padding: 36px 0 22px;
+    text-align: center;
+}
+.NameOfReferrence
+{
+    background: none repeat scroll 0 0 #f6f6f6;
+    border: 1px solid #e7e7e7;
+    float: left;
+    margin: 8px 0 25px;
+    padding: 10px 0;
+    width: 95%;
+}
+.IshanRefer
+{
+    color: black;
+    font-family: Century Gothic;
+    font-size: 17px;
+    text-align: center;
+    padding: 16px 0;
+}
+.NameOfReferrence > p
+{
+    color: #be1418;
+    float: left;
+    font-family: Maiandra GD;
+    font-size: 17px;
+    padding: 7px 8px;
+    text-align: center;
+    width: 100%;
+}
+.ReferrenceSlider
+{
+    margin-bottom: 50px;
+}
+/*FAQ*/
+.FAQs h1
+{
+    color: #000;
+    font-size: 60px;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+.FAQs
+{
+    background: #fff;
+    padding: 30px 35px 26px;
+}
+.FAQs li > a
+{
+    font-size: 20px;
+}
+.nav.nav-tabs > li
+{
+    background: #eeeeee;
+    margin-right: 2px;
+    color:Black;
+}
+.FAQs h3
+{
+    background: /*url("../images/nav-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0)*/ none repeat scroll 0 0 gray;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: rgb(246, 246, 246);
+    font-family:Calibri;
+}
+.Terms > p
+{
+    color: #585858;
+    font-size: 18px;
+    
+    padding: 14px;
+}
+.FAQs .nav.nav-tabs
+{
+    margin-bottom: 50px;
+}
+.glyphicon.fqs
+{
+    float: right;
+    font-size: 13px;
+    margin-top: -5px;
+}
+/*.Terms
+{
+    margin-bottom: 10px;
+}
+/*Referral Rewards*/
+
+    .ReferralRewards
+{
+    background: #fff none repeat scroll 0 0;
+    margin: 40px 0;
+    margin-bottom:0;
+    padding: 23px 46px;
+    background-image: url('../images/rewardbackground.png');
+    height: 966px;
+    width: 101%;
+}
+
+.ReferralRewards h1
+{
+    background: none repeat scroll 0 0;
+    color: #fff;
+    font-size: 35px;
+    margin: 11px 0px;
+    padding: 10px 0;
+    text-align: center;
+}
+.ReferralRewards > p
+{
+    color:#fff;
+    font-size: 20px;
+    padding:12px 25px 12px 25px;
+    text-align:center;
+}
+.Consultants a
+{
+    color: #067bc2;
+    font-size: 25px;
+    text-decoration: none;
+}
+.Consultants > ul
+{
+    margin-left: 30px;
+}
+.FriendsChat > p
+{
+    color: #000;
+    font-size: 25px;
+    padding: 24px 2px 0;
+    text-align: justify;
+}
+.RecruitersConsultants > p
+{
+    color: #000;
+    font-size: 25px; /*    padding-bottom: 14px; */
+    text-align: justify;
+}
+.organization
+{
+    float: left;
+    margin: 20px 0;
+    width: 100%;
+}
+.FriendImg > img
+{
+    width: 100%;
+}
+.RecruitersConsultantsImg > img
+{
+    width: 100%;
+}
+.Industral > img
+{
+    width: 100%;
+}
+.Industral > p
+{
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+}
+.ReferralRewards li
+{
+    /*display: inline; 	list-style: outside none none;*/
+    padding: 0 5px;
+}
+.referbutton > li
+{
+    display: inline;
+    list-style: outside none none;
+}
+.ReferralRewards > ul
+{
+    padding: 10px 0;
+    text-align: center;
+}
+.ReferralRewards > ul > li img
+{
+    width: 184px;
+}
+
+/*Dashboard*/
+.SeachingKeyWords.SeachingWithKeyWords
+{
+    border: medium none;
+    margin: 30px 0 30px;
+    padding-bottom: 0;
+}
+.dashboard
+{
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 0 20px;
+}
+.dashboard h1
+{
+    font-size: 28px;
+}
+.Jobspartleft img
+{
+    padding: 5px 4px;
+    width: 100%;
+}
+.Jobspartleft > p
+{
+    font-size: 18px;
+    text-align: center;
+}
+.Jobspartleft a
+{
+    color: #1f8fcd;
+    text-decoration: none;
+}
+.RefferProfileImg li
+{
+    font-size: 18px;
+    list-style: outside none none;
+}
+.RefferProfileImg
+{
+    margin: 7px 0;
+}
+.Jobspartleft h4 a
+{
+    text-decoration: underline;
+}
+.Jobspartleft > h4
+{
+    font-size: 18px;
+    text-align: center;
+}
+.Jobspartleft > h4
+{
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-top: 5px;
+    text-align: center;
+}
+.headPart p
+{
+    color: black;
+    font-size: 18px;
+}
+.headPart
+{
+    background: none repeat scroll 0 0 #f6f6f6;
+    border-bottom: 1px solid #ccc;
+    padding: 6px;
+}
+.BttnClick
+{
+    border: 1px solid #ccc;
+    float: left;
+    margin-top: 10px;
+    padding: 46px 7px 8px;
+    text-align: right;
+    width: 100%;
+}
+.PrivacyPolicy h1
+{
+    background: none repeat scroll 0 0 #067bc2;
+    color: #fff;
+    font-size: 30px;
+    margin: 43px 0 13px;
+    padding: 10px 0;
+    text-align: center;
+}
+.PrivacyPolicy
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 0 40px 30px;
+    margin: 30px 0 0;
+}
+.PrivacyPolicy > p
+{
+    color: #605f5f;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: justify;
+}
+.PrivacyPolicy h5
+{
+    color: #0e7ada;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.GetInTouch
+{
+    padding: 10px 0;
+    text-align: center;
+}
+.GetInTouch img.btn
+{
+    width: 179px;
+}
+h2.PartnerSites
+{
+    background: none repeat scroll 0 0 #229adc;
+    color: #fff;
+    float: left;
+    font-size: 26px;
+    margin-top: 8px;
+    padding: 8px 0;
+    text-align: center;
+    width: 100%;
+}
+/*AboutUs*/
+.ReferralRewards > h3
+{
+    color: #000;
+    font-size: 36px;
+    padding: 25px 0 0;
+}
+.AboutUsP
+{
+    color: black !important;
+    font-size: 20px !important;
+    text-align: left !important;
+    margin-bottom: 20px;
+}
+.TechnologyTeam h2
+{
+    color: black;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 4px 0 0;
+}
+.TechnologyTeam > p
+{
+    color: #000;
+    font-size: 16px;
+    text-align: justify;
+}
+.FriendsChat1 > p
+{
+    font-size: 20px;
+    margin-top: 18px;
+}
+.RecruitersConsultants1 > h3
+{
+    color: #000;
+    font-size: 36px;
+    padding: 25px 0 0;
+}
+.RecruitersConsultants1 > p
+{
+    font-size: 20px;
+    margin-top: 18px;
+}
+.FriendsChat1 > h3
+{
+    color: #000;
+    font-size: 36px;
+    padding: 25px 0 0;
+}
+.develop
+{
+    color: black !important;
+    font-size: 27px !important;
+    padding: 30px 0 55px !important;
+}
+.TeamMember
+{
+    text-align: center;
+}
+.TeamMember > p
+{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.SubTeamMembers
+{
+    margin: 40px 0 8px;
+}
+.Front_Form
+{
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.catchamagingvideo.ank
+{
+    right: -86px;
+    top: 35px;
+}
+.JobSearch
+{
+    position: absolute;
+    right: -39px;
+    top: -55px;
+    width: 159px !important;
+    z-index: 9999;
+}
+.SearchJob
+{
+    margin-left: 17px;
+}
+.showjobs > p
+{
+    padding-top: 8px;
+    text-transform: capitalize;
+}
+li.industry
+{
+    background: url("../images/star.png") no-repeat scroll 0 0 / 19px auto rgba(0, 0, 0, 0);
+    padding-left: 23px;
+}
+.bttnsMoreVideos > img
+{
+    margin: 30px 0 6px;
+}
+.col-lg-2 .form-control
+{
+    height: 32px;
+}
+.bttns.glyphicons
+{
+    float: right;
+    margin-top: 13px;
+    width:33px;
+    height: 33px;
+}
+.videosection122
+{
+    margin-bottom: 40px;
+}
+.modal-dialog
+{
+    margin: 30px auto;
+    width: 83%;
+}
+#myModal2, #myModal
+{
+    z-index: 99999;
+}
+div#ContactForm7
+{
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    padding: 16px 7px;
+    width: 100%;
+}
+#ContactForm7 input
+{
+    height: 41px;
+    margin: 6px 0;
+}
+#ContactForm7 textarea
+{
+    height: 200px;
+    margin: 7px 0;
+}
+.col-lg-7.ContactForm
+{
+    margin: 50px 0 2px;
+    padding-left: 0;
+}
+#ContactForm7 h1
+{
+    color: #5d5c5c;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-left: 13px;
+}
+.Imgcontact
+{
+    background: none repeat scroll 0 0 #fff;
+    margin: 49px 0 0;
+    padding: 10px 67px 0;
+    text-align: center;
+}
+.ContactImg
+{
+    padding-right: 0;
+}
+.btnContactUs
+{
+    text-align: center;
+}
+.btnContactUs > img
+{
+    margin: 3%;
+}
+.Imgcontact > h3
+{
+    color: #5d5c5c;
+    font-size: 21px;
+    margin: 6px 0 0px;
+}
+.Imgcontact > h4
+{
+    color: #5d5c5c;
+    font-size: 21px;
+    margin: 6px 0 0px;
+}
+.Imgcontact > a
+{
+    float: left;
+    font-size: 21px;
+    margin-bottom: 23px;
+    text-decoration: none;
+    width: 100%;
+}
+.Imgcontact > p
+{
+    color: #000;
+    font-size: 21px;
+}
+.Imgcontact > img
+{
+    width: 98%;
+}
+
+
+
+.instrutions-Sections > p
+{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.col-lg-12.instrutions-Sections
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* How it work */
+
+
+.howitWork
+{
+    background: #fff none repeat scroll 0 0;
+    padding: 23px 179px;
+    padding-right:191px;
+    background-image: url('../images/howitworksback.png');
+    height: 1522px;
+    color: White;
+    width: 101%;
+}
+.howitWork p.instructions
+{
+    color:White;
+}
+.howitWork h1
+{
+    
+    color: #fff;
+    font-size: 30px;
+    margin: 11px 0px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.howitWork > p
+{
+    color:White;
+    font-size: 25px;
+    padding: 12px 0;
+    text-align:center;
+}
+
+.howitWork > p.social
+{
+    color:White;
+    font-size: 20px;
+    padding: 12px 0;
+    text-align: justify;
+}
+
+.howitWork div.social
+{
+    margin-top: 20px;
+}
+.howitWork p.social
+{
+    color:White;
+    font-size: 20px; /* padding-bottom: 14px; */
+    text-align: justify;
+    padding: 0px;
+}
+
+.howitWork span.social
+{
+    font-size: 19px;
+    margin-right: 10px;
+}
+.howitWork social > span
+{
+    font-size: 19px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.howitWork ul
+{
+    list-style: none;
+    display: inline-block;
+}
+.howitWork ul > li
+{
+    display: inline-block;
+}
+
+
+.btngetStarted
+{
+    text-align: center;
+}
+.btngetStarted img
+{
+    width: 169px;
+}
+.btnSignUp
+{
+    background-image: url('../images/bttn-signup.png');
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 41px;
+}
+.i-text-justify {
+text-align: justify !important;
+}
+.clsWrap
+        {
+            word-break: break-all;
+        }
+/*pop_up css start Here*/
+
+#modal
+{width:100%; float:left;
+ background:#fff;
+ modal
+ 
+    }
+#modal header {
+   
+	position:relative;
+	width:100%; 
+	border-bottom:3px solid #239cde;
+ 
+	float:left;
+}
+
+ 
+#modal header p {
+    padding:5px 0px;
+	color:#000;
+	margin-bottom:5px;
+	float:left; width:100%;
+	font-size:20px;
+	font-weight:700;
+}
+
+#modal header .close_buttons{ position:absolute; top:10px; right:10px; padding:4px; background:#E01717;}
+#modal header .close_buttons a span{ color:#fff; font-size:12px;}
+#modal header .close_buttons a:hover{ color:#fff; opacity:1;}
+#modal header .read_more_lines {
+	color:#ddd;
+	text-align:center;
+	line-height:10px;
+}
+#modal header .read_more_lines a {
+	text-decoration:none;
+	color:#fff;
+	font-weight:700;
+}
+#modal .middle_sec{ width:100%; float:left;}
+#modal .middle_sec .top_section{ width:100%; float:left;   border-bottom:2px solid #ccc; padding-top:8px; padding-bottom:8px;}
+#modal .middle_sec .top_section p{ width:100%; float:left; font-weight:700; color:#5C5656; font-size:16px; text-transform:capitalize;}
+#modal .middle_sec { width:100%; float:left;}
+#modal .middle_sec .middle_inner{ width:100%; float:left; margin:10px 0px;}
+#modal .middle_sec .photo_section .upload_photo
+{
+    width: 100%;
+    float: left;
+    border: 1px solid #ccc;
+  
+   
+    
+}
+#modal .middle_sec .photo_section .upload_photo a{ width:100%; float:left;}
+#modal .middle_sec .photo_section .delete_link{ width:100%; float:left; margin:10px 0px;}
+#modal .middle_sec .photo_section .delete_link button{ float:left; color:#fff; text-align:center; border-radius:3px;background:#239cde; width:100%; text-transform:capitalize; padding:6px 0px; border:0px;}
+
+#modal .middle_sec .file_upload_section .file_browse{ width:100%; float:left; margin-top:30px; text-align:center;}  
+#modal .middle_sec .file_upload_section .uploading_text{ width:100%; float:left; margin-top:50px;} 
+#modal .middle_sec .file_upload_section .uploading_text p{ text-transform:capitalize; color:#333; font-size:16px; margin:1px 0px;}
+#modal .middle_sec .information_sec{ width:100%; float:left;}                                            
+#modal .middle_sec .information_sec p{ width:100%; float:left; text-transform:capitalize; color:#666; font-size:16px;}
+
+.delete
+{
+float: left;
+color: #fff;
+text-align: center;
+border-radius: 3px;
+background: #239cde;
+width: 100%;
+text-transform: capitalize;
+border: 0px;
+}
+
+
+.UpdatePassword
+{
+float: left;
+color: #fff;
+text-align: center;
+border-radius: 3px;
+background: #239cde;
+width: 100%;
+text-transform: capitalize;
+border: 0px;
+}
+.hireGrid
+{
+    border: 0px;
+}

@@ -1,0 +1,739 @@
+﻿body
+{
+   
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    color: #676767;
+    text-align: justify;
+    line-height: 20px;
+    font-weight: normal;
+}
+ .maintbl
+        {
+            width: 1150px;
+            margin-left: auto;
+            margin-right: auto;
+            -moz-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+            border: 4px solid #E0E2EB;
+            border-radius: 7px;
+        }
+        
+
+.logocss
+{
+  Height:85px;
+  Width:200px;   
+    
+    }
+
+.hdline
+{
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color:#b11018;
+    height: 5px;
+}
+ .hdltxt
+{
+    font-family: "Lucida Sans Unicode";
+    color:#b11018;
+    
+    font-weight: bold;
+    font-family: optima;
+    
+}
+        .hdltxt sup
+        {
+           font-family: "Lucida Sans Unicode";
+            color:#b11018;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: optima;
+            
+        }
+        
+         #homemiddle p
+{
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: justify;
+    color:#676767;  
+}
+.modalbackground
+{
+    background-color: #FFE8E8;
+    opacity: 0.8;
+}
+.mbg
+{
+    background-color: #3D4D76;
+}
+
+
+
+
+.comp
+{
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+    color: #39355E;
+     font-family: "Lucida Sans Unicode";
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.erp
+{
+    margin: 0px;
+   
+    text-align: right;
+    padding-right: 20px;
+    font-family: "Lucida Sans Unicode";
+    color: #003651;
+    font-size: 17px;
+    font-weight: bold;
+   padding-bottom:10px;
+}
+    .modalbackground
+{
+    border: 2px solid #0078F0;
+    opacity: 0.5;
+    background-color: #CEE7FF;
+}
+.mtable
+{
+ width:100%;
+ margin-left:auto;
+ margin-right:auto
+}
+.mtable thead
+{
+    height: 80px; /* default background colour, for all layout engines that don't implement gradients */
+    background: #F8F8FA; /* gecko based browsers */
+   
+    background-color: #F8F8FA;
+}
+.nav
+{
+    height: 35px;
+    background-color: #AEB9D5;
+    font-family: calibri;
+    color: #2D3755;
+    font-size: 18px;
+}
+ .content
+{
+    border: 2px solid #3D4D76;
+    height: 500px;
+    width: 100%;
+   
+}  
+.hr
+{
+    margin: 0px;
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: #900;
+} 
+.footer
+{
+    height: 40px;
+    width: 100%; /* default background colour, for all layout engines that don't implement gradients */
+    background: #EFF0F5; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #EFF0F5, #E0E2EB); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFF0F5', endColorstr='#E0E2EB'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFF0F5), to(#E0E2EB));
+    background-color: #EFF0F5;
+    color: #57608A;
+    font-family: calibri;
+    font-size: 20px;
+}
+#footer p
+{
+    color: #E0E0E0;
+    float: left;
+    font-family: 'LatoBold',Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 156px;
+    padding-right:97px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+#empBirth
+{
+     margin-top:220px;
+     height:130px;
+}
+#empBirth h2
+{
+    border-radius: 3px;
+    font: 18px;
+    color: #FFFFFF;
+    display: block;
+    padding-left: 10px;
+    margin-bottom:5px;
+     width:95%;
+    line-height: 30px;
+    font-family: "Lucida Sans Unicode" , Candara, Westerner;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #b11018;
+    background:#b11018;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #FFFFFF;
+    margin: 0px;
+    
+    }
+    .hh2
+{
+    border-radius: 3px;
+    font: 18px;
+    color: #FFFFFF;
+    display: block;
+    padding-left: 10px;
+    
+    line-height: 30px;
+    font-family: "Lucida Sans Unicode" , Candara, Westerner;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #CA1A21;
+    background:#b11018;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #FFFFFF;
+    margin: 0px;
+}
+  #homemiddle h2
+{
+    margin: 0px;
+     height:32px;
+    color: #b11018;
+    font-size: 18px;
+    font-family: 'Lucida Sans Unicode';
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #EBEBEB;
+}
+#empBirth p
+{
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:15px;
+    margin-left:0px;
+    margin-top:0px;
+}
+
+#evnt
+{
+     margin-top:15px;
+     height:130px;
+}
+#evnt h2
+{
+    border-radius: 3px;
+    font: 18px;
+    color: #FFFFFF;
+    display: block;
+    padding-left: 10px;
+    margin-bottom:5px;
+     width:95%;
+    line-height: 30px;
+    font-family: "Lucida Sans Unicode" , Candara, Westerner;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #b11018;
+    background:#b11018;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #FFFFFF;
+    margin: 0px;
+    
+    }
+#evnt p
+{
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:15px;
+    margin-left:0px;
+    margin-top:0px;
+}
+
+
+/*CSS for PAGE POPUP*/
+.pnlpopup
+{
+    border: 4px solid #CA1A21;
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+
+
+/*CSS for Page Content*/
+
+.tblCal
+{
+    font-family: 'Lucida Sans Unicode';
+    border: 1px solid #FFD2D2;
+    color: #711600;
+    height: 60px;
+    width: 100px;
+}
+.cal
+{
+    font-family: 'Lucida Sans Unicode';
+    border: 1px solid #FFE6E6;
+    height: 60px;
+    width: 100px;
+   
+}
+.cMnth
+{
+    font-size: 20px;
+    color: #666666;
+     width: 100px;
+}
+
+.CDate
+{
+    font-size: 14px;
+    color: #DE0C0B;
+    width:100px;
+     
+    
+}
+.CWeek
+{
+    font-size: 12px;
+    color: #525252;
+    width:100px;
+   
+}
+ .CStatus
+{
+    padding-top:10px;
+    font-size: 16px;
+    color: #0053A6;
+    width:100px;
+    
+}
+ .CPresent
+{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #006231;
+    width: 100px;
+     
+}
+/*CSS for Page Content*/
+
+
+
+#page
+{
+   /* border: 1px solid #FFE8E8;*/
+    width: 885px;
+    height: auto;
+     font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #32374E;
+   
+}
+
+#page h2
+{
+    margin: 0px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-family: calibri;
+} 
+
+   
+#page table
+{
+    padding-top: 6px;
+    margin-top: 4px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.headtext
+{
+    color: #CA1A21;
+   font-family: "Lucida Sans Unicode";
+    font-size: 19px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.hdr
+{
+    background: #CA1A21 repeat-x top;
+  
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+    background-color: #CA1A21;
+}
+.chngpswrd {
+    color: #9D0000;
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+}
+
+.DropDown
+{
+    border: 1px solid #999999;
+    font-family: "Lucida Sans Unicode";
+    width: 190px;
+    height: 22px;
+    font-size: 13px;
+}
+.lblHistory
+{
+    color: #4B4B4B;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+.TxtBox
+{
+    border: 1px solid #999999;
+    font-family: "Lucida Sans Unicode";
+    width: 190px;
+    height: 22px;
+    font-size: 13px;
+}
+.Rbtn
+{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+/*CSS for Grid View*/
+.mGrid
+{
+    width: 100%;
+    background-color:  #b11018;
+    margin: 5px 0 10px 0;
+    border : 1px solid #FECBD3;
+    border-collapse: collapse;
+}
+    .mGrid th
+{
+    background:#b11018;
+    color: #FFFFFF;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+    background-color: #b11018;
+}
+    .mGrid td
+{
+    border: 1px solid #FECBD3;
+    color: #b11018;
+     font-family: "Lucida Sans Unicode";
+  
+    padding-left:10px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+
+.mGrid .alt
+{
+    background: #F9FCFF top;
+}
+.mGrid .pgr
+{
+    background: #FFF4F4 top;
+}
+    .mGrid .pgr table { margin: 5px 0; }
+    .mGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    line-height: 12px;
+    border-left-color: #424242;
+    
+    color: #00354F;
+    font-size: 16px;
+}   
+    .mGrid .pgr a
+{
+    color: #00354F;
+    text-decoration: none;
+    
+}
+    .mGrid .pgr a:hover
+{
+    color: #00354F;
+    text-decoration: none;
+  
+}
+.mGrid .footer
+{
+    background: #FFD7D7 repeat-x top;
+    color: #000000;
+   
+}    
+  
+.mGrid tbody tr:hover, .GridView tbody tr:hover td, .GridView tbody tr.hover, .GridView tbody tr.hover td
+{
+    background: #F5FAFC;
+    color: #000000;
+}
+
+/*CSS FOR BUTTON*/
+
+.btnNew
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b11018), color-stop(1, #b11018) );
+    background: -moz-linear-gradient( center top, #b11018 5%, #b11018 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b11018', endColorstr='#b11018');
+    background-color: #b11018;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #e8cccc;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 24px;
+    text-decoration: none;
+   
+}.btnNew:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0240b), color-stop(1, #cc1010) );
+	background:-moz-linear-gradient( center top, #e0240b 5%, #cc1010 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0240b', endColorstr='#cc1010');
+	background-color:#e0240b;
+}
+
+.btnSearch
+{
+    /* default background colour, for all layout engines that don't implement gradients */
+    background:#b11018; /* gecko based browsers */
+    color: #0063C6; /* text colour (black) */
+    height: 28px; /* gradient uses the full height of the element */
+    padding: 3px; /* distance from border edge to text */
+    width:90px;
+    font-family: arial, Helvetica, sans-serif;
+    margin-left: 0px;
+     font-size: 17px;
+}
+
+
+.btnSave
+{
+   -moz-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b11018), color-stop(1, #b11018) );
+    background: -moz-linear-gradient( center top, #b11018 5%, #b11018 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b11018', endColorstr='#b11018');
+    background-color: #b11018;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #e8cccc;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 24px;
+    text-decoration: none;
+    width:100px;
+}
+
+.btnCancel
+{
+-moz-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CA1A1C), color-stop(1, #e0240b) );
+    background: -moz-linear-gradient( center top, #CA1A1C 5%, #e0240b 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CA1A1C', endColorstr='#e0240b');
+    background-color: #b11018;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #e8cccc;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 24px;
+    text-decoration: none;
+     width:100px;
+}.btnCancel:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0240b), color-stop(1, #cc1010) );
+	background:-moz-linear-gradient( center top, #e0240b 5%, #cc1010 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0240b', endColorstr='#cc1010');
+	background-color:#e0240b;
+}
+
+
+.lbtnEdit
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color:#b11018;
+    text-decoration: none;
+}
+.lbtnView
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #b11018;
+    font-weight: 300;
+}
+.lbtnUpdate
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #b11018;
+    text-decoration: none;
+}
+.lbtnCancel
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #b11018;
+    text-decoration: none;
+   
+}
+
+
+
+
+/*CSS for Grid View Report*/
+.mReport
+{
+    width: 100%;
+    background-color: #CA1A21;
+    margin: 5px 0 10px 0;
+  border: 1px solid #FECBD3;
+    border-collapse: collapse;
+}
+    .mReport th
+{
+    color: #FFFFFF;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+    background-color: #CA1A21;
+    
+}
+    .mReport td
+{
+    border: 1px solid #FECBD3;
+    color: #232323;
+     font-family: "Lucida Sans Unicode";
+  
+    padding-left:10px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+
+.mReport .alt
+{
+    background: #F9FCFF top;
+}
+.mReport .pgr
+{
+    background: #FFF4F4 top;
+}
+    .mReport .pgr table { margin: 5px 0; }
+    .mReport .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    line-height: 12px;
+    border-left-color: #424242;
+    
+    color: #00354F;
+    font-size: 16px;
+}   
+    .mReport .pgr a
+{
+    color: #00354F;
+    text-decoration: none;
+    
+}
+    .mReport .pgr a:hover
+{
+    color: #00354F;
+    text-decoration: none;
+  
+}
+.mReport .footer
+{
+    background: #FFD7D7 repeat-x top;
+    color: #000000;
+   
+}    
+  
+.mReport tbody tr:hover, .GridView tbody tr:hover td, .GridView tbody tr.hover, .GridView tbody tr.hover td
+{
+    background: #F5FAFC;
+    color: #000000;
+}
+ #footer
+        {
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            width: 1200px;
+        }
+        #footer p
+        {
+            margin: 0px;
+            padding-left: 10px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            font-family: "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+            font-size: 12px;
+            color: #333;
+        }
+
+
+.popuppanel
+{   
+      border:4px solid #b11018;     
+}
+.popuppanel h2
+{
+    background-color:#b11018;
+    color:white;
+   font-family: arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-top:0px;
+vertical-align: middle;
+word-spacing: 5px;
+}

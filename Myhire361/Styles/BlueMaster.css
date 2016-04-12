@@ -1,0 +1,638 @@
+﻿body
+{
+   
+}
+ .maintbl
+        {
+            width: 1150px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 4px solid #7c7334;
+            border-radius: 7px;
+        }
+ #footer
+        {
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            width: 1200px;
+        }
+        #footer p
+        {
+            margin: 0px;
+            padding-left: 10px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            font-family: "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+            font-size: 12px;
+            color: #333;
+        }
+
+.logocss
+{
+  Height:80px;
+  Width:190px;   
+    
+    }
+
+.hdline
+{
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: #0080FF;
+    height: 5px;
+}
+ .hdltxt
+{
+    font: Tahoma, Geneva, sans-serif;
+    color: #0080FF;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: optima;
+}
+        .hdltxt sup
+        {
+            font: Tahoma, Geneva, sans-serif;
+            color: #0080FF;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: optima;
+            vertical-align: top;
+        }
+
+.modalbackground
+{
+    background-color: #BBDDFF;
+    opacity: 0.8;
+}
+.mbg
+{
+    background-color: #3D4D76;
+}
+.comp
+{
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+    color: #39355E;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.erp
+{
+    margin: 0px;
+   
+    text-align: right;
+    padding-right: 20px;
+    font-family: arial, Helvetica, sans-serif;
+    color: #003651;
+    font-size: 17px;
+    font-weight: bold;
+   padding-bottom:10px;
+}
+    .modalbackground
+{
+    border: 2px solid #0078F0;
+    opacity: 0.5;
+    background-color: #0080FF;
+}
+.mtable
+{
+ width:100%;
+ margin-left:auto;
+ margin-right:auto
+}
+.mtable thead
+{
+    height: 80px; /* default background colour, for all layout engines that don't implement gradients */
+    background: #F8F8FA; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #Fff, #F9F9FB); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#Fff', endColorstr='#F9F9FB'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#Fff), to(#F9F9FB));
+    background-color: #F8F8FA;
+}
+.nav
+{
+    height: 35px;
+    background-color: #AEB9D5;
+    font-family: calibri;
+    color: #2D3755;
+    font-size: 18px;
+}
+ .content
+{
+    border: 2px solid #3D4D76;
+    height: 500px;
+    width: 100%;
+   
+}   
+.footer
+{
+    height: 40px;
+    width: 100%; /* default background colour, for all layout engines that don't implement gradients */
+    background: #EFF0F5; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #EFF0F5, #E0E2EB); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFF0F5', endColorstr='#E0E2EB'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFF0F5), to(#E0E2EB));
+    background-color: #EFF0F5;
+    color: #57608A;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+#horimenu
+{
+  margin:0px;
+     
+    }
+        #horimenu p 
+    {
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #005CB9;
+    font-weight: 500;
+    word-spacing: 2pt;
+    text-decoration:none; 
+    height:10px;
+   width:800px;
+        }
+    #horimenu p a
+    {
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #005CB9;
+    font-weight: 500;
+    word-spacing: 2pt;
+    text-decoration:none; 
+        }
+
+  #horimenu p a:hover
+    {
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #9D0000;
+    font-weight: 500;
+    word-spacing: 2pt;
+    text-decoration:none; 
+    }
+
+
+/*CSS for Page Content*/
+#page
+{
+    border: 1px solid #D7EBFF;
+    width: 885px;
+    height: auto;
+    font-family: calibri;
+    font-size: 16px;
+    color: #32374E;
+    margin-top: 10px;
+}
+
+#page h2
+{
+    margin: 0px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-family: calibri;
+    text-align: center;
+    font-size: 19px;
+    color: #0080FF;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #0080FF;
+}
+#page table
+{
+    padding-top: 6px;
+    margin-top: 4px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.headtext
+{
+    color: #0080FF;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.hdr
+{
+    background: #0080FF repeat-x top;
+    background: -moz-linear-gradient(top, #CCCCFF, #0080FF); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCFF', endColorstr='#0080FF'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#CCCCFF), to(#0080FF));
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+    background-color: #0080FF;
+}
+
+.DropDown
+{
+    border: 1px solid #999999;
+    font-family: arial, Helvetica, sans-serif;
+    width: 190px;
+    height: 22px;
+    font-size: 13px;
+}
+
+.TxtBox
+{
+    border: 1px solid #999999;
+    font-family: arial, Helvetica, sans-serif;
+    width: 190px;
+    height: 22px;
+    font-size: 13px;
+}
+.Rbtn
+{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+/*CSS for Grid View*/
+.mGrid
+{
+    width: 100%;
+    background-color: #0080FF;
+    margin: 5px 0 10px 0;
+    border: 1px solid #FEF4F3;
+    border-collapse: collapse;
+}
+    .mGrid th
+{
+    background: #0080FF repeat-x top;
+    background: -moz-linear-gradient(top, #CCCCFF, #0080FF); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCFF', endColorstr='#0080FF'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#CCCCFF), to(#0080FF));
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+    background-color: #0080FF;
+}
+    .mGrid td
+{
+   
+    border: solid 1px #0080FF;
+    color: #232323;
+    font-family: arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    vertical-align:middle;
+}
+
+
+.mGrid .alt
+{
+    background: #F9FCFF top;
+}
+.mGrid .pgr
+{
+    background: #FFF4F4 top;
+}
+    .mGrid .pgr table { margin: 5px 0; }
+    .mGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    line-height: 12px;
+    border-left-color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00354F;
+    font-size: 16px;
+}   
+    .mGrid .pgr a
+{
+    color: #00354F;
+    text-decoration: none;
+    font-family: arial, Helvetica, sans-serif;
+}
+    .mGrid .pgr a:hover
+{
+    color: #00354F;
+    text-decoration: none;
+    font-family: arial, Helvetica, sans-serif;
+}
+.mGrid .footer
+{
+    background: #CCCCFF repeat-x top;
+    color: #000000;
+    font-family: verdana;
+}    
+  
+.mGrid tbody tr:hover, .GridView tbody tr:hover td, .GridView tbody tr.hover, .GridView tbody tr.hover td
+{
+    background: #F5FAFC;
+    color: #000000;
+}
+
+/*CSS FOR BUTTON*/
+
+.btnNew
+{
+    /* default background colour, for all layout engines that don't implement gradients */
+    background: #0080FF; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #444864, #0080FF); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444864', endColorstr='#0080FF'); /* webkit based browsers */
+   
+    color: #fff; /* text colour (black) */
+    /* gradient uses the full height of the element */
+    padding: 3px; /* distance from border edge to text */
+    font-family: arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    width:90px;
+      height: 28px; /* gradient uses the full height of the element */
+    
+}
+.btnNew:hover
+{
+    /* default background colour, for all layout engines that don't implement gradients */
+    background: #E6E7EE; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #E6E7EE, #D0D2DF); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6E7EE', endColorstr='#D0D2DF'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#E6E7EE), to(#D0D2DF));
+    color: #41455F; /* text colour (black) */
+    height: 28px; /* gradient uses the full height of the element */
+    padding: 3px; /* distance from border edge to text */
+    width:90px;
+    font-family: arial, Helvetica, sans-serif;
+    background-color: #E6E7EE;
+   
+}
+
+.btnSearch
+{
+    /* default background colour, for all layout engines that don't implement gradients */
+    background: #C4E1FF; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #C4E1FF, #9FCFFF); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C4E1FF', endColorstr='#9FCFFF'); /* webkit based browsers */
+    background: #C4E1FF;
+    color: #0063C6; /* text colour (black) */
+    height: 28px; /* gradient uses the full height of the element */
+    padding: 3px; /* distance from border edge to text */
+    width:90px;
+    font-family: arial, Helvetica, sans-serif;
+    margin-left: 0px;
+     font-size: 17px;
+}
+.btnSearch:hover
+{
+    /* default background colour, for all layout engines that don't implement gradients */
+    background: #E6E7EE; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #E6E7EE, #D0D2DF); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E6E7EE', endColorstr='#D0D2DF'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#E6E7EE), to(#D0D2DF));
+    color: #41455F; /* text colour (black) */
+    height: 28px; /* gradient uses the full height of the element */
+    padding: 3px; /* distance from border edge to text */
+   width:90px;
+    font-family: arial, Helvetica, sans-serif;
+    background-color: #E6E7EE;
+    font-size: 17px;
+}
+
+
+
+
+
+
+.lbtnEdit
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0080FF;
+    text-decoration: none;
+}
+.lbtnView
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #0069D2;
+    text-decoration: none; font-weight: bold;
+}
+.lbtnUpdate
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #008080;
+    text-decoration: none;
+}
+.lbtnCancel
+{
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #882D00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* SKOPE HOME PAGE CSS*/
+
+
+.tblMain
+{
+    width:100%;
+    height:auto; 
+    }
+.hh2
+{
+    background: #0080ff repeat-x left bottom;
+    margin: 0px;
+    margin-bottom: 8px;
+    background-color: #0080FF;
+    font-family: arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1pt;
+    font-size: 16px;
+    height: 21px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+   #topcenter
+        {
+            width: 610px;
+            height: auto;
+            padding-left:8px;
+            padding-right:8px;
+        }
+        
+  #homemiddle
+  {
+      margin-top:10px;
+      padding-left:5px;
+      padding-right:5px;
+      width: 620px;
+      height: auto;
+      }
+    #homebtm p
+{
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: Arial,Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #3C3C3C;
+    text-decoration: none;
+    text-align: left;
+}
+ .prg
+{
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-family: Arial,Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #3C3C3C;
+    text-decoration: none;
+    text-align: left;
+   
+}  
+ #homebtm
+  {
+      margin-top:10px;
+      padding-left:5px;
+      padding-right:5px;
+       width: 620px;
+            height: auto;
+      }
+   .leftdiv
+   {
+      width: 99%;
+     
+            margin-bottom: 5px;
+            height: auto; 
+       }
+       .leftdiv p
+   {
+     margin: 0px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-right:10px;
+    font-family: Arial,Verdana, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #3C3C3C;
+    text-decoration: none;
+    text-align: left;
+}  
+       
+ #polldiv
+        {
+            width: 99%;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            height: auto;
+        }
+        #polldiv p
+        {
+            margin: 0px;
+            padding-top: 5px;
+            padding-left: 10px;
+            padding-bottom: 5px;
+            font-family: Arial,Verdana, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #575757;
+            text-decoration: none;
+            text-align: left;
+        }
+     .btnOK
+{
+    background-color: #0080FF;
+    color: #FFFFFF;
+    font-family: arial, Helvetica, sans-serif;
+    width: 70px;
+    height: 24px;
+    font-size: 15px;
+}
+
+
+
+/*CSS FOR TAB IN HOME PAGE*/
+
+ .tabContainer
+        {
+            margin: 10px 0;
+            width: 100%;
+        }
+        .tabContainer .digiTabs
+        {
+            list-style: none;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0px;
+            position: relative;
+            top: 1px;
+        }
+        .tabContainer .digiTabs li
+        {
+            float: left;
+            background-color: #0080FF;
+            border: 1px solid #e1e1e1;
+            padding: 5px !important;
+            cursor: pointer;
+            border-bottom: none;
+            margin-right: 10px;
+            font-family: verdana;
+            font-size: .8em;
+            font-weight: bold;
+            color: #fff;
+            z-index:-1;
+        }
+        .tabContainer .digiTabs .selected
+        {
+            background-color: #fff;
+            color: #393939;
+             z-index:-1;
+        }
+        #tabContent
+        {
+            padding: 10px 1px 1px 1px;
+            background-color: #fff;
+            overflow: hidden;
+            float: left;
+            margin-bottom: 10px;
+            border: 1px solid #e1e1e1;
+            width: 99%;
+            height:150px;
+             z-index:-1;
+        }
+        
+           .popuppanel
+{   
+      border:4px solid #0080FF;     
+}
+.popuppanel h2
+{
+    background-color:#0080FF;
+    color:white;
+   font-family: arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-top:0px;
+vertical-align: middle;
+word-spacing: 5px;
+}

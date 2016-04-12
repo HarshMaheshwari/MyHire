@@ -1,0 +1,571 @@
+﻿   
+   body
+{
+    font-family: Lucida Sans Unicode;
+    background: #e0dfe4 url('../Image/body_bg.png') repeat-x;
+}
+
+
+.logocss
+{
+  Height:85px;
+  Width:200px;   
+    
+    }
+
+.hdline
+{
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: #DE0C0B;
+    height: 5px;
+}
+.apptext
+{
+  font-family: "Lucida Sans Unicode";
+    color: #DE0C0B;
+    font-size:32px;
+    font-weight:bold;
+    text-align:center;  
+    }
+ .hdltxt
+{
+    font-family: "Lucida Sans Unicode";
+    color: #DE0C0B;
+    
+    font-weight: bold;
+    font-family: optima;
+    
+}
+        .hdltxt sup
+        {
+           font-family: "Lucida Sans Unicode";
+            color: #DE0C0B;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: optima;
+           
+        }
+/*CSS for Vertical Menu*/        
+     .vmenu
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px; /*WIDTH OF MAIN MENU ITEMS*/
+    height: 30px; /*border: 1px solid black;*/
+}   
+ .vmenu li{
+position: relative;
+
+}
+
+.vmenu li a
+{
+    border-radius: 3px;
+    font: 18px;
+    color: #FFFFFF;
+    display: block;
+    padding-left: 10px;
+    width: auto;
+    line-height: 35px;
+    font-family: "Lucida Sans Unicode" , Candara, Westerner;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #CA1A21;
+    background: url('../Image/redmenu.jpg') repeat-x left center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #FFFFFF;
+}
+
+ /*CSS for PAGE POPUP*/
+.pnlpopup
+{
+    border: 2px solid #CA1A21;
+    width: 600px;
+    height: auto;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 50px;
+    font-size: 14px;
+}
+
+.modalbackground
+{
+    background-color: #FFE8E8;
+    opacity: 0.8;
+}
+.mbg
+{
+    background-color: #3D4D76;
+}
+
+
+
+
+.comp
+{
+    margin: 0px;
+    padding-top: 15px;
+    text-align: center;
+    color: #39355E;
+     font-family: "Lucida Sans Unicode";
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.erp
+{
+    margin: 0px;
+   
+    text-align: right;
+    padding-right: 20px;
+    font-family: "Lucida Sans Unicode";
+    color: #003651;
+    font-size: 17px;
+    font-weight: bold;
+   padding-bottom:10px;
+}
+    .modalbackground
+{
+    border: 2px solid #0078F0;
+    opacity: 0.5;
+    background-color: #CEE7FF;
+}
+.mtable
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.mtable thead
+{
+    height: 80px; /* default background colour, for all layout engines that don't implement gradients */
+    background: #F8F8FA; /* gecko based browsers */
+   
+   
+}
+.nav
+{
+    height: 35px;
+    background-color: #AEB9D5;
+    font-family: calibri;
+    color: #2D3755;
+    font-size: 18px;
+}
+ .content
+{
+    border: 2px solid #3D4D76;
+    height: 500px;
+    width: 100%;
+   
+}   
+.footer
+{
+    height: 40px;
+    width: 100%; /* default background colour, for all layout engines that don't implement gradients */
+    background: #EFF0F5; /* gecko based browsers */
+    background: -moz-linear-gradient(top, #EFF0F5, #E0E2EB); /* IE based browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFF0F5', endColorstr='#E0E2EB'); /* webkit based browsers */
+    background: -webkit-gradient(linear, left top, left bottom, from(#EFF0F5), to(#E0E2EB));
+    background-color: #EFF0F5;
+    color: #57608A;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+
+/*CSS for Page Content*/
+#page
+{
+   /* border: 1px solid #FFE8E8;*/
+    width: 100%;
+    height: auto;
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #32374E;
+   
+}
+
+#page h2
+{
+    margin: 0px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    font-family: calibri;
+    text-align: center;
+    font-size: 19px;
+    color: #DE0C0B;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #DE0C0B;
+}
+#page table
+{
+    padding-top: 6px;
+    margin-top: 4px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+}
+.headtext
+{
+    color: #CA1A21;
+   font-family: "Lucida Sans Unicode";
+    font-size: 19px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.hdr
+{
+     background: #E71111;
+    background: -moz-linear-gradient(top,  #E71111 0%, #CF0302 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E71111), color-stop(100%,#CF0302));
+    background: -webkit-linear-gradient(top,  #E71111 0%,#CF0302 100%);
+    background: -o-linear-gradient(top, #E71111 0%,#CF0302 100%);
+    background: -ms-linear-gradient(top, #E71111 0%,#CF0302 100%);
+    background: linear-gradient(top,  #E71111 0%,#CF0302 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E71111', endColorstr='#CF0302',GradientType=0 );
+  
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+    background-color: #CA1A21;
+}
+
+.DropDown
+{
+    border: 1px solid #999999;
+   font-family: "Lucida Sans Unicode";
+    width: 190px;
+    height: 22px;
+    font-size: 13px;
+    margin-right: 16px;
+}
+.lblHistory
+{
+    color: #0080C0;
+    text-decoration: none;
+    font-size: 15px;
+}
+.TxtBox
+{
+    border: 1px solid #999999;
+     font-family: "Lucida Sans Unicode";
+    width: 190px;
+    height: 22px;
+    font-size: 13px;
+}
+.Rbtn
+{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+/*CSS for Grid View*/
+.mGrid
+{
+    width: 100%;
+    
+    margin: 5px 0 10px 0;
+  border: 1px solid #3e698c;
+    border-collapse: collapse;
+}
+    .mGrid th
+{
+     background: #E71111;
+    background: -moz-linear-gradient(top,  #E71111 0%, #CF0302 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E71111), color-stop(100%,#CF0302));
+    background: -webkit-linear-gradient(top,  #E71111 0%,#CF0302 100%);
+    background: -o-linear-gradient(top, #E71111 0%,#CF0302 100%);
+    background: -ms-linear-gradient(top, #E71111 0%,#CF0302 100%);
+    background: linear-gradient(top,  #E71111 0%,#CF0302 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E71111', endColorstr='#CF0302',GradientType=0 );
+    color: #FFFFFF;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 24px;
+    vertical-align: middle;
+    word-spacing: 5px;
+ 
+    
+}
+    .mGrid td
+{
+    border: 1px solid #3e698c;
+    color: #232323;
+     font-family: "Lucida Sans Unicode";
+    
+    padding-left:10px;
+ 
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+
+.mGrid .alt
+{
+    background: #F9FCFF top;
+}
+.mGrid .pgr
+{
+    background: #FFF4F4 top;
+}
+    .mGrid .pgr table { margin: 5px 0; }
+    .mGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    line-height: 12px;
+    border-left-color: #424242;
+    
+    color: #00354F;
+    font-size: 16px;
+}   
+    .mGrid .pgr a
+{
+    color: #00354F;
+    text-decoration: none;
+    
+}
+    .mGrid .pgr a:hover
+{
+    color: #00354F;
+    text-decoration: none;
+  
+}
+.mGrid .footer
+{
+    background: #FFD7D7 repeat-x top;
+    color: #000000;
+   
+}    
+  
+.mGrid tbody tr:hover, .GridView tbody tr:hover td, .GridView tbody tr.hover, .GridView tbody tr.hover td
+{
+    background: #F5FAFC;
+    color: #000000;
+}
+
+/*CSS for Grid Report*/
+.mRprtGrid
+{
+    width: 100%;
+    background-color: #CA1A21;
+    margin: 5px 0 10px 0;
+  border: 1px solid #3e698c;
+    border-collapse: collapse;
+}
+    .mRprtGrid th
+{
+    
+    color: #FFFFFF;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 25px;
+    vertical-align: middle;
+    word-spacing: 5px;
+   background: #E71111;
+    background: -moz-linear-gradient(top,  #E71111 0%, #CF0302 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E71111), color-stop(100%,#CF0302));
+    background: -webkit-linear-gradient(top,  #E71111 0%,#CF0302 100%);
+    background: -o-linear-gradient(top, #E71111 0%,#CF0302 100%);
+    background: -ms-linear-gradient(top, #E71111 0%,#CF0302 100%);
+    background: linear-gradient(top,  #E71111 0%,#CF0302 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E71111', endColorstr='#CF0302',GradientType=0 );
+    
+}
+    .mRprtGrid td
+{
+    border: 1px solid #3e698c;
+    color: #232323;
+    font-family: "Lucida Sans Unicode";
+    text-align: left;
+    padding-left: 5px;
+    font-size: 13px;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.mRprtGrid .alt
+{
+    background: #F9FCFF top;
+}
+.mRprtGrid .pgr
+{
+    background: #FFF4F4 top;
+}
+    .mRprtGrid .pgr table { margin: 5px 0; }
+    .mRprtGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #666;
+    line-height: 12px;
+    border-left-color: #424242;
+    
+    color: #00354F;
+    font-size: 16px;
+}   
+    .mRprtGrid .pgr a
+{
+    color: #00354F;
+    text-decoration: none;
+    
+}
+
+
+
+
+/*CSS FOR BUTTON*/
+
+.btnNew
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    box-shadow: inset 0px 1px 0px 0px #ebd0c8;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #CA1A1C), color-stop(1, #e0240b) );
+    background: -moz-linear-gradient( center top, #CA1A1C 5%, #e0240b 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CA1A1C', endColorstr='#e0240b');
+    background-color: #CA1A1C;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #e8cccc;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 24px;
+    text-decoration: none;
+   
+}.btnNew:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0240b), color-stop(1, #cc1010) );
+	background:-moz-linear-gradient( center top, #e0240b 5%, #cc1010 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0240b', endColorstr='#cc1010');
+	background-color:#e0240b;
+}
+
+.btnSearch
+{
+    /* default background colour, for all layout engines that don't implement gradients */
+    background: #C4E1FF; /* gecko based browsers */
+   
+    color: #0063C6; /* text colour (black) */
+    height: 28px; /* gradient uses the full height of the element */
+    padding: 3px; /* distance from border edge to text */
+    width:90px;
+    font-family: arial, Helvetica, sans-serif;
+    margin-left: 0px;
+     font-size: 17px;
+}
+
+
+.btnSave
+{
+    -moz-box-shadow: inset 0px 1px 0px 0px #c6d8f7;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #c6d8f7;
+    box-shadow: inset 0px 1px 0px 0px #c6d8f7;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #aae6a6), color-stop(1, #a5d9a3) );
+    background: -moz-linear-gradient( center top, #aae6a6 5%, #a5d9a3 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aae6a6', endColorstr='#a5d9a3');
+    background-color: #aae6a6;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #c6dff2;
+    display: inline-block;
+    color: #063801;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 15px;
+    font-weight: 500;
+    text-align:center;
+	 padding-top:7px;
+	 padding-bottom:7px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #ffffff;
+    width:90px;
+}.btnSave:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5d9a3), color-stop(1, #aae6a6) );
+	background:-moz-linear-gradient( center top, #a5d9a3 5%, #aae6a6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5d9a3', endColorstr='#aae6a6');
+	background-color:#a5d9a3;
+}
+
+.btnCancel
+{
+-moz-box-shadow:inset 0px 1px 0px 0px #ebd0c8;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ebd0c8;
+	box-shadow:inset 0px 1px 0px 0px #ebd0c8;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #edd0d0), color-stop(1, #f0d5d1) );
+	background:-moz-linear-gradient( center top, #edd0d0 5%, #f0d5d1 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#edd0d0', endColorstr='#f0d5d1');
+	background-color:#edd0d0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #e8cccc;
+	display:inline-block;
+	color:#b81212;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	 text-align:center;
+	 padding-top:7px;
+	 padding-bottom:7px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	width:90px;
+}.btnCancel:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0d5d1), color-stop(1, #edd0d0) );
+	background:-moz-linear-gradient( center top, #f0d5d1 5%, #edd0d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0d5d1', endColorstr='#edd0d0');
+	background-color:#f0d5d1;
+}
+
+
+.lbtnEdit
+{
+     font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #0080FF;
+    text-decoration: none;
+}
+.lbtnView
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 16px;
+    color: #0D203F;
+    font-weight: 300;
+    
+}
+.lbtnUpdate
+{
+     font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: #008080;
+    text-decoration: none;
+}
+.lbtnCancel
+{
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    color: #882D00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+

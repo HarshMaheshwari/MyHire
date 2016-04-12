@@ -1,0 +1,225 @@
+﻿.mGrid
+{
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+      font-size: 14px;
+}
+.mGrid td
+{
+   padding: 2px;
+    border: solid 1px #fff; 
+   height:27px;
+   font-size: 15px;
+  
+}
+.mGrid th
+{
+    /*background: #3e698c;
+    background: -moz-linear-gradient(top,  #3e698c 0%, #30576e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e698c), color-stop(100%,#30576e));
+    background: -webkit-linear-gradient(top,  #3e698c 0%,#30576e 100%);
+    background: -o-linear-gradient(top, #3e698c 0%,#30576e 100%);
+    background: -ms-linear-gradient(top, #3e698c 0%,#30576e 100%);
+    background: linear-gradient(top,  #3e698c 0%,#30576e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e698c', endColorstr='#30576e',GradientType=0 );
+    color: #F2F9FF;
+    font-size: 17px;
+    height: 21px;
+    vertical-align: middle;
+    text-align:center;
+    word-spacing: 5px;*/
+     color:black;
+    font-size: 14px;
+    font-weight:bolder;
+    font-family:Calibri;
+    border: solid 1px #fff; 
+}
+.mGrid .alt
+{
+   background: #F5F5F5 top;
+   border: solid 1px #F5F5F5; 
+ 
+}
+
+.mGrid .pgr
+{
+   
+}
+.mGrid .pgr table 
+{
+   margin: 5px 0;
+}
+.mGrid .pgr td
+{
+    border-width: 0;
+    padding: 0 6px;
+    border-left: solid 1px #fff;
+    font-weight: bold;
+    line-height: 12px;
+  
+    color: #002040;
+}   
+.mGrid .pgr a
+{
+    color: #00354F;
+    text-decoration: none;
+}
+
+.mGrid .footer
+{
+   background: #F5F5F5 top;
+}
+
+.fileupload
+{
+    float: left;
+    height:59px;
+     position: relative;
+  min-height: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}    
+
+.btnSave
+{
+    width: 8%;
+    margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+touch-action: manipulation;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+color: #333333;
+text-decoration: none;
+background-color: #eeeeee;
+
+}
+
+.btnSave:hover
+{
+    -webkit-appearance: button;
+cursor: pointer;
+height: 29px;
+background-color: #2d6ca2;
+background-position: 0 -15px;
+}
+
+.btnCancel
+{
+        width: 8%;
+    margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+touch-action: manipulation;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+color: #333333;
+text-decoration: none;
+background-color: #eeeeee;
+}
+.btnCancel:hover
+{
+    -webkit-appearance: button;
+cursor: pointer;
+height: 29px;
+background-color: #2d6ca2;
+background-position: 0 -15px;
+}
+.textbox
+{
+    display: block;
+width: 66%;
+padding: 3px 5px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555555;
+background-color: #ffffff;
+background-image: none;
+border: 1px solid #cccccc;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ margin-bottom:5px;
+}
+.tableBackground
+{
+    background: none repeat scroll 0 0 #fff;
+margin: 0 0 20px;
+ padding:17px 0;
+ width:100%;
+}
+
+---------------------How It works--------------------- 
+
+
+.join
+{
+    width:100%;
+    height:300px;
+}
+.inner1
+{
+    float:left;
+    width:40%;
+    height:190px;
+    margin-right:33px;
+}
+.inner2
+{
+    padding-top:56px;
+     float:left;
+     width:20px;
+     
+        
+}
+.inner3
+{ float:left;
+    width:40%;
+    height:190px;
+     margin-left:137px;
+}
+
+
+.search
+        {
+          background: -moz-linear-gradient(bottom, #044a6f;, #319dd5); 
+      background: -webkit-linear-gradient(bottom, #044a6f;, #319dd5); 
+       background: -ms-linear-gradient(bottom, #044a6f;, #319dd5); 
+       background-color:#056096;
+       border-radius:10px;
+       border:1px solid #044a6f;
+        color:White;
+        font-family:Calibri;
+        width:100px;
+         font-size:15px;
+         font-weight:bolder;
+          letter-spacing:1px;
+          float: left;
+    margin-top: 20px;
+
+        }

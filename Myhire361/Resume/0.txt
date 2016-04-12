@@ -1,0 +1,10 @@
+    protected void lnkBtn_Click(object sender, EventArgs e)
+    {
+        LinkButton imgbtn = sender as LinkButton;
+        GridViewRow row = imgbtn.NamingContainer as GridViewRow;
+        string url = (gdvURL.DataKeys[row.RowIndex].Value.ToString());
+
+        Response.Redirect(url);
+
+    }
+}

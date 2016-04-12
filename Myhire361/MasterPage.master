@@ -1,0 +1,754 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>RR Tracker</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" type="text/css" href="Styles/SkopeMenu.css" />
+    <style type="text/css">
+        .maintbl
+        {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid #F2F2F2;
+            background-color: #FFFFFF;
+            border-radius: 2px;
+        }
+        
+        .chngpswrd
+        {
+            font-family: "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+            font-size: 15px;
+            color: #000;
+            font-weight: 500;
+            word-spacing: 2pt;
+            text-decoration: none;
+        }
+        
+        .logout
+        {
+            font-family: "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+            font-size: 15px;
+            color: #9D0000;
+            font-weight: 500;
+            word-spacing: 2pt;
+            text-decoration: none;
+        }
+        .rightbtmdiv
+        {
+            width: 88%;
+            margin-bottom: 5px;
+            height: auto;
+        }
+        
+        #footer
+        {
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            width: 1200px;
+        }
+        #footer p
+        {
+            margin: 0px;
+            padding-left: 10px;
+            padding-top: 8px;
+            padding-bottom: 10px;
+            font-family: "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+            font-size: 12px;
+            color: #333;
+        }
+        .style1
+        {
+            width: 20%;
+            height: 110px;
+        }
+        .hr
+        {
+            margin: 0px;
+            border-top-style: solid;
+            border-top-width: 4px;
+            border-top-color: #CC0000;
+        }
+    </style>
+    <link id="mymaster" runat="server" rel="Stylesheet" type="text/css" href="Styles/SkopeMaster.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="maintbl">
+        <table width="100%">
+            <tr>
+                <td align="center" valign="middle" class="style1">
+                    <asp:Image ID="imgClientLogo" runat="server" CssClass="logocss" ImageUrl="~/Image/logo.png" />
+                </td>
+                <td class="apptext">
+                    &nbsp;
+                </td>
+                <td align="right" valign="bottom" class="hdltxt" style="font-size: 40px; padding-bottom: 20px"
+                    width="20%">
+                    <span>MY'HIRE361<sup>0</sup></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" height="30">
+                    <div id="cssmenu">
+                        <%-- Admin Menu--%>
+                        <ul id="Admn" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li class='has-sub'><a href="#"><span>Candidate</span></a>
+                                <ul>
+                                 <li><a href="../Candidate/AllCandidates.aspx"><span>Candidate List</span></a></li>
+                                     <li class='last'><a href="../Candidate/UploadCandidate.aspx"><span>Upload Resume</span></a></li>
+                                     <li><a href="../Candidate/AllCandidatesWithFollowUps.aspx"><span>Search Candidates-By Remarks</span></a></li>
+
+                                </ul>
+
+
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/RRList.aspx"><span>Recruitment</span></a></li>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                      <li><a href="../Recruitment/UpdTodayPosition.aspx"><span>Update Today Positions</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                    <li><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+                                    <li ><a href="../Recruitment/MyWorkList.aspx"><span>My Approvals</span></a></li>
+                                    <li><a href="../Recruitment/CandidateStatus.aspx"><span>Candidate Status</span></a></li>
+                                    <li><a href="../Recruitment/ViewPublishJob.aspx"><span>Publish Job</span></a></li>
+                                    <li ><a href="../Recruitment/CreditReferralPoint.aspx"><span>Credit Reference Point</span></a></li>
+                                      <li><a href="../Recruitment/TransferOfConsultants.aspx"><span>Transfer Of Consultants</span></a></li>
+                                    <li><a href="../Recruitment/CopyOfCandidates.aspx"><span>Copy Of Candidates</span></a></li>
+
+                                   <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li><a href="../Recruitment/ConsultantMTD.aspx"><span>Consultant MTD</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+                               
+                                      
+                                        </ul>
+                                      
+                                </ul>
+                            </li>
+
+                              <li class='has-sub'><a href="#"><span>Finance</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/CandidateOffered.aspx"><span>Candidates Offered</span></a></li>
+                                        <li><a href="../Report/PositionstoBeBilled.aspx"><span>Positions to be Billed</span></a></li>
+                                        <li class='last'><a href="../Report/PositionsBilled.aspx"><span>Positions Billed</span></a></li>
+                                     <li class="has-sub"><a href="#"><span>Reports</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtCandidateRelation.aspx"><span>Selected Candidates</span></a></li>
+                                               <li><a href="../Report/FinancialDetails.aspx"><span>Financial Details</span></a></li>
+                               
+                                      
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li class='has-sub'><a href="#"><span>Business Plan</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Business/BusinessPlan.aspx"><span>Business Plan</span></a></li>
+                                      <li  class='last'><a href="../Business/PlanAchievement.aspx"><span>Plan Achievement</span></a></li>
+                                       
+                                        </ul>
+                                    </li>
+                               
+                           <%--  <li class='has-sub'><a href="#"><span>Vintro</span></a>
+                                <ul>
+                                   <li><a href="../Candidate/AllCandidates.aspx"><span>Candidate </span></a></li>
+                                      <li  class='last'><a href="../Recruitment/NewPosition.aspx"><span>New Position</span></a></li>
+                                       <li><a href="../Recruitment/HRDashboard.aspx"><span>HR Dashboard</span></a></li>
+                                        <li><a href="../Video.aspx"><span>Video</span></a></li>
+                                        </ul>
+                                    </li>--%>
+
+
+<%--                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                  
+                                    <li class="has-sub"><a href="#"><span>Consultant</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                       <li><a href="../Report/ConstDailyStatusRpt.aspx"><span>Consultant Daily Status</span></a></li>
+                                        <li><a href="../Report/ConsMonthlyStatusRpt.aspx"><span>Consultant Monthly Status</span></a></li>
+                                       <li><a href="../Report/ConsMonthlyPerformanceRpt.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                      
+                                        </ul>
+                                    </li>
+                                     <li class="has-sub"><a href="#"><span>Candidates</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                      </ul>
+                                    </li>
+                                      <li class="has-sub"><a href="#"><span>Client</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                          <li><a href="../Report/RprtCompanyt.aspx"><span>Client Report</span></a></li>
+                                          <li><a href="../Report/ClientMonthlyStatusRpt.aspx"><span>Client Monthly Status</span></a></li>
+                                          <li><a href="../Report/ClientMonthlyPerformanceRpt.aspx"><span>Client Monthly Performance</span></a></li>
+                                          <li><a href="../Report/ClientOverallStatusRpt.aspx"><span>Client Overall Status</span></a></li>
+                                           
+                                      </ul>
+                                    </li>
+
+                                    <li><a href="../Report/RprtPosition.aspx"><span>Position Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                   
+                                    <li><a href="../Report/RprtClientStatus.aspx"><span>Client Status</span></a></li>
+                                    <li><a href="../Report/RprtPositionStatus.aspx"><span>Position Status</span></a></li>
+                                    <li ><a href="../Report/UploadCandidateReport.aspx"><span>Candidate Upload Report</span></a></li>
+                                    <li><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                      <li><a href="../Report/ConsultantWorksheet.aspx"><span>Consultant Worksheet</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                              
+                                    <li><a href="../Report/ConsultantPerformanceOverAll.aspx"><span>Over All Consultants Performance</span></a></li>
+                                     <li class='last'><a href="../Report/ConsultantPerformanceCM.aspx"><span>Consultants Performance For Current Month</span></a></li>
+                                    
+                                 
+                                </ul>
+                            </li>--%>
+                              <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/ConsultantPerformanceDaily.aspx"><span>Consultant Daily Performance</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformanceDailyReport2.aspx"><span>Consultant Daily Performance2</span></a></li>
+                                    
+                                     <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                     <li><a href="../Reports.aspx"><span>All Report</span></a></li>
+                                    <li><a href="../Report/LoginDetails.aspx"><span>View Attendance </span></a></li>
+                                    <li><a href="../Report/Celebration.aspx"><span>Celebrations</span></a></li>
+                                   
+                                        </ul>
+                                    </li>
+                             <li class='has-sub'><a href="#"><span>Today's Activity</span></a>
+                                <ul>
+                                    <li><a href="../Report/TodayReport.aspx"><span>Today's Activity</span></a></li>
+                                     
+                                    
+                                     
+
+                               </ul>
+                            </li>
+
+                          
+                            <li class='has-sub'><a href="#"><span>Admin</span></a>
+                                <ul>
+                                    <li><a href="../ClientList.aspx"><span>Client</span></a></li>
+                                    <li><a href="../UserList.aspx"><span>User</span></a></li>
+                                     <li><a href="../Report/UpdConstDailyStatus.aspx"><span>Update Consultant Daily Status</span></a></li>
+                                      <li><a href="../Report/UpdConsMonthlyStatus.aspx"><span>Update Consultant Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdConsMonthlyPerformance.aspx"><span>Update Consultant Monthly Performance</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyStatus.aspx"><span>Update Client Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyPerformance.aspx"><span>Update Client Monthly Performance</span></a></li>
+                                    <li class='last'><a href="../Report/UpdClientOverallStatus.aspx"><span>Update Client Overall Status</span></a></li>
+                                     <li><a href="../Report/Contract.aspx"><span>Contract Celebrations</span></a></li>
+                                   
+                                   
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Master</span></a>
+                                <ul>
+                                    <li><a href="../Masters/CountryMaster.aspx"><span>Country</span></a></li>
+                                    <li><a href="../Masters/StateMaster.aspx"><span>State</span></a></li>
+                                    <li class='last'><a href="../Masters/CityMaster.aspx"><span>City</span></a></li>
+                                      <li><a href="../Masters/FunctionalAreaMstr.aspx"><span>Functional Area</span></a></li>
+                                        <li class='last'><a href="../Masters/IndustryMstr.aspx"><span>Industry</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <%-- Sr. Manager  Menu   and  Team Lead--%>
+                        <ul id="Mngr" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li><a href="../Candidate/AllCandidates.aspx"><span>Candidate List</span></a>
+                                 <ul>
+                                     <li><a href="../Candidate/UploadCandidate.aspx"><span>Upload Candidate</span></a></li>
+
+                                </ul>
+
+                            </li>
+                            <li><a href="../ClientList.aspx"><span>Client</span></a></li>
+                            <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/RRList.aspx"><span>Recruitment</span></a></li>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                    <li><a href="../Recruitment/UpdTodayPosition.aspx"><span>Update Today Positions</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                    <li class='last'><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+
+                                     <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+                               
+                                      
+                                        </ul>
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                    <li><a href="../Report/RprtCompanyt.aspx"><span>Client Report</span></a></li>
+                                    <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                    <li><a href="../Report/RprtPosition.aspx"><span>Position Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                    <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                    <li><a href="../Report/RprtClientStatus.aspx"><span>Client Status</span></a></li>
+                                    <li><a href="../Report/RprtPositionStatus.aspx"><span>Position Status</span></a></li>
+                                    <li><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                   <li class='last'><a href="../Report/UploadCandidateReport.aspx"><span>Candidate Upload</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                    <li><a href="../Report/ConsultantPerformanceDaily.aspx"><span>Consultant Daily Performance</span></a></li>
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                    </li>
+                            <li><a href="../Recruitment/MyWorkList.aspx"><span>My Approvals</span></a></li>
+                        </ul>
+                        <%-- Consultant   Menu  and Lead Consultant--%>
+                        <ul id="Consltnt" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                 
+                                    <li class='last'><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+                                     <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+
+                               
+                                      
+                                        </ul>
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                    <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                    <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                    <li class='last'><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                    </li>
+                        </ul>
+                        <%-- ClientManager Menu--%>
+                        <ul id="ClientManager" runat="server" visible="false">
+                            <li class='active'><a href="../ClientHome.aspx"><span>Home</span></a></li>
+                        </ul>
+
+                         <%-- Finance Menu--%>
+                        <ul id="Finance" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li class='has-sub'><a href="#"><span>Finance</span></a>
+                                <ul>
+                                    <li><a href="../Report/CandidateOffered.aspx"><span>Candidates Offered</span></a></li>
+                                      <li><a href="../Report/PositionstoBeBilled.aspx"><span>Positions to be Billed</span></a></li>
+                                        <li class='last'><a href="../Report/PositionsBilled.aspx"><span>Positions Billed</span></a></li>
+                                       <li class="has-sub"><a href="#"><span>Reports</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                           <li><a href="../Report/RprtCandidateRelation.aspx"><span>Selected Candidates</span></a></li>
+                                               <li><a href="../Report/FinancialDetails.aspx"><span>Financial Details</span></a></li>
+                                <li><a href="../Report/ConsultantPerformanceDaily.aspx"><span>Consultant Daily Performance</span></a></li>
+                                       <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        </ul>
+                                    </li>
+                                  
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                    <li><a href="../Report/ConsultantPerformanceDaily.aspx"><span>Consultant Daily Performance</span></a></li>
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                    </li>
+                             <li class='has-sub'><a href="#"><span>Admin</span></a>
+                                <ul>
+                                    <li><a href="../ClientList.aspx"><span>Client</span></a></li>
+                                    <li><a href="../UserList.aspx"><span>User</span></a></li>
+                                     <li><a href="../Report/UpdConstDailyStatus.aspx"><span>Update Consultant Daily Status</span></a></li>
+                                      <li><a href="../Report/UpdConsMonthlyStatus.aspx"><span>Update Consultant Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdConsMonthlyPerformance.aspx"><span>Update Consultant Monthly Performance</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyStatus.aspx"><span>Update Client Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyPerformance.aspx"><span>Update Client Monthly Performance</span></a></li>
+                                    <li class='last'><a href="../Report/UpdClientOverallStatus.aspx"><span>Update Client Overall Status</span></a></li>
+
+                                   
+                                </ul>
+                            </li>
+
+
+                        </ul>
+
+                        <%-- Recruiter Menu--%>
+                       <ul id="Recruiter" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                    <li class='last'><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+                                     <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+                               
+                                      
+                                        </ul>
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                    <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                    <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                    <li class='last'><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                 
+                                    </li>
+
+                            <li class='has-sub'><a href="../Recruiter/RecruiterDashboard.aspx"><span>Dashboard</span></a> </li>
+                        </ul>
+
+                          <%-- Lead Manager Menu--%>
+                        <ul id="leadMgr" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li class='has-sub'><a href="#"><span>Candidate</span></a>
+                                <ul>
+                                 <li><a href="../Candidate/AllCandidates.aspx"><span>Candidate List</span></a></li>
+                                     <li class='last'><a href="../Candidate/UploadCandidate.aspx"><span>Upload Resume</span></a></li>
+
+                                </ul>
+
+
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/RRList.aspx"><span>Recruitment</span></a></li>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                      <li><a href="../Recruitment/UpdTodayPosition.aspx"><span>Update Today Positions</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                    <li><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+                                    <li ><a href="../Recruitment/MyWorkList.aspx"><span>My Approvals</span></a></li>
+                                    <li><a href="../Recruitment/CandidateStatus.aspx"><span>Candidate Status</span></a></li>
+                                    <li><a href="../Recruitment/ViewPublishJob.aspx"><span>Publish Job</span></a></li>
+                                    <li><a href="../Recruitment/CreditReferralPoint.aspx"><span>Credit Reference Point</span></a></li>
+                                  
+                                     <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+                               
+                                      
+                                        </ul>
+                                      
+                                </ul>
+                            </li>
+
+                              <li class='has-sub'><a href="#"><span>Finance</span></a>
+                                <ul>
+                                   
+                                     <li><a href="../Report/CandidateOffered.aspx"><span>Candidates Offered</span></a></li>
+                                        <li><a href="../Report/PositionstoBeBilled.aspx"><span>Positions to be Billed</span></a></li>
+                                     <li class='last'><a href="../Report/PositionsBilled.aspx"><span>Positions Billed</span></a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                  
+                                    <li class="has-sub"><a href="#"><span>Consultant</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                       <li><a href="../Report/ConstDailyStatusRpt.aspx"><span>Consultant Daily Status</span></a></li>
+                                        <li><a href="../Report/ConsMonthlyStatusRpt.aspx"><span>Consultant Monthly Status</span></a></li>
+                                       <li><a href="../Report/ConsMonthlyPerformanceRpt.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        
+                                        </ul>
+                                    </li>
+                                     <li class="has-sub"><a href="#"><span>Candidates</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                      </ul>
+                                    </li>
+                                      <li class="has-sub"><a href="#"><span>Client</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                          <li><a href="../Report/RprtCompanyt.aspx"><span>Client Report</span></a></li>
+                                          <li><a href="../Report/ClientMonthlyStatusRpt.aspx"><span>Client Monthly Status</span></a></li>
+                                          <li><a href="../Report/ClientMonthlyPerformanceRpt.aspx"><span>Client Monthly Performance</span></a></li>
+                                          <li><a href="../Report/ClientOverallStatusRpt.aspx"><span>Client Overall Status</span></a></li>
+                                           
+                                      </ul>
+                                    </li>
+
+                                    <li><a href="../Report/RprtPosition.aspx"><span>Position Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                   
+                                    <li><a href="../Report/RprtClientStatus.aspx"><span>Client Status</span></a></li>
+                                    <li><a href="../Report/RprtPositionStatus.aspx"><span>Position Status</span></a></li>
+                                    <li ><a href="../Report/UploadCandidateReport.aspx"><span>Candidate Upload Report</span></a></li>
+                                    <li><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                      <li><a href="../Report/ConsultantWorksheet.aspx"><span>Consultant Worksheet</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                                    <li><a href="../Report/ConsultantPerformanceOverAll.aspx"><span>Over All Consultants Performance</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformanceCM.aspx"><span>Consultants Performance For Current Month</span></a></li>
+                                      <li  class='last'><a href="../Report/RprtCandidateRelation.aspx"><span>Candidate Status Report</span></a></li>
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                      <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                    </li>
+
+                             <li class='has-sub'><a href="#"><span>Today's Activity</span></a>
+                                <ul>
+                                    <li><a href="../Report/TodayReport.aspx"><span>Today's Activity</span></a></li>
+                                     
+                                    
+                                     
+
+                               </ul>
+                            </li>
+
+                          
+                            <li class='has-sub'><a href="#"><span>Admin</span></a>
+                                <ul>
+                                    <li><a href="../ClientList.aspx"><span>Client</span></a></li>
+                                    <li><a href="../UserList.aspx"><span>User</span></a></li>
+                                     <li><a href="../Report/UpdConstDailyStatus.aspx"><span>Update Consultant Daily Status</span></a></li>
+                                      <li><a href="../Report/UpdConsMonthlyStatus.aspx"><span>Update Consultant Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdConsMonthlyPerformance.aspx"><span>Update Consultant Monthly Performance</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyStatus.aspx"><span>Update Client Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyPerformance.aspx"><span>Update Client Monthly Performance</span></a></li>
+                                    <li class='last'><a href="../Report/UpdClientOverallStatus.aspx"><span>Update Client Overall Status</span></a></li>
+
+                                   
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Master</span></a>
+                                <ul>
+                                    <li><a href="../Masters/CountryMaster.aspx"><span>Country</span></a></li>
+                                    <li><a href="../Masters/StateMaster.aspx"><span>State</span></a></li>
+                                    <li class='last'><a href="../Masters/CityMaster.aspx"><span>City</span></a></li>
+                                      <li><a href="../Masters/FunctionalAreaMstr.aspx"><span>Functional Area</span></a></li>
+                                        <li class='last'><a href="../Masters/IndustryMstr.aspx"><span>Industry</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                           <%-- Student Menu--%>
+                        <ul id="Student" runat="server" visible="false">
+                           <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+
+
+                              
+                       
+                           <%--  <li class='has-sub'><a href="#"><span>Candidate</span></a>
+                                <ul>
+                                 <li><a href="../Candidate/AllCandidates.aspx"><span>Candidate List</span></a></li>
+                                     <li class='last'><a href="../Candidate/UploadCandidate.aspx"><span>Upload Resume</span></a></li>
+
+                                </ul>
+
+
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/RRList.aspx"><span>Recruitment</span></a></li>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                      <li><a href="../Recruitment/UpdTodayPosition.aspx"><span>Update Today Positions</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                    <li><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+                                    <li ><a href="../Recruitment/MyWorkList.aspx"><span>My Approvals</span></a></li>
+                                    <li><a href="../Recruitment/CandidateStatus.aspx"><span>Candidate Status</span></a></li>
+                                    <li><a href="../Recruitment/ViewPublishJob.aspx"><span>Publish Job</span></a></li>
+                                    <li><a href="../Recruitment/CreditReferralPoint.aspx"><span>Credit Reference Point</span></a></li>
+                                  
+                                     <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+                               
+                                      
+                                        </ul>
+                                      
+                                </ul>
+                            </li>
+
+                              <li class='has-sub'><a href="#"><span>Finance</span></a>
+                                <ul>
+                                   
+                                     <li><a href="../Report/CandidateOffered.aspx"><span>Candidates Offered</span></a></li>
+                                        <li><a href="../Report/PositionstoBeBilled.aspx"><span>Positions to be Billed</span></a></li>
+                                     <li class='last'><a href="../Report/PositionsBilled.aspx"><span>Positions Billed</span></a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                  
+                                    <li class="has-sub"><a href="#"><span>Consultant</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                       <li><a href="../Report/ConstDailyStatusRpt.aspx"><span>Consultant Daily Status</span></a></li>
+                                        <li><a href="../Report/ConsMonthlyStatusRpt.aspx"><span>Consultant Monthly Status</span></a></li>
+                                       <li><a href="../Report/ConsMonthlyPerformanceRpt.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        
+                                        </ul>
+                                    </li>
+                                     <li class="has-sub"><a href="#"><span>Candidates</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                      </ul>
+                                    </li>
+                                      <li class="has-sub"><a href="#"><span>Client</span></a>
+                                        <ul style="margin-left:230px; top:0;">
+                                          <li><a href="../Report/RprtCompanyt.aspx"><span>Client Report</span></a></li>
+                                          <li><a href="../Report/ClientMonthlyStatusRpt.aspx"><span>Client Monthly Status</span></a></li>
+                                          <li><a href="../Report/ClientMonthlyPerformanceRpt.aspx"><span>Client Monthly Performance</span></a></li>
+                                          <li><a href="../Report/ClientOverallStatusRpt.aspx"><span>Client Overall Status</span></a></li>
+                                           
+                                      </ul>
+                                    </li>
+
+                                    <li><a href="../Report/RprtPosition.aspx"><span>Position Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                   
+                                    <li><a href="../Report/RprtClientStatus.aspx"><span>Client Status</span></a></li>
+                                    <li><a href="../Report/RprtPositionStatus.aspx"><span>Position Status</span></a></li>
+                                    <li ><a href="../Report/UploadCandidateReport.aspx"><span>Candidate Upload Report</span></a></li>
+                                    <li><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                      <li><a href="../Report/ConsultantWorksheet.aspx"><span>Consultant Worksheet</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                                    <li><a href="../Report/ConsultantPerformanceOverAll.aspx"><span>Over All Consultants Performance</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformanceCM.aspx"><span>Consultants Performance For Current Month</span></a></li>
+                                      <li  class='last'><a href="../Report/RprtCandidateRelation.aspx"><span>Candidate Status Report</span></a></li>
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                      <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                    </li>
+
+                             <li class='has-sub'><a href="#"><span>Today's Activity</span></a>
+                                <ul>
+                                    <li><a href="../Report/TodayReport.aspx"><span>Today's Activity</span></a></li>
+                                     
+                                    
+                                     
+
+                               </ul>
+                            </li>
+
+                          
+                            <li class='has-sub'><a href="#"><span>Admin</span></a>
+                                <ul>
+                                    <li><a href="../ClientList.aspx"><span>Client</span></a></li>
+                                    <li><a href="../UserList.aspx"><span>User</span></a></li>
+                                     <li><a href="../Report/UpdConstDailyStatus.aspx"><span>Update Consultant Daily Status</span></a></li>
+                                      <li><a href="../Report/UpdConsMonthlyStatus.aspx"><span>Update Consultant Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdConsMonthlyPerformance.aspx"><span>Update Consultant Monthly Performance</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyStatus.aspx"><span>Update Client Monthly Status</span></a></li>
+                                     <li><a href="../Report/UpdClientMonthlyPerformance.aspx"><span>Update Client Monthly Performance</span></a></li>
+                                    <li class='last'><a href="../Report/UpdClientOverallStatus.aspx"><span>Update Client Overall Status</span></a></li>
+
+                                   
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Master</span></a>
+                                <ul>
+                                    <li><a href="../Masters/CountryMaster.aspx"><span>Country</span></a></li>
+                                    <li><a href="../Masters/StateMaster.aspx"><span>State</span></a></li>
+                                    <li class='last'><a href="../Masters/CityMaster.aspx"><span>City</span></a></li>
+                                      <li><a href="../Masters/FunctionalAreaMstr.aspx"><span>Functional Area</span></a></li>
+                                        <li class='last'><a href="../Masters/IndustryMstr.aspx"><span>Industry</span></a></li>
+                                </ul>
+                            </li>--%>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <asp:Label ID="lblUser" runat="server" CssClass="chngpswrd"></asp:Label>
+                </td>
+                <td>
+                </td>
+                <td align="right">
+                    <asp:LinkButton ID="lbChangePassword" runat="server" OnClick="lbChangePassword_Click"
+                        CssClass="chngpswrd">Change Password</asp:LinkButton>
+                    &nbsp;&nbsp;
+                    <asp:LinkButton ID="lbLogout" runat="server" OnClick="lbLogout_Click" CssClass="logout">Logout</asp:LinkButton>&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" colspan="3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        <hr class="hr" />
+        <table width="100%">
+            <tr>
+                <td style="width: 50%">
+                    <p>
+                        Copyright© 2013 - SKOPE Buisness Ventures Pvt. Ltd. All rights reserved.</p>
+                </td>
+                <td align="right">
+                    <%--<p>
+                     
+                        Technology Partner : Saral Technomart Pvt Ltd.
+                    </p>--%>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,601 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi31507\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}
+{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial{\*\falt Arial};}{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New{\*\falt Courier New};}
+{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol{\*\falt Symbol};}{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings{\*\falt Wingdings};}
+{\f13\fbidi \fnil\fcharset134\fprq2{\*\panose 02010600030101010101}SimSun{\*\falt SimSun};}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}
+{\f36\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria{\*\falt Cambria};}{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri{\*\falt Calibri};}
+{\f38\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma{\*\falt Tahoma};}{\f39\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana{\*\falt Verdana};}
+{\f84\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black{\*\falt Arial Black};}{\f127\fbidi \fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@SimSun;}
+{\f200\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0606020202030204}Arial Narrow{\*\falt Arial};}{\f209\fbidi \froman\fcharset0\fprq2{\*\panose 02050604050505020204}Bookman Old Style{\*\falt Segoe Print};}
+{\f326\fbidi \fnil\fcharset0\fprq0{\*\panose 00000000000000000000}Helvetica-Bold{\*\falt Courier10 BT};}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}{\fhimajor\f31502\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria{\*\falt Cambria};}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri{\*\falt Calibri};}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}{\f327\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}
+{\f328\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}{\f330\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}
+{\f331\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}{\f332\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}
+{\f333\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}{\f334\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}
+{\f335\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}{\f337\fbidi \fswiss\fcharset238\fprq2 Arial CE{\*\falt Arial};}{\f338\fbidi \fswiss\fcharset204\fprq2 Arial Cyr{\*\falt Arial};}
+{\f340\fbidi \fswiss\fcharset161\fprq2 Arial Greek{\*\falt Arial};}{\f341\fbidi \fswiss\fcharset162\fprq2 Arial Tur{\*\falt Arial};}{\f342\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew){\*\falt Arial};}
+{\f343\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic){\*\falt Arial};}{\f344\fbidi \fswiss\fcharset186\fprq2 Arial Baltic{\*\falt Arial};}{\f345\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese){\*\falt Arial};}
+{\f347\fbidi \fmodern\fcharset238\fprq1 Courier New CE{\*\falt Courier New};}{\f348\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr{\*\falt Courier New};}{\f350\fbidi \fmodern\fcharset161\fprq1 Courier New Greek{\*\falt Courier New};}
+{\f351\fbidi \fmodern\fcharset162\fprq1 Courier New Tur{\*\falt Courier New};}{\f352\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew){\*\falt Courier New};}{\f353\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic){\*\falt Courier New};}
+{\f354\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic{\*\falt Courier New};}{\f355\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese){\*\falt Courier New};}{\f459\fbidi \fnil\fcharset0\fprq2 SimSun Western{\*\falt SimSun};}
+{\f667\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f668\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f670\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f671\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}
+{\f674\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f675\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}{\f687\fbidi \froman\fcharset238\fprq2 Cambria CE{\*\falt Cambria};}
+{\f688\fbidi \froman\fcharset204\fprq2 Cambria Cyr{\*\falt Cambria};}{\f690\fbidi \froman\fcharset161\fprq2 Cambria Greek{\*\falt Cambria};}{\f691\fbidi \froman\fcharset162\fprq2 Cambria Tur{\*\falt Cambria};}
+{\f694\fbidi \froman\fcharset186\fprq2 Cambria Baltic{\*\falt Cambria};}{\f695\fbidi \froman\fcharset163\fprq2 Cambria (Vietnamese){\*\falt Cambria};}{\f697\fbidi \fswiss\fcharset238\fprq2 Calibri CE{\*\falt Calibri};}
+{\f698\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr{\*\falt Calibri};}{\f700\fbidi \fswiss\fcharset161\fprq2 Calibri Greek{\*\falt Calibri};}{\f701\fbidi \fswiss\fcharset162\fprq2 Calibri Tur{\*\falt Calibri};}
+{\f704\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic{\*\falt Calibri};}{\f705\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese){\*\falt Calibri};}{\f707\fbidi \fswiss\fcharset238\fprq2 Tahoma CE{\*\falt Tahoma};}
+{\f708\fbidi \fswiss\fcharset204\fprq2 Tahoma Cyr{\*\falt Tahoma};}{\f710\fbidi \fswiss\fcharset161\fprq2 Tahoma Greek{\*\falt Tahoma};}{\f711\fbidi \fswiss\fcharset162\fprq2 Tahoma Tur{\*\falt Tahoma};}
+{\f712\fbidi \fswiss\fcharset177\fprq2 Tahoma (Hebrew){\*\falt Tahoma};}{\f713\fbidi \fswiss\fcharset178\fprq2 Tahoma (Arabic){\*\falt Tahoma};}{\f714\fbidi \fswiss\fcharset186\fprq2 Tahoma Baltic{\*\falt Tahoma};}
+{\f715\fbidi \fswiss\fcharset163\fprq2 Tahoma (Vietnamese){\*\falt Tahoma};}{\f716\fbidi \fswiss\fcharset222\fprq2 Tahoma (Thai){\*\falt Tahoma};}{\f717\fbidi \fswiss\fcharset238\fprq2 Verdana CE{\*\falt Verdana};}
+{\f718\fbidi \fswiss\fcharset204\fprq2 Verdana Cyr{\*\falt Verdana};}{\f720\fbidi \fswiss\fcharset161\fprq2 Verdana Greek{\*\falt Verdana};}{\f721\fbidi \fswiss\fcharset162\fprq2 Verdana Tur{\*\falt Verdana};}
+{\f724\fbidi \fswiss\fcharset186\fprq2 Verdana Baltic{\*\falt Verdana};}{\f725\fbidi \fswiss\fcharset163\fprq2 Verdana (Vietnamese){\*\falt Verdana};}{\f1167\fbidi \fswiss\fcharset238\fprq2 Arial Black CE{\*\falt Arial Black};}
+{\f1168\fbidi \fswiss\fcharset204\fprq2 Arial Black Cyr{\*\falt Arial Black};}{\f1170\fbidi \fswiss\fcharset161\fprq2 Arial Black Greek{\*\falt Arial Black};}{\f1171\fbidi \fswiss\fcharset162\fprq2 Arial Black Tur{\*\falt Arial Black};}
+{\f1174\fbidi \fswiss\fcharset186\fprq2 Arial Black Baltic{\*\falt Arial Black};}{\f1599\fbidi \fnil\fcharset0\fprq2 @SimSun Western;}{\f2327\fbidi \fswiss\fcharset238\fprq2 Arial Narrow CE{\*\falt Arial};}
+{\f2328\fbidi \fswiss\fcharset204\fprq2 Arial Narrow Cyr{\*\falt Arial};}{\f2330\fbidi \fswiss\fcharset161\fprq2 Arial Narrow Greek{\*\falt Arial};}{\f2331\fbidi \fswiss\fcharset162\fprq2 Arial Narrow Tur{\*\falt Arial};}
+{\f2334\fbidi \fswiss\fcharset186\fprq2 Arial Narrow Baltic{\*\falt Arial};}{\f2417\fbidi \froman\fcharset238\fprq2 Bookman Old Style CE{\*\falt Segoe Print};}{\f2418\fbidi \froman\fcharset204\fprq2 Bookman Old Style Cyr{\*\falt Segoe Print};}
+{\f2420\fbidi \froman\fcharset161\fprq2 Bookman Old Style Greek{\*\falt Segoe Print};}{\f2421\fbidi \froman\fcharset162\fprq2 Bookman Old Style Tur{\*\falt Segoe Print};}
+{\f2424\fbidi \froman\fcharset186\fprq2 Bookman Old Style Baltic{\*\falt Segoe Print};}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}
+{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}
+{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}
+{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}
+{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}
+{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}{\fhimajor\f31528\fbidi \froman\fcharset238\fprq2 Cambria CE{\*\falt Cambria};}
+{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr{\*\falt Cambria};}{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek{\*\falt Cambria};}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur{\*\falt Cambria};}
+{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic{\*\falt Cambria};}{\fhimajor\f31536\fbidi \froman\fcharset163\fprq2 Cambria (Vietnamese){\*\falt Cambria};}
+{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}
+{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}
+{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}
+{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}
+{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}
+{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}
+{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}
+{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}
+{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}
+{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE{\*\falt Calibri};}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr{\*\falt Calibri};}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek{\*\falt Calibri};}
+{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur{\*\falt Calibri};}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic{\*\falt Calibri};}{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese){\*\falt Calibri};}
+{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}
+{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}
+{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}}{\colortbl;\red0\green0\blue0;
+\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;
+\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red255\green255\blue255;}{\*\defchp \fs22\dbch\af13 }{\*\defpap \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}{\s1\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink15 \sqformat heading 1;}{\s3\ql \li0\ri0\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 
+\b\f1\fs24\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink16 \sqformat \spriority9 heading 3;}{\*\cs10 \additive \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af31507\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused \sqformat 
+Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \ab\af0\afs32 \ltrch\fcs0 \b\f36\fs32\kerning32 \sbasedon10 \slink1 \slocked \sunhideused \spriority9 Heading 1 Char;}{\*\cs16 \additive \rtlch\fcs1 \ab\af31503\afs26 \ltrch\fcs0 
+\b\fs26\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink3 \slocked \ssemihidden \spriority9 Heading 3 Char;}{\*\cs17 \additive \rtlch\fcs1 \ai\af0 \ltrch\fcs0 \i\dbch\af0 \sbasedon10 \sunhideused HTML Cite;}{
+\s18\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f1\fs24\cf6\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 \slink19 \sunhideused Body Text 3;}{\*\cs19 
+\additive \rtlch\fcs1 \af0\afs16 \ltrch\fcs0 \f39\fs16 \sbasedon10 \slink18 \slocked \ssemihidden Body Text 3 Char;}{\s20\ql \li720\ri0\sa200\sl276\slmult1\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin720\itap0 \rtlch\fcs1 \af37\afs22\alang1025 
+\ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 \sqformat \spriority34 List Paragraph;}{\s21\ql \li0\ri0\nowidctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext21 \slink22 \sqformat \styrsid9403163 header;}{\*\cs22 \additive \rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f39\fs24 
+\sbasedon10 \slink21 \slocked \styrsid9403163 Header Char;}{\s23\ql \li0\ri0\nowidctlpar\tqc\tx4680\tqr\tx9360\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext23 \slink24 \sqformat \styrsid9403163 footer;}{\*\cs24 \additive \rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f39\fs24 \sbasedon10 \slink23 \slocked \styrsid9403163 Footer Char;}}
+{\*\listtable{\list\listtemplateid43870971\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af13\ulc0\hres0\chhres0 
+\fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\ulc0\hres0\chhres0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af13\ulc0\hres0\chhres0 \fi-360\li2880
+\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li3600\jclisttab\tx3600\lin3600 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\ulc0\hres0\chhres0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af13\ulc0\hres0\chhres0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\ulc0\hres0\chhres0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid43870971}{\list\listtemplateid1055659842
+\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af13\ulc0\hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listlevel
+\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\ulc0\hres0\chhres0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af13\ulc0\hres0\chhres0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\ulc0\hres0\chhres0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\loch\af3\hich\af3\dbch\af13\ulc0\hres0\chhres0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\ulc0\hres0\chhres0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1055659842}{\list\listtemplateid1405520570\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3988 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname ;}\listid1405520570}{\list\listtemplateid1405520581\listsimple
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3988 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\hres0\chhres0 \fi-360\li780\jclisttab\tx780\lin780 }{\listname 
+;}\listid1405520581}{\list\listtemplateid1405520592\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3988 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\hres0\chhres0 
+\fi-360\li1200\jclisttab\tx1200\lin1200 }{\listname ;}\listid1405520592}{\list\listtemplateid1405520603\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3988 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\hres0\chhres0 \fi-360\li1620\jclisttab\tx1620\lin1620 }{\listname ;}\listid1405520603}{\list\listtemplateid1405520614\listsimple{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3988 ?;}{\levelnumbers;}\loch\af10\hich\af10\dbch\af13\hres0\chhres0 \fi-360\li2040\jclisttab\tx2040\lin2040 }{\listname ;}\listid1405520614}{\list\listtemplateid1405520625\listsimple
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li360\jclisttab\tx360\lin360 }{\listname 
+;}\listid1405520625}{\list\listtemplateid1405520636\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 
+\fi-360\li780\jclisttab\tx780\lin780 }{\listname ;}\listid1405520636}{\list\listtemplateid1405520647\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers
+\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1200\jclisttab\tx1200\lin1200 }{\listname ;}\listid1405520647}{\list\listtemplateid1405520658\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1620\jclisttab\tx1620\lin1620 }{\listname ;}\listid1405520658}{\list\listtemplateid1405520669\listsimple{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li2040\jclisttab\tx2040\lin2040 }{\listname ;}\listid1405520669}{\list\listtemplateid1783306496
+\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\loch\af2\hich\af2\dbch\af13\ulc0\hres0\chhres0 \fi-360\li1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li1080\jclisttab\tx1080\lin1080 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li1800\jclisttab\tx1800\lin1800 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li2520\jclisttab\tx2520\lin2520 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li3240\jclisttab\tx3240\lin3240 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li3960\jclisttab\tx3960\lin3960 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li4680\jclisttab\tx4680\lin4680 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li5400\jclisttab\tx5400\lin5400 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \ulc0\hres0\chhres0 \fi-360\li6120\jclisttab\tx6120\lin6120 }{\listname ;}\listid1783306496}}{\*\listoverridetable{\listoverride\listid1055659842\listoverridecount0\ls1}
+{\listoverride\listid1783306496\listoverridecount0\ls2}{\listoverride\listid43870971\listoverridecount0\ls3}}{\*\rsidtbl \rsid0\rsid9403163}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440
+\mintLim0\mnaryLim1}{\info{\title PROGRAMMER}{\operator Varun}{\creatim\yr2014\mo7\dy16\hr19\min50}{\revtim\yr2014\mo7\dy17\hr16\min47}{\version2}{\edmins5}{\nofpages5}{\nofwords821}{\nofchars4871}{\nofcharsws5681}{\vern32859}}{\*\xmlnstbl {\xmlns1 http:/
+/schemas.microsoft.com/office/word/2003/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt990\margb1080\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves1\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\ksulang1041\viewkind1\viewscale100\ftnlytwnine\useltbaln\alntblind\lytcalctblwd\asianbrkrule\rsidroot9403163 {\upr{\*\fchars !),.:\'3b?]\'7d\'a8\'b7?\'af??\'92\'94\'85:????>\'bb?????!"'),.:\'3b?]`|\'7d~?}
+{\*\ud\uc0{\*\fchars 
+!),.:\'3b?]\'7d\'a8\'b7{\uc1\u711 ?\u713 \'af\u8213 ?\u8214 ?\'92\'94\'85\u8758 :\u12289 ?\u12290 ?\u12291 ?\u12293 ?\u12297 >\u12299 \'bb\u12301 ?\u12303 ?\u12305 ?\u12309 ?\u12311 ?\u-255 !\u-254 "\u-249 '\u-247 )\u-244 ,\u-242 .\u-230 :\u-229 \'3b\u-225 ?\u-195 ]\u-192 `\u-164 |\u-163 \'7d\u-162 ~\u-32 ?}
+}}}{\upr{\*\lchars ([\'7b\'b7\'91\'93<\'ab?????(.[\'7b??}{\*\ud\uc0{\*\lchars ([\'7b\'b7\'91\'93{\uc1\u12296 <\u12298 \'ab\u12300 ?\u12302 ?\u12304 ?\u12308 ?\u12310 ?\u-248 (\u-242 .\u-197 [\u-165 \'7b\u-31 ?\u-27 ?}}}}\fet0{\*\wgrffmtfilter 2450}
+\ilfomacatclnup0{\*\ftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\loch\af0\hich\af0\dbch\af13\insrsid9403163 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\loch\af0\hich\af0\dbch\af13\insrsid9403163 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\loch\af0\hich\af0\dbch\af13\insrsid9403163 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\loch\af0\hich\af0\dbch\af13\insrsid9403163 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\sbknone\linex0\headery270\endnhere\pgbrdropt32\sectdefaultcl\sftnbj {\headerr \ltrpar \pard\plain \ltrpar\ql \li720\ri90\nowidctlpar\tx5850\wrapdefault\faauto\adjustright\rin90\lin720\itap0 \rtlch\fcs1 \af0\afs24\alang1025 
+\ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid9403163 
+{\shp{\*\shpinst\shpleft-74\shptop-27\shpright4585\shpbottom2064\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz4\shplid2049{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fLockRotation}{\sv 0}}{\sp{\sn fLockAspectRatio}{\sv 0}}{\sp{\sn fLockVerticies}{\sv 0}}{\sp{\sn fLockText}{\sv 0}}{\sp{\sn fLockAgainstGrouping}{\sv 0}}{\sp{\sn lTxid}{\sv 65536}}{\sp{\sn fShadowOK}{\sv 1}}{\sp{\sn fRecolorFillAsPicture}{\sv 0}}
+{\sp{\sn fUseShapeAnchor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn dhgt}{\sv 251659264}}{\sp{\sn fLayoutInCell}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}{\shptxt \ltrpar \pard\plain \ltrpar
+\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Deepansh Pandiyar
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }\pard \ltrpar\ql \li0\ri0\sl360\slmult1\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af39\afs17 \ltrch\fcs0 \b\fs17\insrsid9403163 Mail     : deepanshm@gmail.com           
+\par Mobile   : (91) 7838087776}{\rtlch\fcs1 \ab\af39 \ltrch\fcs0 \b\insrsid9403163 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8196\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Deepansh Pandiyar
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }\pard \ltrpar\ql \li0\ri0\sl360\slmult1\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af39\afs17 \ltrch\fcs0 \b\fs17\insrsid9403163 Mail     : deepanshm@gmail.com           
+\par Mobile   : (91) 7838087776}{\rtlch\fcs1 \ab\af39 \ltrch\fcs0 \b\insrsid9403163 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}\dpx-74\dpy-27\dpxsize4659\dpysize2091\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft6270\shptop245\shpright9240\shpbottom1861\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz0\shplid2050{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fLockRotation}{\sv 0}}{\sp{\sn fLockAspectRatio}{\sv 0}}{\sp{\sn fLockVerticies}{\sv 0}}{\sp{\sn fLockText}{\sv 0}}{\sp{\sn fLockAgainstGrouping}{\sv 0}}
+{\sp{\sn lTxid}{\sv 131072}}{\sp{\sn fShadowOK}{\sv 1}}{\sp{\sn fRecolorFillAsPicture}{\sv 0}}{\sp{\sn fUseShapeAnchor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn dhgt}{\sv 251655168}}
+{\sp{\sn fLayoutInCell}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}{\shptxt \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \f1\fs18\cf1\insrsid9403163 
+\par }}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8192\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }{\rtlch\fcs1 \af0\afs18 \ltrch\fcs0 \f1\fs18\cf1\insrsid9403163 
+\par }}\dpx6270\dpy245\dpxsize2970\dpysize1616\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft0\shptop314\shpright2734\shpbottom2222\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz1\shplid2051{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fLockRotation}{\sv 0}}{\sp{\sn fLockAspectRatio}{\sv 0}}{\sp{\sn fLockVerticies}{\sv 0}}{\sp{\sn fLockText}{\sv 0}}{\sp{\sn fLockAgainstGrouping}{\sv 0}}
+{\sp{\sn lTxid}{\sv 196608}}{\sp{\sn fShadowOK}{\sv 1}}{\sp{\sn fRecolorFillAsPicture}{\sv 0}}{\sp{\sn fUseShapeAnchor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn dhgt}{\sv 251656192}}
+{\sp{\sn fLayoutInCell}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}{\shptxt \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8193\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}\dpx0\dpy314\dpxsize2734\dpysize1908\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \ab\af0\afs28 \ltrch\fcs0 \b\f38\fs28\expnd2\expndtw10\cf1\cgrid0\insrsid9403163 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid9403163 {\shp{\*\shpinst\shpleft1517\shptop95\shpright2734\shpbottom1883\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz3\shplid2052
+{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn fLockRotation}{\sv 0}}{\sp{\sn fLockAspectRatio}{\sv 0}}{\sp{\sn fLockVerticies}{\sv 0}}{\sp{\sn fLockText}{\sv 0}}{\sp{\sn fLockAgainstGrouping}{\sv 0}}
+{\sp{\sn lTxid}{\sv 262144}}{\sp{\sn WrapText}{\sv 2}}{\sp{\sn fFitShapeToText}{\sv 1}}{\sp{\sn fShadowOK}{\sv 1}}{\sp{\sn fRecolorFillAsPicture}{\sv 0}}{\sp{\sn fUseShapeAnchor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn dhgt}{\sv 251658240}}
+{\sp{\sn fLayoutInCell}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}{\shptxt \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8195\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}\dpx1517\dpy95\dpxsize441\dpysize436\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}
+{\shp{\*\shpinst\shpleft60\shptop245\shpright1517\shpbottom1522\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz2\shplid2053{\sp{\sn shapeType}{\sv 1}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}
+{\sp{\sn fLockRotation}{\sv 0}}{\sp{\sn fLockAspectRatio}{\sv 0}}{\sp{\sn fLockVerticies}{\sv 0}}{\sp{\sn fLockText}{\sv 0}}{\sp{\sn fLockAgainstGrouping}{\sv 0}}{\sp{\sn lTxid}{\sv 327680}}{\sp{\sn WrapText}{\sv 2}}{\sp{\sn fFitShapeToText}{\sv 1}}
+{\sp{\sn fShadowOK}{\sv 1}}{\sp{\sn fRecolorFillAsPicture}{\sv 0}}{\sp{\sn fUseShapeAnchor}{\sv 0}}{\sp{\sn fLine}{\sv 0}}{\sp{\sn dhgt}{\sv 251657216}}{\sp{\sn fLayoutInCell}{\sv 1}}{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}{\shptxt 
+\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+
+\par }}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8194\dptxbx\dptxlrtb{\dptxbxtext\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\par }}\dpx60\dpy245\dpxsize441\dpysize436\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat1\dplinehollow}}}}{\rtlch\fcs1 \ab\af0\afs28 \ltrch\fcs0 \b\f38\fs28\expnd2\expndtw10\cf1\cgrid0\insrsid9403163 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \caps\f84\expnd2\expndtw10\cf1\insrsid9403163  
+\par }\pard \ltrpar\ql \li720\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\cf1\insrsid9403163 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\cf1\insrsid9403163 
+\par }\pard \ltrpar\qc \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\cf1\insrsid9403163 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\cf1\insrsid9403163 
+\par }\pard \ltrpar\ql \li7200\ri-1080\nowidctlpar\wrapdefault\faauto\adjustright\rin-1080\lin7200\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \caps\f200\cf1\insrsid9403163           }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+                                            
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \lang1024\langfe1024\noproof\insrsid9403163 {\shp{\*\shpinst\shpleft-75\shptop124\shpright9495\shpbottom126\shpfhdr0\shpbxcolumn\shpbxignore\shpbypara\shpbyignore\shpwr3\shpwrk0\shpfblwtxt0\shpz5\shplid2054
+{\sp{\sn shapeType}{\sv 32}}{\sp{\sn fFlipH}{\sv 0}}{\sp{\sn fFlipV}{\sv 0}}{\sp{\sn fLockRotation}{\sv 0}}{\sp{\sn fLockAspectRatio}{\sv 0}}{\sp{\sn fLockVerticies}{\sv 0}}{\sp{\sn fLockText}{\sv 0}}{\sp{\sn fLockAgainstGrouping}{\sv 0}}
+{\sp{\sn fShadowOK}{\sv 1}}{\sp{\sn fFillOK}{\sv 0}}{\sp{\sn fArrowheadsOK}{\sv 1}}{\sp{\sn cxstyle}{\sv 0}}{\sp{\sn dhgt}{\sv 251660288}}{\sp{\sn fLayoutInCell}{\sv 1}}
+{\sp{\sn fPseudoInline}{\sv 0}}{\sp{\sn fLayoutInCell}{\sv 1}}}{\shprslt{\*\do\dobxcolumn\dobypara\dodhgt8197\dppolyline\dppolycount2\dpptx0\dppty0\dpptx9570\dppty2\dpx-75\dpy124\dpxsize9570\dpysize2
+\dpfillfgcr255\dpfillfgcg255\dpfillfgcb255\dpfillbgcr255\dpfillbgcg255\dpfillbgcb255\dpfillpat0\dplinew15\dplinecor0\dplinecog0\dplinecob0}}}}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163                     }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf1\insrsid9403163 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\ltrrow\trowd \irow0\irowband0\lastrow \ltrrow\ts11\trqc\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh
+\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\pard\plain \ltrpar\s1\qc \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f209\cf1\insrsid9403163 PROGRAMMER\cell }\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\trowd \irow0\irowband0\lastrow \ltrrow\ts11\trqc\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\row }\pard \ltrpar\qj \li720\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\brdrb\brdrs\brdrw15\brsp20 \tqc\tx4320\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af39\afs32 \ltrch\fcs0 \b\fs32\insrsid9403163 Professional Summary \tab 
+\par }\pard \ltrpar\qj \li540\ri0\sb100\sa100\nowidctlpar\tx540\wrapdefault\faauto\adjustright\rin0\lin540\itap0 {\rtlch\fcs1 \af39 \ltrch\fcs0 \insrsid9403163 Over Four}{\rtlch\fcs1 \ab\af39 \ltrch\fcs0 \b\insrsid9403163  Years}{\rtlch\fcs1 \af39 \ltrch\fcs0 
+\insrsid9403163 
+ of experience developing software projects in challenging, fast-paced environments. Innovative problem solver, able to see the business and technical sides of a problem. Technically knowledgeable, able to express ideas. Excellent communication skills, bo
+th oral and written.
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\brdrb\brdrs\brdrw15\brsp20 \wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af39\afs32 \ltrch\fcs0 \b\fs32\insrsid9403163 Technology Known
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li360\ri0\nowidctlpar\tx360\wrapdefault\faauto\ls1\adjustright\rin0\lin360\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\f1\ul\insrsid9403163 Cake (PHP MVC Framework)}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 .
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Wordpress 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Shopify
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Bigcommerce
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}PHPBB
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li360\ri0\nowidctlpar\tx360\wrapdefault\faauto\ls1\adjustright\rin0\lin360\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+In depth knowledge of  CMS, MVC, HTML, CSS, JavaScript, Ajax and MySQL database.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Good understanding of Object-Oriented Design and Analysis. 
+\par }\pard\plain \ltrpar\s18\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f1\fs24\cf6\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \cf0\insrsid9403163 
+
+\par \ltrrow}\trowd \irow0\irowband0\lastrow \ltrrow\ts11\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\pard\plain \ltrpar\s3\qc \li0\ri0\keepn\nowidctlpar\intbl\wrapdefault\faauto\outlinelevel2\adjustright\rin0\lin0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 
+\b\f1\fs24\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f209\cf1\insrsid9403163 EMPLOYMENT HISTORY}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid9403163 \cell }\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\trowd \irow0\irowband0\lastrow \ltrrow\ts11\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 May 2012 \endash  till Date\tab  \tab \tab \tab \tab Synapse India
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 Position: Software Developer
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li360\ri0\nowidctlpar\tx360\wrapdefault\faauto\ls1\adjustright\rin0\lin360\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+Perform system analysis and recommend solutions as per business needs. 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Develop and support various web applications.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Analyze user requirements and compose documents such as System Requirement Specifications, and System Design Documents.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Develop and support various web application.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Perform Database Design, Coding and Resolving Bugs.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}Perform Database Design, Coding and Resolving Bugs.
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par \ltrrow}\pard\plain \ltrpar\s3\qc \li0\ri0\keepn\nowidctlpar\intbl\wrapdefault\faauto\outlinelevel2\adjustright\rin0\lin0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \f209\cf1\insrsid9403163 ENGAGEMENT HISTORY WITH Synapse India}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid9403163 \cell }\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\trowd \irow0\irowband0\lastrow \ltrrow\ts11\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 
+\b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : Fitness
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Fitness Aaaland
+\par Duration: Feb 2014 \endash  May 2014
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+\par Fitness is essential for every one which has to be done under the guidance of trained trainer . Frontend and backend of fitness is developed using CakePHP.
+\par 
+\par }\pard\plain \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af37\afs24 \ltrch\fcs0 
+\b\fs24\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Features}{\rtlch\fcs1 \ab\af37\afs20 \ltrch\fcs0 \b\fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 :
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 {\rtlch\fcs1 \af37\afs20 
+\ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Trainer login 
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Trainee Login}{\rtlch\fcs1 \af37\afs18 \ltrch\fcs0 \fs18\cf1\hich\af1\insrsid9403163 
+\hich\af1\dbch\af0\loch\f37 Live chat}{\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Club Owner Login.
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Environment: }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 PHP, CakePHP and MySQL
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 
+\b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : }{\rtlch\fcs1 \af39\afs22 \ltrch\fcs0 \fs22\insrsid9403163 Natopia}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 Damiean}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par Duration: }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 October}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163  201}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 3}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163  \endash  }{
+\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 Feb}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163  2014
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+\par }{\rtlch\fcs1 \af1 \ltrch\fcs0 \f1\insrsid9403163 Natopia is a lifestyle business created by people for their passion for travel, adventure}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163  .}{\rtlch\fcs1 \af1 \ltrch\fcs0 \f1\insrsid9403163 
+ Natopia is a company which provides this lifestyle for the people who loves to travel and will provide you with amazing and unforgettable memories. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+Frontend and backend of fitness is developed using CakePHP.
+\par 
+\par }\pard\plain \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af37\afs24 \ltrch\fcs0 
+\b\fs24\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Features}{\rtlch\fcs1 \ab\af37\afs20 \ltrch\fcs0 \b\fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 :
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 {\rtlch\fcs1 \af37\afs20 
+\ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Members login 
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+
+\par Environment: }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 PHP, CakePHP and MySQL
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid9403163 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : Cravebusters  }{\rtlch\fcs1 \af39\afs22 \ltrch\fcs0 \fs22\insrsid9403163 http://www.cravebusters.in/}{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Cravebuster
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\tqc\tx4680\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Duration: Nov 2013 \endash  Feb 2014\tab 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 Cravebusters }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+is online food restaurant where customers can order their food . This site was developed in shopify where orders are maintain and processed .
+\par 
+\par }\pard\plain \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af37\afs24 \ltrch\fcs0 
+\b\fs24\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Features}{\rtlch\fcs1 \ab\af37\afs20 \ltrch\fcs0 \b\fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 :
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 {\rtlch\fcs1 \af37\afs20 
+\ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Shopping cart functionality.
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Multiple payment systems: 
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+
+\par Environment: }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 PHP, Shopify and MySQL}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid9403163 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : Rescue Chocolate
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Sarha Gross
+\par Duration: May 2014 \endash  Till Date
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 Rescue Chocolate is the sweetest way to save the animal life. This site deals with the animal chocolate . This site was developed in the shopify.{\*\bkmkstart _Toc288578576}
+\par  {\*\bkmkend _Toc288578576}
+\par }\pard\plain \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af37\afs24 \ltrch\fcs0 
+\b\fs24\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Features}{\rtlch\fcs1 \ab\af37\afs20 \ltrch\fcs0 \b\fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 :
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 {\rtlch\fcs1 \af37\afs20 
+\ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Shopping cart functionality.
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Multiple payment systems: 
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+
+\par Environment: }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 PHP, Shopify and MySQL
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid9403163 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : Online SEO Marketing
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Tariehk Geter  }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 http://www.tariehk.com}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par Duration: April 2013 \endash  June 2013
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+This website is an online SEO marketing company where client is a CEO and co founder of the company.  This is an Article submission website where various kind of affiliate article are maintain. This is Online marketing of affiliate program }{\rtlch\fcs1 
+\af0\afs20 \ltrch\fcs0 \f1\fs20\cf1\insrsid9403163 Integrated affiliate management system}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+ .The website deals with the different online and offline events in the different cities. It has been developed in Wordpress.
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Environment:}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163   Wordpress, Apache, MYSQL, PHP.
+\par 
+\par 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 
+\b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : }{\rtlch\fcs1 \af39\afs22 \ltrch\fcs0 \fs22\insrsid9403163 The Sample Hunters}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 Hunters}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par Duration: April 201}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 2}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163  \endash  June 201}{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 2}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\f1\insrsid9403163 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 This website is}{\rtlch\fcs1 \af1 \ltrch\fcs0 \f1\insrsid9403163  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 an }{\rtlch\fcs1 \af1 \ltrch\fcs0 \f1\insrsid9403163 
+fashion design site where it maintains different types of fashionable outfits for bot men and womens  }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 . It has been developed in Wordpress.
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Environment:}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163   Wordpress, Apache, MYSQL, PHP.
+\par 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid9403163 
+\par }\pard\plain \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\f1\insrsid9403163 Project Name: Big Home shop
+\par Client: Jilly Mitson
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Duration: Feb 2014 \endash  Till Date
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 Big home shop offers an online design and shopping experience that supports your home improvement. This website is developed in the shopify .
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard\plain \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af37\afs24 \ltrch\fcs0 
+\b\fs24\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Features}{\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 :
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \ab\af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 {\rtlch\fcs1 \ab\af37\afs20 
+\ltrch\fcs0 \b\fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Shopify Shoppi\hich\af1\dbch\af0\loch\f37 ng cart}{\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 .
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Product page and Checkout page.
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Checkout customization.
+\par }\pard \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Environment: }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 PHP 5, Shopify 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid9403163 
+\par }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : Rawprint
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Gavin }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 http://www.rawprint.com.au/}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par Duration: Jan 2012- April 2012
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 This is a product business site where client maintain products of different types. }{\rtlch\fcs1 \af13 \ltrch\fcs0 
+\loch\af13\hich\af13\dbch\af13\insrsid9403163 \hich\af13\dbch\af13\loch\f13 
+At RawPrint, it will beat any Australian-based competitors printing quotes on any of our standard product ranges where the competitors product, service and delivery method match our own. }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+This site is developed in PHP ,Mysql and Ajax.
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\cf1\insrsid9403163 Features:
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard\plain \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 
+\af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Products Type
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Business Product 
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+
+\par Environment:}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163  MYSQL, PHP and Ajax.
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 
+\fs22\insrsid9403163 
+\par Project Name: Tashome
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Gavin }{\rtlch\fcs1 \ab\af1 \ltrch\fcs0 \b\f1\insrsid9403163 http://www.tashome.com.au/}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par Duration: July 2011 \endash  Nov 2011
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description:    
+\par 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 This is a Business site where business directory Advertisement and Brouchers are maintain. This site is developed in PHP ,Mysql and Ajax. 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f326\insrsid9403163 Features:
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}}\pard\plain \ltrpar\s20\qj \fi-360\li1080\ri0\nowidctlpar\wrapdefault\faauto\ls2\adjustright\rin0\lin1080\itap0 \rtlch\fcs1 
+\af37\afs22\alang1025 \ltrch\fcs0 \f37\fs22\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 \hich\af1\dbch\af0\loch\f37 Used PHP and Mysql
+\par {\listtext\pard\plain\ltrpar \s20 \rtlch\fcs1 \af2\afs20 \ltrch\fcs0 \f2\fs20\cf1 \hich\af2\dbch\af13\loch\f2 o\tab}\hich\af1\dbch\af0\loch\f37 Implemented  module.
+\par }\pard \ltrpar\s20\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af37\afs20 \ltrch\fcs0 \fs20\cf1\hich\af1\insrsid9403163 
+\par }\pard\plain \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Environment:}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163  Apache, MYSQL, PHP.
+\par 
+\par }\pard\plain \ltrpar\s1\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\outlinelevel0\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 
+\b\fs22\insrsid9403163 Project Name}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \fs22\insrsid9403163 : Puzzled Mug
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+Client: Gavin Larsen
+\par Duration: Feb 2012\endash  May 2012
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Description: 
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+In this project various types of products and their related categories are maintain. The user can purchase the products and make an order. This website is developed in Bigcommerce . This is a hosted solution E- commerce website.
+\par 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Environment}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 : PHP5, MySql ,Bigcommerce.
+\par 
+\par \ltrrow}\pard\plain \ltrpar\s3\qc \li0\ri0\keepn\nowidctlpar\intbl\wrapdefault\faauto\outlinelevel2\adjustright\rin0\lin0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \f209\cf1\insrsid9403163 EDUCATION }{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid9403163 \cell }\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 \trowd \irow0\irowband0\lastrow \ltrrow\ts11\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh
+\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\row }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 
+\par }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 Education
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af3 \ltrch\fcs0 \f3 \loch\af3\dbch\af13\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li720\ri0\nowidctlpar\tx720\wrapdefault\faauto\ls3\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 
+\b\f1\insrsid9403163 M.C.A. (Computers Science)}{\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163  in 2008 from Institute of Technology and Management , RGPV University. }{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard \ltrpar\qj \li720\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin720\itap0 {\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 
+\par }\pard \ltrpar\qj \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+\par \ltrrow}\pard\plain \ltrpar\s3\qc \li0\ri0\keepn\nowidctlpar\intbl\wrapdefault\faauto\outlinelevel2\adjustright\rin0\lin0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \cf1\insrsid9403163 SUMMARY/KEYWORD}{\rtlch\fcs1 \af0 \ltrch\fcs0 \cf2\insrsid9403163 \cell }\pard\plain \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 \rtlch\fcs1 
+\af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 \trowd \irow0\irowband0\lastrow \ltrrow\ts11\trleft-108\trbrdrt\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrh
+\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind0\tblindtype3 \clvertalc\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrnone \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrnone 
+\cltxlrtb\clftsWidth3\clwWidth9576\clshdrawnil \cellx9468\row }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\cf6\insrsid9403163 
+\par \ltrrow}\trowd \irow0\irowband0\ltrrow\ts11\trrh332\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\pard \ltrpar
+\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 Languages/Technologies:}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 \cell }{\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f1\insrsid9403163 PHP 5.0, JavaScript, HTML, CSS, AJAX, MVC, CakePHP Framework, Shopify, WordPress, Bigcommerce and PHPBB.\cell }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 \trowd \irow0\irowband0\ltrrow\ts11\trrh332\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\row \ltrrow
+}\trowd \irow1\irowband1\ltrrow\ts11\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\pard \ltrpar
+\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 RDBMS:\cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 
+\ltrch\fcs0 \f1\insrsid9403163 Ms SQL, MySQL \cell }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 \trowd \irow1\irowband1\ltrrow
+\ts11\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\row \ltrrow}\pard \ltrpar
+\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 Tools/Techniques:}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163          }{\rtlch\fcs1 \ab\af0\afs22 
+\ltrch\fcs0 \b\f1\fs22\insrsid9403163 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 
+MKS Source Integrity 8.6, Visual Source Safe 6.0, SVN, CVS, RAD 6.0, WSAD 5.1.1, WAS 5.0, Tomcat 4, ZendStudio for Eclipse 6.0, Data Studio, DataStage TX, Dreamweaver MX, Zend Studio, WAMP Server, Apache\cell }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 \trowd \irow2\irowband2\ltrrow\ts11\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 
+\trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 
+\clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\row \ltrrow
+}\pard \ltrpar\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 Operating Systems:}{\rtlch\fcs1 \af0\afs22 \ltrch\fcs0 \f1\fs22\insrsid9403163   }{\rtlch\fcs1 
+\ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \f1\insrsid9403163 Microsoft Windows (all platforms), DOS, Linux\cell 
+}\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 \trowd \irow3\irowband3\ltrrow\ts11\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 
+\trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 \trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 
+\clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\row \ltrrow}\pard \ltrpar\qj \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 Methodologies:}{\rtlch\fcs1 
+\af0\afs22 \ltrch\fcs0 \f1\fs22\insrsid9403163   }{\rtlch\fcs1 \ab\af0\afs22 \ltrch\fcs0 \b\f1\fs22\insrsid9403163 \cell }\pard \ltrpar\ql \li0\ri0\nowidctlpar\intbl\wrapdefault\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\f1\insrsid9403163 OOAD}{\rtlch\fcs1 \ab\af0 \ltrch\fcs0 \b\f1\insrsid9403163 \cell }\pard \ltrpar\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\intbl\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0 {\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid9403163 
+\trowd \irow4\irowband4\lastrow \ltrrow\ts11\trleft0\trbrdrt\brdrs\brdrw10 \trbrdrl\brdrs\brdrw10 \trbrdrb\brdrs\brdrw10 \trbrdrr\brdrs\brdrw10 \trbrdrh\brdrs\brdrw10 \trbrdrv\brdrs\brdrw10 
+\trftsWidth1\trftsWidthB3\trftsWidthA3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tblind108\tblindtype3 \clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 
+\cltxlrtb\clftsWidth3\clwWidth2340\clshdrawnil \cellx2340\clvertalt\clbrdrt\brdrs\brdrw10 \clbrdrl\brdrs\brdrw10 \clbrdrb\brdrs\brdrw10 \clbrdrr\brdrs\brdrw10 \cltxlrtb\clftsWidth3\clwWidth7398\clshdrawnil \cellx9738\row }\pard\plain \ltrpar
+\s3\ql \li0\ri0\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel2\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \ab\af0\afs24\alang1025 \ltrch\fcs0 \b\f1\fs24\cf9\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0 \ltrch\fcs0 
+\cf2\insrsid9403163 
+\par }\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \f39\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af0\afs20 \ltrch\fcs0 
+\fs20\loch\af0\insrsid9403163 
+\par }{\*\themedata 504b030414000600080000002100828abc13fa0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb6ac3301045f785fe83d0b6d8
+72ba28a5d8cea249777d2cd20f18e4b12d6a8f843409c9df77ecb850ba082d74231062ce997b55ae8fe3a00e1893f354e9555e6885647de3a8abf4fbee29bbd7
+2a3150038327acf409935ed7d757e5ee14302999a654e99e393c18936c8f23a4dc072479697d1c81e51a3b13c07e4087e6b628ee8cf5c4489cf1c4d075f92a0b
+44d7a07a83c82f308ac7b0a0f0fbf90c2480980b58abc733615aa2d210c2e02cb04430076a7ee833dfb6ce62e3ed7e14693e8317d8cd0433bf5c60f53fea2fe7
+065bd80facb647e9e25c7fc421fd2ddb526b2e9373fed4bb902e182e97b7b461e6bfad3f010000ffff0300504b030414000600080000002100a5d6a7e7c00000
+00360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4fc7060abb08
+84a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b63095120f88d94fbc
+52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462a1a82fe353
+bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f7468656d652f7468
+656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b4b0d592c9c
+070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b4757e8d3f7
+29e245eb2b260a0238fd010000ffff0300504b03041400060008000000210096b5ade296060000501b0000160000007468656d652f7468656d652f7468656d65
+312e786d6cec594f6fdb3614bf0fd87720746f6327761a07758ad8b19b2d4d1bc46e871e698996d850a240d2497d1bdae38001c3ba618715d86d87615b8116d8
+a5fb34d93a6c1dd0afb0475292c5585e9236d88aad3e2412f9e3fbff1e1fa9abd7eec70c1d1221294fda5efd72cd4324f1794093b0eddd1ef62fad79482a9c04
+98f184b4bd2991deb58df7dfbb8ad755446282607d22d771db8b944ad79796a40fc3585ee62949606ecc458c15bc8a702910f808e8c66c69b9565b5d8a314d3c
+94e018c8de1a8fa94fd05093f43672e23d06af89927ac06762a049136785c10607758d9053d965021d62d6f6804fc08f86e4bef210c352c144dbab999fb7b471
+7509af678b985ab0b6b4ae6f7ed9ba6c4170b06c788a705430adf71bad2b5b057d03606a1ed7ebf5babd7a41cf00b0ef83a6569632cd467faddec9699640f671
+9e76b7d6ac355c7c89feca9cccad4ea7d36c65b258a206641f1b73f8b5da6a6373d9c11b90c537e7f08dce66b7bbeae00dc8e257e7f0fd2badd5868b37a088d1
+e4600ead1ddaef67d40bc898b3ed4af81ac0d76a197c86826828a24bb318f3442d8ab518dfe3a20f000d6458d104a9694ac6d88728eee2782428d60cf03ac1a5
+193be4cbb921cd0b495fd054b5bd0f530c1931a3f7eaf9f7af9e3f45c70f9e1d3ff8e9f8e1c3e3073f5a42ceaa6d9c84e5552fbffdeccfc71fa33f9e7ef3f2d1
+17d57859c6fffac327bffcfc793510d26726ce8b2f9ffcf6ecc98baf3efdfdbb4715f04d814765f890c644a29be408edf3181433567125272371be15c308d3f2
+8acd249438c19a4b05fd9e8a1cf4cd296699771c393ac4b5e01d01e5a30a787d72cf1178108989a2159c77a2d801ee72ce3a5c545a6147f32a99793849c26ae6
+6252c6ed637c58c5bb8b13c7bfbd490a75330f4b47f16e441c31f7184e140e494214d273fc80900aedee52ead87597fa824b3e56e82e451d4c2b4d32a423279a
+668bb6690c7e9956e90cfe766cb37b077538abd27a8b1cba48c80acc2a841f12e698f13a9e281c57911ce298950d7e03aba84ac8c154f8655c4f2af074481847
+bd804859b5e696007d4b4edfc150b12addbecba6b18b148a1e54d1bc81392f23b7f84137c2715a851dd0242a633f900710a218ed715505dfe56e86e877f0034e
+16bafb0e258ebb4faf06b769e888340b103d3311da9750aa9d0a1cd3e4efca31a3508f6d0c5c5c398602f8e2ebc71591f5b616e24dd893aa3261fb44f95d843b
+5974bb5c04f4edafb95b7892ec1108f3f98de75dc97d5772bdff7cc95d94cf672db4b3da0a6557f70db629362d72bcb0431e53c6066acac80d699a6409fb44d0
+8741bdce9c0e4971624a2378cceaba830b05366b90e0ea23aaa241845368b0eb9e2612ca8c742851ca251ceccc70256d8d87265dd96361531f186c3d9058edf2
+c00eafe8e1fc5c509031bb4d680e9f39a3154de0accc56ae644441edd76156d7429d995bdd88664a9dc3ad50197c38af1a0c16d684060441db02565e85f3b966
+0d0713cc48a0ed6ef7dedc2dc60b17e92219e180643ed27acffba86e9c94c78ab90980d8a9f0913ee49d62b512b79626fb06dccee2a432bbc60276b9f7dec44b
+7904cfbca4f3f6443ab2a49c9c2c41476dafd55c6e7ac8c769db1bc399161ee314bc2e75cf8759081743be1236ec4f4d6693e5336fb672c5dc24a8c33585b5fb
+9cc24e1d4885545b58463634cc5416022cd19cacfccb4d30eb45296023fd35a458598360f8d7a4003bbaae25e331f155d9d9a5116d3bfb9a95523e51440ca2e0
+088dd844ec6370bf0e55d027a012ae264c45d02f708fa6ad6da6dce29c255df9f6cae0ec38666984b372ab5334cf640b37795cc860de4ae2816e95b21be5ceaf
+8a49f90b52a51cc6ff3355f47e0237052b81f6800fd7b802239daf6d8f0b1571a8426944fdbe80c6c1d40e8816b88b8569082ab84c36ff0539d4ff6dce591a26
+ade1c0a7f669880485fd484582903d284b26fa4e2156cff62e4b9265844c4495c495a9157b440e091bea1ab8aaf7760f4510eaa69a6465c0e04ec69ffb9e65d0
+28d44d4e39df9c1a52ecbd3607fee9cec7263328e5d661d3d0e4f62f44acd855ed7ab33cdf7bcb8ae889599bd5c8b3029895b6825696f6af29c239b75a5bb1e6
+345e6ee6c28117e73586c1a2214ae1be07e93fb0ff51e133fb65426fa843be0fb515c187064d0cc206a2fa926d3c902e907670048d931db4c1a44959d366ad93
+b65abe595f70a75bf03d616c2dd959fc7d4e6317cd99cbcec9c58b34766661c7d6766ca1a9c1b327531486c6f941c638c67cd22a7f75e2a37be0e82db8df9f30
+254d30c1372581a1f51c983c80e4b71ccdd28dbf000000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d652f74
+68656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d363f24
+51eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e3198
+720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d9850528
+a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100828abc13fa0000001c0200001300000000000000000000000000
+000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b000000000000000000000000
+002b0100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c00000000000000000000000000140200007468
+656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d001400060008000000210096b5ade296060000501b000016000000000000000000
+00000000d10200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b010000270000000000
+00000000000000009b0900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000960a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax267\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdqformat1 \lsdlocked0 index 1;\lsdqformat1 \lsdlocked0 index 2;
+\lsdqformat1 \lsdlocked0 index 3;\lsdqformat1 \lsdlocked0 index 4;\lsdqformat1 \lsdlocked0 index 5;\lsdqformat1 \lsdlocked0 index 6;\lsdqformat1 \lsdlocked0 index 7;\lsdqformat1 \lsdlocked0 index 8;\lsdqformat1 \lsdlocked0 index 9;
+\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 1;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 2;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 3;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 4;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 5;
+\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 6;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 7;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 8;\lsdqformat1 \lsdpriority39 \lsdlocked0 toc 9;\lsdqformat1 \lsdlocked0 Normal Indent;
+\lsdqformat1 \lsdlocked0 footnote text;\lsdqformat1 \lsdlocked0 annotation text;\lsdqformat1 \lsdlocked0 header;\lsdqformat1 \lsdlocked0 footer;\lsdqformat1 \lsdlocked0 index heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;\lsdqformat1 \lsdlocked0 table of figures;\lsdqformat1 \lsdlocked0 envelope address;\lsdqformat1 \lsdlocked0 envelope return;\lsdqformat1 \lsdlocked0 footnote reference;
+\lsdqformat1 \lsdlocked0 annotation reference;\lsdqformat1 \lsdlocked0 line number;\lsdqformat1 \lsdlocked0 page number;\lsdqformat1 \lsdlocked0 endnote reference;\lsdqformat1 \lsdlocked0 endnote text;\lsdqformat1 \lsdlocked0 table of authorities;
+\lsdqformat1 \lsdlocked0 macro;\lsdqformat1 \lsdlocked0 toa heading;\lsdqformat1 \lsdlocked0 List;\lsdqformat1 \lsdlocked0 List Bullet;\lsdqformat1 \lsdlocked0 List Number;\lsdqformat1 \lsdlocked0 List 2;\lsdqformat1 \lsdlocked0 List 3;
+\lsdqformat1 \lsdlocked0 List 4;\lsdqformat1 \lsdlocked0 List 5;\lsdqformat1 \lsdlocked0 List Bullet 2;\lsdqformat1 \lsdlocked0 List Bullet 3;\lsdqformat1 \lsdlocked0 List Bullet 4;\lsdqformat1 \lsdlocked0 List Bullet 5;
+\lsdqformat1 \lsdlocked0 List Number 2;\lsdqformat1 \lsdlocked0 List Number 3;\lsdqformat1 \lsdlocked0 List Number 4;\lsdqformat1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;\lsdqformat1 \lsdlocked0 Closing;
+\lsdqformat1 \lsdlocked0 Signature;\lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdqformat1 \lsdlocked0 Body Text;\lsdqformat1 \lsdlocked0 Body Text Indent;\lsdqformat1 \lsdlocked0 List Continue;
+\lsdqformat1 \lsdlocked0 List Continue 2;\lsdqformat1 \lsdlocked0 List Continue 3;\lsdqformat1 \lsdlocked0 List Continue 4;\lsdqformat1 \lsdlocked0 List Continue 5;\lsdqformat1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;
+\lsdqformat1 \lsdlocked0 Salutation;\lsdqformat1 \lsdlocked0 Date;\lsdqformat1 \lsdlocked0 Body Text First Indent;\lsdqformat1 \lsdlocked0 Body Text First Indent 2;\lsdqformat1 \lsdlocked0 Note Heading;\lsdqformat1 \lsdlocked0 Body Text 2;
+\lsdunhideused1 \lsdlocked0 Body Text 3;\lsdqformat1 \lsdlocked0 Body Text Indent 2;\lsdqformat1 \lsdlocked0 Body Text Indent 3;\lsdqformat1 \lsdlocked0 Block Text;\lsdqformat1 \lsdlocked0 Hyperlink;\lsdqformat1 \lsdlocked0 FollowedHyperlink;
+\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdqformat1 \lsdlocked0 Document Map;\lsdqformat1 \lsdlocked0 Plain Text;\lsdqformat1 \lsdlocked0 E-mail Signature;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdqformat1 \lsdlocked0 Normal (Web);\lsdqformat1 \lsdlocked0 HTML Acronym;\lsdqformat1 \lsdlocked0 HTML Address;
+\lsdunhideused1 \lsdlocked0 HTML Cite;\lsdqformat1 \lsdlocked0 HTML Code;\lsdqformat1 \lsdlocked0 HTML Definition;\lsdqformat1 \lsdlocked0 HTML Keyboard;\lsdqformat1 \lsdlocked0 HTML Preformatted;\lsdqformat1 \lsdlocked0 HTML Sample;
+\lsdqformat1 \lsdlocked0 HTML Typewriter;\lsdqformat1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Table;\lsdqformat1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Simple 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Classic 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Colorful 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Columns 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 6;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 7;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table List 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table 3D effects 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Contemporary;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Elegant;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Professional;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Subtle 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdqformat1 \lsdlocked0 Balloon Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;
+\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;
+\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;
+\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;
+\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;
+\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;
+\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;
+\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;
+\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 5;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;}}{\*\datastore 0105000002000000180000004d73786d6c322e534158584d4c5265616465722e352e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffffec69d9888b8b3d4c859eaf6cd158be0f000000000000000000000000501f
+fbc1b0a1cf01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}

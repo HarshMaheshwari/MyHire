@@ -1,0 +1,889 @@
+<html>
+<body>
+<table border=1>
+<tr>
+<td>Downloaded Date</td><td>'03-Jan-15</td>
+</tr>
+<tr>
+<td>Folder Name</td><td>payal winforms selected</td>
+</tr>
+<tr align="left" bgcolor=blue>
+<td align="left"><b>Serial Number </b></td>
+<td align="left"><b>Name of the Candidate</b></td>
+<td align="left"><b>Resume ID</b></td>
+<td align="left"><b>Postal Address  	</b></td>
+<td align="left"><b>Telephone No.</b></td>
+<td align="left"><b>Mobile No.</b></td>
+<td align="left"><b>Date of Birth </b></td>
+<td align="left"><b>Email</b></td><td colspan=2><b>Work Experience</b></td>
+<td align="left"><b>Resume Title</b></td>
+<!--
+<td align="left"><b>Key Skills </b></td>
+<td align="left"><b>Functional Area </b></td> 
+-->
+<td align="left"><b>Current Location  </b></td>
+<td align="left"><b>Preferred Location  </b></td>
+<td align="left"><b>Current Employer  </b></td>
+<td align="left"><b>Current Designation  </b></td>
+<td align="left"><b>Annual Salary</b></td>
+<td align="left"><b>U.G. Course  </b></td>
+<!--
+<td align="left"><b>U. G. Specialisation  </b></td>
+<td align="left"><b>U. G. Institute  </b></td>
+-->
+<td align="left"><b>P. G. Course  </b></td>
+<!--
+<td align="left"><b>P. G. Specialisation</b></td>  
+<td align="left"><b>P. G. Institute  </b></td>
+-->
+<td align="left"><b>Post P. G. Course  </b></td>
+<!--
+<td align="left"><b>Post P. G. Specialisation </b></td>
+<td align="left"><b>Post P. G. Institute  </b></td>
+<td align="left"><b>Last Modified Date</b></td>
+-->
+<td align="left"><b>Last Active Date</b></td>
+<td align="left"><b>Comment 1</b></td>
+<td align="left"><b>SubUser 1</b></td>
+<td align="left"><b>TimeStamp 1</b></td>
+<td align="left"><b>Comment 2</b></td>
+<td align="left"><b>SubUser 2</b></td>
+<td align="left"><b>TimeStamp 2</b></td>
+<td align="left"><b>Comment 3</b></td>
+<td align="left"><b>SubUser 3</b></td>
+<td align="left"><b>TimeStamp 3</b></td>
+<td align="left"><b>Comment 4</b></td>
+<td align="left"><b>SubUser 4</b></td>
+<td align="left"><b>TimeStamp 4</b></td>
+<td align="left"><b>Comment 5</b></td>
+<td align="left"><b>SubUser 5</b></td>
+<td align="left"><b>TimeStamp 5</b></td>
+
+</tr>
+
+<tr align="left" bgcolor=blue>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td><td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+
+<tr align="left">
+<td>1</td>
+<td>
+Mrinal Sinha
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=f5bf1e0bd54f8a1bdf5a3d1cfd10d2615b5f0e504c1100126&amp;uname=41cbda0cefe4d4b63153343cb94ec057051f500f1b4f17525a4f19095979061742504d1d421e056" target="_blank">15789ac75450f97214</a></td>
+<td>Near Dr. MP sharma,Adarsh Nagar Samastipur,samastipur</td>
+<td>
+</td>
+<td>
+9560670791</td>
+<td>'29 Sep 1989</td>
+  <td>mrinal.sinha4@gmail.com</td>
+<td>1 Year(s)</td>
+<td>5 Month(s)</td>
+<td>B.tech In computer Science ,With 1.5 Years of Industrial experience in Development in .Net Framework</td>
+<!--
+<td>Net Framework 3.5/4.0/4.5, asp.Net Web Forms, MVC 3/4, Web API,AJAX, EFM 4.0, WCF, WF 3.0, C#, LINQ, JQUERY, HTML, Visual Studio 2008/2010/2012, MS SQL Server R2,and MS Project., JavaScript, CSS</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Bangalore, Delhi/NCR, Noida</td>
+<td>KEYA IT Research Pvt Ltd</td> 
+<td>Associate Software Developer</td>
+<td>INR 2.40 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'12 Dec 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>2</td>
+<td>
+Pankaj goel
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=5bd7ecfea1fc11f2438c381b1af448785b5a0e594b1b0f146&amp;uname=e2b4340a6b718940cbcbf2925f65f156180c570a1b495e4e564d42582d5e0c1b4a550f504e1c6" target="_blank">147abca66f7f1e0282</a></td>
+<td>pankajgoel30@gmail.com,Delhi</td>
+<td>
+</td>
+<td>
+9555155450</td>
+<td>'30 Nov 1991</td>
+  <td>pankajgoel30@gmail.com</td>
+<td>1 Year(s)</td>
+<td>10 Month(s)</td>
+<td>I am a software developer and with an experience of 1.10 year in asp.net. my basic skills are css , jquery, html, javascript, c#,Webservice,photoshop. I was also worked on latest tech. of .Net.</td>
+<!--
+<td>C#.NET, C , C++ ,Html, JavaScript, Jquery, Ajax, Css ,MySQL,photoshop,wcf service, C++</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Delhi/NCR</td>
+<td>Phyzer Technologies</td> 
+<td>Software Developer</td>
+<td>INR 2.30 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'14 Dec 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>3</td>
+<td>
+Er. Ankit Saxena
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=9b3fe49148b332d3a70202c14415e6415b5e0b5742120f106&amp;uname=a9c94b2f6e83c4d226b6d210f1b938de090352080e50414f0610455b2d5e0c1b4a550f504e1c6" target="_blank">08ca05261e1f334a68</a></td>
+<td>54/1 park road
+dehradun,Dehradun</td>
+<td>
+</td>
+<td>
+9759371139</td>
+<td>'15 May 1992</td>
+  <td>ankitsxn5143@gmail.com</td>
+<td>1 Year(s)</td>
+<td>9 Month(s)</td>
+<td>.NET Developer with More than 1 year Experience in Development</td>
+<!--
+<td>C# .NET, ASP.NET, Window Application .NET, HTML, CSS, Adobe photoshop,crystal Report</td>
+<td></td>  
+-->
+<td>Dehradun</td>  
+<td>Gurgaon</td>
+<td>Easeyard Dehradun</td> 
+<td>.Net Team Leader</td>
+<td>INR 1.80 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'25 Dec 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>4</td>
+<td>
+ajeet singh
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=1b4e7683b1a5893446740a15f5e504795a5d00534b1309136&amp;uname=53609ba34f09a037321ac20290a0125709075c040e50504f54495f585808536" target="_blank">2a57aee954ecb8b770</a></td>
+<td>P-43/7, Raksha Vihar Colony,
+Shyam Nagar,kanpur</td>
+<td>
+</td>
+<td>
+9990564250</td>
+<td>'15 Dec 1983</td>
+  <td>ajeetsingh414@gmail.com</td>
+<td>2 Year(s)</td>
+<td>5 Month(s)</td>
+<td>Having 2+ yrs of exp. in IT sector.</td>
+<!--
+<td>sql server, C#, .Net</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Delhi/NCR</td>
+<td>joost food ventures pvt ltd</td> 
+<td>software developer</td>
+<td>INR 1.80 Lac(s)</td>  
+<td>B.Sc</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td>MCA</td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'11 Jul 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>5</td>
+<td>
+Shakti Goyal
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=a2c5624a50cfbe40cd29ad0f62eea8b45c5d0e5448110a116&amp;uname=665e2c7aa099f3135ff106aba57b87381b05580a0e4a174f565540280a5400134f17425c4c6" target="_blank">493b6fd3651ff4f743</a></td>
+<td>Noida Sec 15, India,Noida</td>
+<td>
+</td>
+<td>
+9718392276</td>
+<td>'04 Apr 1988</td>
+  <td>shakti.net1@gmail.com</td>
+<td>2 Year(s)</td>
+<td>3 Month(s)</td>
+<td>B. Tech with 2 year+ of experience as Software Developer</td>
+<!--
+<td>C#.Net, SQL Server, C#, MySQL, ADO.NET, ASP.NET</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Delhi/NCR</td>
+<td>Confdential</td> 
+<td>Software Developer</td>
+<td>INR 2.40 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'17 Aug 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>6</td>
+<td>
+Rajan Garg
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=071859d090dfa6e88ee8a75bbfac33285b5e0b514f1200166&amp;uname=8238e1a5eedad9394b7e9273702ee64b1a0c5300140d5e40414640592d5e0c1b4a550f504e1c6" target="_blank">319d67ae36028bf169</a></td>
+<td>124/6 west azad nagar, delhi,Delhi</td>
+<td>
+</td>
+<td>
+7827435733</td>
+<td>'11 Dec 1990</td>
+  <td>rajan.garg11@gmail.com</td>
+<td>2 Year(s)</td>
+<td>0 Month(s)</td>
+<td>Software Developer - Worked in developing quality windows/WCF as well as web based applications.</td>
+<!--
+<td>knockout.js, MVC, windows form, SCSF, CAB architecture, asp.net, LINQ, Javascript, SQL Server, ASP.NET</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Delhi/NCR</td>
+<td>Compunnel Technologies India Pvt ltd</td> 
+<td>Software Developer</td>
+<td>INR 0.0 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'02 Jan 2015</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>7</td>
+<td>
+Karan Mehra
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=7f3fbf2fc7adc1bfd37f931623942d9c5a590b534b170f156&amp;uname=e79bbb2c4bb6b2a2c52a59939a6db2670300520c1f4b4b406" target="_blank">62c522367c42d33693</a></td>
+<td>H no : 203
+9/11, Gali no 2, Near Pubjab and sindh Bank, Islambad, Amritsar, Punjab.,amritsar</td>
+<td>
+91</td>
+<td>
+8437384782</td>
+<td>'02 Feb 1993</td>
+  <td>kmkmehra@gmail.com</td>
+<td>2 Year(s)</td>
+<td>2 Month(s)</td>
+<td>This is the chance to get more Opportunities and do something different and big in the life.</td>
+<!--
+<td>Done- .NET,C #.net,Asp.net MVC,SQL Server, PHP-MYSQL, Javascript, HTML,XHTML,Adobe Photoshop, Microsoft Office, UML, OOAD, Crystal Reports, WCF,WPF, .NET, ASP.net, C#, SQL Server, Crystal Report, AJAX, Winform, Microsoft Office, Adobe Photoshop, css, javascript, PHP, MySQL, TALLY,</td>
+<td></td>  
+-->
+<td>Amritsar</td>  
+<td>Chandigarh</td>
+<td>GT Infotech Pvt Ltd.</td> 
+<td>Associate Software Developer</td>
+<td>INR 2.20 Lac(s)</td>  
+<td>B.Sc</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'08 Jul 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>8</td>
+<td>
+Ajit Kumar
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=f58beee601a17031ec0a53489839116e5a5a0e53481701116&amp;uname=1fc9dee5e37e2abe209764ee5e91da3129075015114e4b110a6" target="_blank">6f03cf5621069d2610</a></td>
+<td>Bahadurpur , Samastipur(BIHAR),samastipur</td>
+<td>
+91 11</td>
+<td>
+8527148040</td>
+<td>'25 Mar 1986</td>
+  <td>ajitkmr09@gmail.com</td>
+<td>2 Year(s)</td>
+<td>4 Month(s)</td>
+<td>B.Tech -&gt;2+ Years  Experience</td>
+<!--
+<td>c 
+c++ 
+asp.net
+sql server
+c#.Net
+html/dhtml
+javascript
+xml
+JQuery,
+JSON,
+WebServices,
+Wcf,
+Angular, ASP.NET, C#, ADO.NET, CSS, WEB SERVICES</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Delhi/NCR, Gurgaon, Noida</td>
+<td>Posist Technology</td> 
+<td>Software Engineering Team</td>
+<td>INR 2.40 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'27 Dec 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>9</td>
+<td>
+Anuj Joshi
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=5d065fdce1a57ed66d0be24dbcaa45685a5a0c554f130f176&amp;uname=63b00061e13ff8f6dee6374b8a5d7edd09034c0b104c4a495a1646280a5400134f17425c4c6" target="_blank">53885f5a3f8f0d9b40</a></td>
+<td>5M-96 N.I.T Faridabad,faridabad</td>
+<td>
+91 129 4054947</td>
+<td>
+9953786030</td>
+<td>'23 Dec 1988</td>
+  <td>anujjoshi77@gmail.com</td>
+<td>2 Year(s)</td>
+<td>3 Month(s)</td>
+<td>Post Graduation in MCA and Graduation in B.com and diploma in DOEACC 'O' And 'A' courses.experience 2 years in Dotnet framework 3.5,4.0 and 4.5</td>
+<!--
+<td>C#, Winform, Sql2005-08, WPF, ASP.Net, WCF, Html, Dreamweaver.Crystal Report.Window forms Applications,web services, Xceed Components, Dev Express Components,Charts,CSS,Jquery.</td>
+<td></td>  
+-->
+<td>Faridabad</td>  
+<td>Delhi/NCR, Gurgaon, Noida</td>
+<td>Softbiztech Pvt Ltd</td> 
+<td>Senior Software Developer</td>
+<td>INR 2.40 Lac(s)</td>  
+<td>B.Com</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'16 Sep 2014</td> 
+<td>salary High</td>
+<td>skope5</td>
+<td>November 3, 2014, 12:20 PM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>10</td>
+<td>
+Siddharth Kumar Rawani
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=5bae44d2c002fec693a690596b7d71175a5b09514b170a166&amp;uname=0fc7c62b15179ef365d5139e83e843fc1b045d051256665352561006046" target="_blank">3f7f69c701dbb43902</a></td>
+<td>P-64, 2nd floor, Pandav Nagar, Mayur Vihar Phase-1, New Delhi(110091),New Delhi</td>
+<td>
+91</td>
+<td>
+9555808211</td>
+<td>'05 Nov 1988</td>
+  <td>sid.rawani28@gmail.com</td>
+<td>2 Year(s)</td>
+<td>1 Month(s)</td>
+<td>B.Tech in Information Technology with 2+ years of experience in .NET</td>
+<!--
+<td>.NET (4.0,4.5), ,C#, LINQ, SQL Server 2008,Sitecore(7.0, 7.1), WFFM, DMS,XML, XAML, Multithreading, COM, Design Patterns, WPF,MVC,MVC4,3,HTML, EnterpriseLibrary, GUI design, OOD, OOP, Microsoft Unity,ADO.NET,LINQ,JAVASCRIPT,AJAX,JQUERY,SQL,HTML</td>
+<td></td>  
+-->
+<td>Gurgaon</td>  
+<td>Delhi, Delhi/NCR</td>
+<td>Edynamic</td> 
+<td>Software Engineer</td>
+<td>INR 2.20 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'13 Dec 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>11</td>
+<td>
+Sonam Joon
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=6605fe6b109721d736a27c9570e5ac995a5a0b5243170c166&amp;uname=bc6cf6e5735c94701a5127ffc3f96bdd0202560f5450564f524c40512d5e0c1b4a550f504e1c6" target="_blank">6ed8f08508c8aae158</a></td>
+<td>H.no.- 706/27, Street no.- 1, Adarsh Nagar, Jhajjar Road, Bahadurgarh, Haryana,haryana</td>
+<td>
+</td>
+<td>
+9813228479</td>
+<td>'19 Aug 1989</td>
+  <td>joon.sonam19@gmail.com</td>
+<td>2 Year(s)</td>
+<td>0 Month(s)</td>
+<td>B.E.(IT), Diploma in .NET from NIIT with 2 Year exp as .Net Developer currently working in DV Info Solutions Pvt Ltd.</td>
+<!--
+<td>.net- C#, ASP.NET,SQL Server 2008, Crystal Reports GUI, XML, ADO.NET,</td>
+<td></td>  
+-->
+<td>BAHADURGARH</td>  
+<td>Delhi/NCR, Gurgaon, Rohtak</td>
+<td>DV Info Solutions Pvt.Ltd.</td> 
+<td>Software Developer</td>
+<td>INR 1.80 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'02 Jan 2015</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>12</td>
+<td>
+Abhinav Sharma
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=3de2c81928c87f905bb63602776b9af65a55095143150c146&amp;uname=3648fb158ec8e27b3202aafda988827c3b0c5b09134d5857406" target="_blank">045f54580afbe18519</a></td>
+<td>Father's Occupation : Govt. Employee (Delhi Jal Board ),Delhi</td>
+<td>
+</td>
+<td>
+9250696774</td>
+<td>'02 Apr 1990</td>
+  <td>abhi.it1990@gmail.com</td>
+<td>1 Year(s)</td>
+<td>8 Month(s)</td>
+<td>C#,.Net, Winforms,Desktop/Window Application,Wpf,Sql Server 2008,MsAccess
+DIPLOMA IN .NET TECHNOLOGY from NIIT,B.TECH (I.T)  2011 BATCH , POST GRADUATION DIPLOMA IN  I.T  FROM SYMBIOSIS CENTER OF D...</td>
+<!--
+<td>Winforms,Window Application, Desktop Application,WPF, Asp.net,C# ,.NET ,SQL server 2008,Sql Compact ,Wpf window  xml,xaml,ADO.NET,wcf, C#, ASP.NET</td>
+<td></td>  
+-->
+<td>Delhi</td>  
+<td>Delhi, Delhi/NCR, Gurgaon</td>
+<td>Virtual Employee Pvt Ltd</td> 
+<td>Software Engineer</td>
+<td>INR 2.40 Lac(s)</td>  
+<td>B.Tech/B.E.</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td>MBA/PGDM</td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'01 Jan 2015</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+<tr align="left">
+<td>13</td>
+<td>
+Ajay Kumar Kaushal
+</td>
+<td><a href="http://resdex.naukri.com/preview/preview?resid=297a65dbc03437b6e512c0c9b07fad1759540c574b1309176&amp;uname=a8a4194aa05ff9ab1be57fa15c35e8a209075818421a524046521909016" target="_blank">5d62e17f4c6664c343</a></td>
+<td>Vill-Amawen
+Post-Jajauli
+Dist-Ballia,Ballia</td>
+<td>
+91</td>
+<td>
+09958926781</td>
+<td>'05 Aug 1989</td>
+  <td>ajay89kaushal@gmail.com</td>
+<td>2 Year(s)</td>
+<td>2 Month(s)</td>
+<td>MCA with 2+ Year of experience as Software Developer using .NET technology with good expertise in C#, Asp.NET, MVC, Winforms, Entity framework....</td>
+<!--
+<td></td>
+<td></td>  
+-->
+<td>Noida</td>  
+<td>Delhi/NCR, Lucknow, Noida</td>
+<td>NT Soft Technologies</td> 
+<td>Software Developer</td>
+<td>INR 2.40 Lac(s)</td>  
+<td>B.Sc</td> 
+<!--
+<td></td> 
+<td></td> 
+-->
+<td>MCA</td>  
+<!--
+<td></td> 
+<td></td> 
+-->
+<td></td>  
+<!--
+<td></td>   
+<td></td> 
+<td>'01 Jan 1970</td>  
+-->
+<td>'30 Dec 2014</td> 
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+
+</table>
+</body>
+</html>

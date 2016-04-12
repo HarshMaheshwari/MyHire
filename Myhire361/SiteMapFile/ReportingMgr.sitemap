@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap >
+  <siteMapNode url="Home.aspx" title="Home"  description="">
+
+    <siteMapNode url="~/ClientList.aspx" title="Client"  description="" />
+    <siteMapNode url="" title="Candidate"  description="" >
+      <siteMapNode url="~/Candidate/AllCandidates.aspx" title="Candidate List"  description="" />
+    </siteMapNode>
+
+    <siteMapNode url="" title="Recruitment"  description="" >
+      <siteMapNode url="~/Recruitment/RRList.aspx" title="Recruitment"  description="" />
+      <siteMapNode url="~/Recruitment/MyPosition.aspx" title="My Positions"  description="" />
+      <siteMapNode url="~/Recruitment/FollowUpList.aspx" title="Follow Ups"  description="" />
+      <siteMapNode url="~/Recruitment/MyWorkList.aspx" title="My Approvals"  description="" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>
