@@ -67,9 +67,10 @@ public partial class MasterPage : System.Web.UI.MasterPage
                 break;
            case 13:
                 Recruiter.Visible = true;
+               break;
+           case 1015:
+               Admin_new.Visible = true;
                 break;
-           
-
         }
     }
 

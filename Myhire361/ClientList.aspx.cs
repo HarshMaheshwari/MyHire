@@ -68,7 +68,7 @@ public partial class ClientList : BaseClass
         clntBAL = new ClientBAL();
         try
         {
-            if (URole == 1)
+            if (URole == 1 )
             {
                
 

@@ -83,7 +83,7 @@
                                     <EmptyDataRowStyle HorizontalAlign="Center" />
                                     <FooterStyle CssClass="footer" />
                                     <Columns>
-                                        <asp:TemplateField HeaderText="Id" Visible="false">
+                                        <asp:TemplateField HeaderText="Id" Visible="true" >
                                             <ItemTemplate>
                                                 <asp:Label ID="lblId" runat="server" Text='<%#Eval("Client_Id")%>'></asp:Label>
                                             </ItemTemplate>
@@ -98,27 +98,27 @@
                                                 <asp:Label ID="lblClient" runat="server" Text='<%#Eval("Client_Name")%>' Font-Bold="true"></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Assigned To" SortExpression="USR_Name">
+                                        <asp:TemplateField HeaderText="Assigned To" SortExpression="USR_Name" >
                                             <ItemTemplate>
                                                 <asp:Label ID="lblAssigendTo" runat="server" Text='<%#Eval("USR_Name")%>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Contact Name" SortExpression="Person_Name">
+                                        <asp:TemplateField HeaderText="Contact Name" SortExpression="Person_Name"  >
                                             <ItemTemplate>
                                                 <asp:Label ID="lblContact" runat="server" Text='<%#Eval("Person_Name")%>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Email Id" Visible="false" SortExpression="Person_Email">
+                                        <asp:TemplateField HeaderText="Email Id" SortExpression="Person_Email" >
                                             <ItemTemplate>
                                                 <asp:Label ID="lblEmail" runat="server" Text='<%#Eval("Person_Email")%>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Contact No" SortExpression="Person_Contact">
+                                        <asp:TemplateField HeaderText="Contact No" SortExpression="Person_Contact" >
                                             <ItemTemplate>
                                                 <asp:Label ID="lblPhnNo" runat="server" Text='<%#Eval("Person_Contact")%>'></asp:Label>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Status" Visible="false" SortExpression="Status">
+                                        <asp:TemplateField HeaderText="Status" SortExpression="Status">
                                             <ItemTemplate>
                                                 <asp:Label ID="lblStatus" runat="server" Text='<%#Eval("Status")%>'></asp:Label>
                                             </ItemTemplate>
@@ -170,6 +170,45 @@
                                 </asp:GridView>
                                
                             </td>
+
+                            
+                          <%-- -------Niharika-------%>
+                          <%--  <td>
+                                 <asp:ImageButton ID="lbtnView" CommandName="View" runat="server" ToolTip="View" ImageUrl="~/Image/view.png"
+                                                    Width="22px" Height="22px" />
+                                                &nbsp;
+                                                <asp:ImageButton ID="lbtnEdit" CommandName="Edit" runat="server" ToolTip="Edit" ImageUrl="~/Image/b_edit.png"
+                                                    Width="22px" Height="22px" />
+                                                &nbsp;
+                                                 <asp:ImageButton ID="imgbtnActivate" runat="server" Font-Underline="false" OnClick="imgbtn_Activate_Click"
+                                        CssClass="lbtnView" ImageUrl="~/Image/b_drop.png" Height="22px" Width="22px"
+                                        ToolTip="Inactive" />
+                                   
+                                    <asp:ImageButton ID="imgbtnInActivate" runat="server" Font-Underline="false" OnClick="imgbtn_Activate_Click"
+                                        CssClass="lbtnView" ImageUrl="~/Image/Checked.png" Height="22px" Width="22px"
+                                        ToolTip="Active" />
+                                                &nbsp;
+                                                <asp:ImageButton ID="lbtnContact" CommandName="Contact" runat="server" ToolTip="Contacts"
+                                                    ImageUrl="~/Image/Contacts.png" Width="22px" Height="22px" />
+
+                                                 <asp:ImageButton ID="ImgAddress" runat="server" Font-Underline="false"
+                                        CssClass="lbtnView" ImageUrl="~/Image/AddressP.png" Height="22px" Width="22px" CommandName="Address"
+                                        ToolTip="Address" />&nbsp;
+                                                    <asp:ImageButton ID="ImgContract" runat="server" Font-Underline="false" CommandName="Contract"
+                                        CssClass="lbtnView" ImageUrl="~/Image/ContractP3.jpg" Height="22px" Width="22px"
+                                        ToolTip="Contract" />
+                                                  &nbsp;
+                                               <asp:ImageButton ID="ImDocuments" runat="server" Font-Underline="false" 
+                                        CssClass="lbtnView" ImageUrl="~/Image/DocumentsP.jpg" Height="22px" Width="22px" CommandName="Documents"
+                                        ToolTip="Documents"  />
+                                                    &nbsp;
+                                               <asp:ImageButton ID="ImgDepartment" runat="server" Font-Underline="false" 
+                                        CssClass="lbtnView" ImageUrl="~/Image/DepartmentsP2.jpg" Height="22px" Width="22px" CommandName="Departments"
+                                        ToolTip="Departments"  /> &nbsp;
+                                               <asp:ImageButton ID="ImgNewRequest" runat="server" Font-Underline="false" 
+                                        CssClass="lbtnView" ImageUrl="~/Image/RequestP.jpg" Height="22px" Width="22px" CommandName="NewRR"
+                                        ToolTip="Request"  />
+                            </td>--%>
                         </tr>
                         <tr>
                             <td align="center">

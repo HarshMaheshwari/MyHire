@@ -98,6 +98,7 @@
                     <div id="cssmenu">
                         <%-- Admin Menu--%>
                         <ul id="Admn" runat="server" visible="false">
+                           
                             <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
                             <li class='has-sub'><a href="#"><span>Candidate</span></a>
                                 <ul>
@@ -243,7 +244,7 @@
                           
                             <li class='has-sub'><a href="#"><span>Admin</span></a>
                                 <ul>
-                                    <li><a href="../ClientList.aspx"><span>Client</span></a></li>
+                                    <li><a href="../admin_new/new_client.aspx"><span>Client</span></a></li>
                                     <li><a href="../UserList.aspx"><span>User</span></a></li>
                                      <li><a href="../Report/UpdConstDailyStatus.aspx"><span>Update Consultant Daily Status</span></a></li>
                                       <li><a href="../Report/UpdConsMonthlyStatus.aspx"><span>Update Consultant Monthly Status</span></a></li>
@@ -443,6 +444,32 @@
 
                             <li class='has-sub'><a href="../Recruiter/RecruiterDashboard.aspx"><span>Dashboard</span></a> </li>
                         </ul>
+
+
+
+
+
+                        <%------Admin_new Menu---------%>
+                        <ul id="Admin_new" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                            <li class='active'><a href="../admin_new/new_client.aspx"><span>Client</span></a></li>
+                            <li class='active'><a href="#"><span>JD</span></a></li>
+                            <li class='active'><a href="#"><span>Team</span></a></li>
+                            <li class='active'><a href="#"><span>Candidates</span></a> </li>
+                            <li class='active'><a href="../Recruiter/RecruiterDashboard.aspx"><span>CV</span></a> </li>
+                            <li class='active'><a href="#"><span>Interview</span></a></li>
+                            <li class='active'><a href="#"><span>Selected</span></a></li>
+                            <li class='active'><a href="#"><span>Joined</span></a></li>
+                        </ul>
+
+
+
+
+
+
+
+
+
 
                           <%-- Lead Manager Menu--%>
                         <ul id="leadMgr" runat="server" visible="false">
