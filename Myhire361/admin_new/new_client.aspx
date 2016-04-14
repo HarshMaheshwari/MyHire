@@ -95,8 +95,8 @@
                                         </asp:TemplateField>
                                         <asp:TemplateField HeaderText="Client Name"  SortExpression="Client_Name">
                                             <ItemTemplate>
-                                                <asp:LinkButton ID="lnkBtnClientList" runat="server" Text='<%#Eval("Client_Name")%>' OnClick="lnkBtnClientList_Click" />
-                                                 <%--<asp:Button ID="ViewButton" runat="server" Text='<%#Eval("Client_Name")%>'/>--%>
+                                                <asp:LinkButton ID="lnkBtnClientList" runat="server" Text='<%#Eval("Client_Name")%>' CommandName="ViewDetail" />
+                                                <%--<asp:Button ID="ViewButton" runat="server" Text='<%#Eval("Client_Name")%>'/>--%>
                                                 <%--<asp:Label ID="lblClient" runat="server" Text='<%#Eval("Client_Name")%>' Font-Bold="true"></asp:Label>--%>
                                             </ItemTemplate>
                                         </asp:TemplateField>
@@ -195,6 +195,7 @@
                                 
 
                             </td>--%>
+                            <%--
                             <td>
                                                 <asp:ImageButton ID="lbtnEdit" CommandName="Edit" runat="server" ToolTip="Edit" ImageUrl="~/Image/b_edit.png"
                                                     Width="22px" Height="22px" />
@@ -227,8 +228,29 @@
                                                <asp:ImageButton ID="ImgNewRequest" runat="server" Font-Underline="false" 
                                         CssClass="lbtnView" ImageUrl="~/Image/RequestP.jpg" Height="22px" Width="22px" CommandName="NewRR"
                                         ToolTip="Request"  />
+                            </td> --%>
+
+                            <td align="left">
+                               <asp:Panel ID="pnlClientDetail" Visible="false" runat="server">
+                                    <table>
+                                        <tr> 
+                                            <td><asp:Label Text="Client Name: " runat="server"/></td>
+                                            <td><asp:Label ID="lblClientName" runat="server"/></td>
+
+                                        </tr>
+                                        <tr>
+                                             <td><asp:Label Text="Client ID : " runat="server"/></td>
+                                            <td><asp:Label ID="lblClientID" runat="server"/></td>
+                                             </tr>
+                                        <tr>
+                                            <td><asp:Label Text="EMail ID : " runat="server"/></td>
+                                            <td><asp:Label ID="lblEmailID" runat="server"/></td>
+                                        </tr>
+                                    </table>
+                          </asp:Panel>
                             </td>
                         </tr>
+
                         <tr>
                             <td align="center">
                                 <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>

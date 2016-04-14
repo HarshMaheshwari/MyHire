@@ -112,7 +112,7 @@
                             </li>
                             <li class='has-sub'><a href="#"><span>Recruitment</span></a>
                                 <ul>
-                                    <li><a href="../Recruitment/RRList.aspx"><span>Recruitment</span></a></li>
+                                    <li><a href=admin><span>Recruitment</span></a></li>
                                     <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
                                       <li><a href="../Recruitment/UpdTodayPosition.aspx"><span>Update Today Positions</span></a></li>
                                     <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
@@ -450,20 +450,56 @@
 
 
                         <%------Admin_new Menu---------%>
-                        <ul id="Admin_new" runat="server" visible="false">
+                   <%--     <ul id="Admin_new" runat="server" visible="false">
                             <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
-                            <li class='active'><a href="../admin_new/new_client.aspx"><span>Client</span></a></li>
-                            <li class='active'><a href="#"><span>JD</span></a></li>
-                            <li class='active'><a href="#"><span>Team</span></a></li>
+                            <li class='active'><a href="../ClientList.aspx"><span>Client</span></a></li>
+                            <li class='active'><a href="../Recruitment/RRList.aspx"><span>JD</span></a></li>
+                            <li class='active'><a href="../UserList.aspx"><span>Team</span></a></li>
                             <li class='active'><a href="#"><span>Candidates</span></a> </li>
-                            <li class='active'><a href="../Recruiter/RecruiterDashboard.aspx"><span>CV</span></a> </li>
+                            <li class='active'><a href="#"><span>CV</span></a> </li>
                             <li class='active'><a href="#"><span>Interview</span></a></li>
                             <li class='active'><a href="#"><span>Selected</span></a></li>
                             <li class='active'><a href="#"><span>Joined</span></a></li>
+                        </ul>--%>
+
+
+                      <ul id="Admin_new" runat="server" visible="false">
+                            <li class='active'><a href="../Home.aspx"><span>Home</span></a></li>
+                          <%--  <li class='has-sub'><a href="#"><span>Recruitment</span></a>
+                                <ul>
+                                    <li><a href="../Recruitment/MyPosition.aspx"><span>My Position</span></a></li>
+                                    <li><a href="../Recruitment/MyTodayPosition.aspx"><span>My Today Position</span></a></li>
+                                    <li class='last'><a href="../Recruitment/FollowUpList.aspx"><span>Follow Ups</span></a></li>
+                                     <li class="has-sub"><a href="#"><span>Report</span></a>
+                                     <ul style="margin-left:230px; top:0;">
+                                         <li><a href="../Recruitment/ConsultantActivities.aspx"><span>Consultant Activities</span></a></li>
+                                           <li class='last'><a href="../Report/ClientResumeTracker.aspx"><span>Client Resume Tracker</span></a></li>
+                               
+                                      
+                                        </ul>
+                                </ul>
+                            </li>
+                            <li class='has-sub'><a href="#"><span>Old Reports</span></a>
+                                <ul>
+                                    <li><a href="../Report/RprtConsultant.aspx"><span>Consultant Report</span></a></li>
+                                    <li><a href="../Report/RprtInterview.aspx"><span>Interview Schedule</span></a></li>
+                                    <li><a href="../Report/RprtOffered.aspx"><span>Offered Candidates</span></a></li>
+                                    <li class='last'><a href="../Report/RprtConsultantStatus.aspx"><span>Consultant Status</span></a></li>
+                                     <li><a href="../Report/ConsultantPerformance.aspx"><span>Consultant Performance</span></a></li>
+                                </ul>
+                            </li>
+                             <li class='has-sub'><a href="#"><span>Report</span></a>
+                                <ul>
+                                   
+                                        <li><a href="../Report/ConsultantPerformanceMonthly.aspx"><span>Consultant Monthly Performance</span></a></li>
+                                        <li><a href="../Report/OverallRRStatus.aspx"><span>RR Overall Performance</span></a></li>
+                                         <li><a href="../Report/RRCurrentStatus.aspx"><span>RR Current Status</span></a></li>
+                                        </ul>
+                                 
+                                    </li>--%>
+
+                            <li class='has-sub'><a href="../Admin_new/Admin_newDashboard.aspx"><span>Dashboard</span></a> </li>
                         </ul>
-
-
-
 
 
 

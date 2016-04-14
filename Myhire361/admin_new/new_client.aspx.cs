@@ -240,6 +240,15 @@ public partial class admin_new_new_client : BaseClass
             GetClientDepartment();
             MPEDep.Show();
         }
+        else if (e.CommandName.Equals("ViewDetail"))
+        {
+            GridViewRow gvr = (GridViewRow)((Control)e.CommandSource).NamingContainer;
+            pnlClientDetail.Visible = true;
+            lblClientName.Text = ((LinkButton)gvr.FindControl("lnkBtnClientList")).Text;
+            lblClientID.Text = ((Label)gvr.FindControl("lblId")).Text;
+            lblEmailID.Text = ((Label)gvr.FindControl("lblEmail")).Text;
+           
+        }
         
     }
 
